@@ -99,6 +99,9 @@ GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYME
 Before approving the formal `scsda.cn` move, review the staging site against
 `REVIEW_GUIDE.md`.
 
+For the Chinese user-facing review checklist before formal DNS cutover, see
+`USER_REVIEW_CHECKLIST_ZH.md`.
+
 For the current approval packet before formal DNS cutover, see
 `STAGING_SIGNOFF.md`.
 

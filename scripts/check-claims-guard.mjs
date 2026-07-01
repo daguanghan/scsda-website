@@ -21,6 +21,7 @@ const SCAN_ROOTS = [
   "PRODUCT.md",
   "DESIGN.md",
   "README.md",
+  "USER_REVIEW_CHECKLIST_ZH.md",
   "REVIEW_GUIDE.md",
   "LAUNCH_DECISION_PACKET.md",
   "STAGING_SIGNOFF.md",
@@ -78,7 +79,16 @@ const GLOBAL_FORBIDDEN_EXCEPTIONS = [
   "sensitive or over-strong phrase",
   "government status or sensitive work",
   "Sensitive deployment claims",
-  "Risk Rejection Criteria"
+  "Risk Rejection Criteria",
+  "避免",
+  "不要",
+  "不是",
+  "不应当",
+  "不能",
+  "没有",
+  "尚未",
+  "误读风险",
+  "风险表述"
 ];
 
 function printSection(title) {
