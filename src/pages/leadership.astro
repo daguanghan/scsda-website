@@ -91,6 +91,10 @@ import { leadershipNetwork, leadershipResponsibilities } from "@data/research";
           publication records, institutional affiliation, and external academic
           reference.
         </p>
+        <div class="profile-affiliation" aria-label="Current academic affiliation">
+          <span>Current academic affiliation</span>
+          <strong>{site.academicAffiliation}</strong>
+        </div>
         <div class="profile-links">
           {site.profiles.map((profile) => (
             <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>

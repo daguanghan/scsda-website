@@ -527,6 +527,32 @@ a:hover {
   text-decoration: none;
 }
 
+.profile-affiliation {
+  display: grid;
+  gap: 0.25rem;
+  margin: 1.1rem 0 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.profile-affiliation.compact {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.profile-affiliation span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.profile-affiliation strong {
+  color: var(--teal-dark);
+  line-height: 1.35;
+}
+
 .site-footer {
   padding: 3.5rem 0;
   border-top: 1px solid var(--line);

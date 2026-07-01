@@ -22,6 +22,8 @@ export const site = {
     "urban analytics"
   ],
   contactEmail: "daguang.han@gmail.com",
+  academicAffiliation:
+    "Associate Professor, School of Civil Engineering, Southeast University",
   nav: [
     { href: "/", label: "Home" },
     { href: "/about/", label: "About" },

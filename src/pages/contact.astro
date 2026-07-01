@@ -23,6 +23,10 @@ import { site } from "@data/site";
       </div>
       <div class="output-card">
         <h3>Profile Links</h3>
+        <p class="profile-affiliation compact">
+          <span>Current academic affiliation</span>
+          <strong>{site.academicAffiliation}</strong>
+        </p>
         <div class="profile-links">
           {site.profiles.map((profile) => (
             <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>

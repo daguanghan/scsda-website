@@ -75,3 +75,5 @@
 - Updated Dr Han's Southeast University links to use the English profile as
   the primary public link and the Chinese profile as a detailed supplementary
   link.
+- Clarified Dr Han's English-facing academic affiliation as Associate
+  Professor, School of Civil Engineering, Southeast University.
