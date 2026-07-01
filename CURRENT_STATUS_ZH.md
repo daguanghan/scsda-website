@@ -18,21 +18,24 @@ GitHub 仓库：
 https://github.com/daguanghan/scsda-website
 ```
 
-当前功能与网站内容基线：
+当前测试站线上内容关键提交：
 
 ```text
-e24da3b test: add cutover readiness check
+e1ab73c docs: align future English citation path
 ```
 
-后续如果只是文档更新，GitHub 最新提交号可能晚于该基线。正式切换前以 `npm run cutover:ready` 和 `npm run audit:precutover` 的实时输出为准。
+后续如果只是文档或审阅记录更新，GitHub 最新提交号可能晚于该基线。
+正式切换前以 `npm run cutover:ready` 和 `npm run audit:precutover`
+的实时输出为准。
 
 当前稳定测试标签：
 
 ```text
-staging-ready-2026-07-01
+staging-ready-2026-07-01-v2
 ```
 
-该标签用于标记正式 DNS 切换前的测试站可审阅版本，便于后续回滚或比较。
+该标签用于标记正式 DNS 切换前的当前测试站可审阅源码版本，便于后续回滚或比较。
+旧标签 `staging-ready-2026-07-01` 保留为早一版审阅记录。
 
 ## 网站定位
 
