@@ -8,7 +8,13 @@ Review site: `https://ultraclaw.space/`
 
 Latest checked branch: `main`
 
-Latest checked commit: `8a81460`
+For the current verified commit, run:
+
+```bash
+npm run audit:precutover
+```
+
+This avoids stale fixed commit references after documentation-only updates.
 
 ## Summary
 

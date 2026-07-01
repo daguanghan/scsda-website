@@ -28,3 +28,5 @@
   and current staging-site acceptance notes.
 - Added `STAGING_SIGNOFF.md` as the user-facing approval packet before any
   formal `scsda.cn` DNS cutover.
+- Replaced fixed commit references in QA and signoff documents with the
+  read-only pre-cutover audit command to avoid stale approval metadata.

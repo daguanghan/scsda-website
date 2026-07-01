@@ -6,7 +6,14 @@ Repository: `https://github.com/daguanghan/scsda-website`
 
 Staging site: `https://ultraclaw.space/`
 
-Latest checked commit: `3289ee4`
+Current verified commit should be refreshed with:
+
+```bash
+npm run audit:precutover
+```
+
+The audit prints the latest local commit, staging URL status, current DNS
+snapshot and the explicit manual DNS gate.
 
 ## Decision Needed
 
