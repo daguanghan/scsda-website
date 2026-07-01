@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { caseStudies } from "@data/research";
+import { caseStudies, engineeringMonitoringDemonstrators } from "@data/research";
 ---
 
 <BaseLayout
@@ -31,6 +31,33 @@ import { caseStudies } from "@data/research";
             <ul class="clean-list">
               {item.highlights.map((highlight) => <li>{highlight}</li>)}
             </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Product and Prototype Material</p>
+        <h2>Engineering safety and health monitoring demonstrators.</h2>
+      </div>
+      <p>
+        Public product-brochure visuals preserved from SCSDA-related materials
+        show applied work around sensing, site monitoring, and infrastructure
+        safety. The examples below are presented as research and engineering
+        demonstrators.
+      </p>
+    </div>
+    <div class="shell product-grid">
+      {engineeringMonitoringDemonstrators.map((item) => (
+        <article class="case-card product-card">
+          <img src={item.image} alt={`${item.title} visual material`} />
+          <div class="case-body">
+            <span class="category">{item.category}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
           </div>
         </article>
       ))}

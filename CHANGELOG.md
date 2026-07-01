@@ -66,3 +66,9 @@
 - Added `staging-ready-2026-07-01-v3` as the current user-reviewable
   pre-cutover source version after refreshing the completion audit and launch
   signoff records.
+- Added a compressed SCSDA interview video with Dr Daguang Han to the About
+  page as a concise public media record.
+- Added engineering safety and health monitoring product/prototype visuals to
+  the Projects page from locally preserved SCSDA-related product material.
+- Ignored local Firecrawl cache and uncommitted source-extraction folders so
+  public deployment includes only reviewed web assets.

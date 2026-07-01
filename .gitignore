@@ -6,3 +6,6 @@ npm-debug.log*
 .agents/skills/
 skills-lock.json
 qa-screenshots/
+.firecrawl/
+docs/extracted/
+docs/source-materials/wechat-cache/

@@ -177,6 +177,37 @@ export const caseStudies = [
   }
 ];
 
+export const engineeringMonitoringDemonstrators = [
+  {
+    title: "Integrated Engineering Safety and Health Monitoring",
+    category: "Smart infrastructure monitoring",
+    image: "/images/products/engineering-monitoring-system-overview.jpg",
+    summary:
+      "A public-facing product-brochure visual describing an integrated monitoring concept for construction and infrastructure safety across project lifecycles."
+  },
+  {
+    title: "Fixed Inclinometer Monitoring",
+    category: "Displacement and tilt sensing",
+    image: "/images/products/fixed-inclinometer-monitoring.jpg",
+    summary:
+      "A sensor-oriented monitoring demonstrator for structural movement, inclination, and field data collection in engineering contexts."
+  },
+  {
+    title: "High Formwork Monitoring System",
+    category: "Construction safety monitoring",
+    image: "/images/products/formwork-monitoring-system.jpg",
+    summary:
+      "A monitoring-system concept for high-formwork construction safety, linking field sensors, wireless data collection, and timely risk awareness."
+  },
+  {
+    title: "Water-Level Monitoring System",
+    category: "Hydraulic and geotechnical sensing",
+    image: "/images/products/water-level-monitoring-system.jpg",
+    summary:
+      "A monitoring concept for water-level and field-condition measurement, relevant to engineering safety, infrastructure maintenance, and site monitoring."
+  }
+];
+
 export const selectedOutputs = [
   {
     group: "Platform-building Outputs",
