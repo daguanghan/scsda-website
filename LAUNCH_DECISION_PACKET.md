@@ -13,6 +13,12 @@ Current staging site:
 https://ultraclaw.space/
 ```
 
+Current review commit:
+
+```text
+dba9c77 test: add claims safety guard
+```
+
 Formal domain:
 
 ```text

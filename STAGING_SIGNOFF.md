@@ -9,7 +9,7 @@ Staging site: `https://ultraclaw.space/`
 Current verified site-build baseline:
 
 ```text
-293b65e test: add staging screenshot capture
+dba9c77 test: add claims safety guard
 ```
 
 Refresh the live commit, staging URL status, current DNS snapshot and explicit
@@ -23,6 +23,7 @@ npm run audit:precutover
 
 The English SCSDA site is ready for user review on the staging domain. The
 formal `scsda.cn` cutover should happen only after the staging site is accepted.
+The current review version is the GitHub Pages deployment for commit `dba9c77`.
 
 Approval phrase required before any formal-domain DNS edit:
 

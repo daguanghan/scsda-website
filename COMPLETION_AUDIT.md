@@ -16,7 +16,7 @@ publish it to `ultraclaw.space` for review before any `scsda.cn` cutover.
 | Local source | `/Users/daguanghan/Desktop/HDG-application/HDG 网站/01-scsda-cn-academy-website/scsda-website` | Complete |
 | Staging deployment | `https://ultraclaw.space/` | Complete |
 | Deployment platform | GitHub Pages | Complete |
-| Latest verified site-build baseline before this audit sync | `293b65e` | Complete |
+| Latest verified staging baseline | `dba9c77 test: add claims safety guard` | Complete |
 | Formal `scsda.cn` DNS | Still points to `hkdsn99.maohao.vip -> 154.12.23.232` | Intentionally pending |
 
 ## Source Material Coverage
