@@ -50,3 +50,5 @@
   staging screenshots for visual review.
 - Added `npm run health:staging` to check staging metadata, internal links,
   image resources and public external profile links.
+- Added `npm run claims:guard` to fail unsupported positive use of risk
+  phrases listed in `CLAIMS_REGISTER.md`.

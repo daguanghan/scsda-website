@@ -226,6 +226,16 @@ This checks page metadata, internal links, image resources and public external
 profile links. External anti-bot responses such as `403` are reported as
 warnings when the target is likely reachable in a normal browser.
 
+Local claims guard:
+
+```bash
+npm run claims:guard
+```
+
+This reads `CLAIMS_REGISTER.md` and checks source and built text for risky
+positive claims, including government-authority, public-security, confidential,
+military, surveillance and one-person-overclaim wording.
+
 Repeatable staging screenshots:
 
 ```bash

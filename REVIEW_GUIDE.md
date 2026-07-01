@@ -83,6 +83,17 @@ Some external academic profile pages may return `403` to automated requests
 while still opening in a browser. The health check reports those as warnings
 instead of broken links.
 
+## Claims Guard
+
+Run this local command before approving substantial wording updates:
+
+```bash
+npm run claims:guard
+```
+
+It reads `CLAIMS_REGISTER.md`, scans source and built text, and fails if
+high-risk wording appears as a positive claim rather than a risk boundary.
+
 ## Visual Evidence Screenshots
 
 Run this command to capture repeatable desktop and mobile screenshots of the

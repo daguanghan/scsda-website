@@ -149,6 +149,7 @@ Run:
 ```bash
 npm run check
 npm run build
+npm run claims:guard
 npm run health:staging
 npm run review:staging
 npm run audit:precutover

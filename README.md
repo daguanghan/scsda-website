@@ -35,6 +35,12 @@ Run the read-only staging health check for page metadata, links and assets:
 npm run health:staging
 ```
 
+Run the local claims guard before publishing sensitive wording changes:
+
+```bash
+npm run claims:guard
+```
+
 Capture visual review screenshots for the staging site:
 
 ```bash
