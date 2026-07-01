@@ -108,6 +108,9 @@ Before approving the formal `scsda.cn` move, review the staging site against
 For the Chinese user-facing review checklist before formal DNS cutover, see
 `USER_REVIEW_CHECKLIST_ZH.md`.
 
+For the current Chinese status summary and next-step options, see
+`CURRENT_STATUS_ZH.md`.
+
 For the Chinese GNAME DNS execution runbook after approval, see
 `GNAME_DNS_CUTOVER_RUNBOOK_ZH.md`.
 

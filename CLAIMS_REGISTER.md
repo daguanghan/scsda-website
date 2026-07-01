@@ -38,6 +38,15 @@ This register maps public website wording to evidence status. Stronger claims sh
 - confidential technology
 - technology transfer to China
 - all work was solely completed by one person
+- 政府官网
+- 官方授权
+- 政府机构
+- 军工
+- 公共安全
+- 监控
+- 涉密
+- 敏感技术转移
+- 所有成果都由一个人独立完成
 
 ## Preferred Architecture
 
