@@ -7,7 +7,20 @@ export const site = {
   description:
     "SCSDA presents public-facing, non-confidential research evidence in BIM, digital twins, smart infrastructure, sensing, AIoT and sustainable construction.",
   reviewDomain: "https://ultraclaw.space",
-  canonicalFutureDomain: "https://scsda.cn/en/",
+  canonicalFutureDomain: "https://scsda.cn/",
+  defaultImage: "/images/lab-engagement.jpg",
+  keywords: [
+    "smart cities",
+    "sustainable development",
+    "digital built environment",
+    "BIM",
+    "digital twins",
+    "smart infrastructure",
+    "construction informatics",
+    "MEMS sensing",
+    "AIoT",
+    "urban analytics",
+  ],
   contactEmail: "daguang.han@gmail.com",
   nav: [
     { href: "/", label: "Home" },

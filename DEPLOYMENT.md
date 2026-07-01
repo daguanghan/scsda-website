@@ -51,14 +51,14 @@ Check:
 
 - Added `/en/` routes for the same English pages.
 - Static build now generates 16 pages: 8 root pages and 8 `/en/` pages.
-- This prepares the future production structure `https://scsda.cn/en/` without
-  removing the convenient review root path on `ultraclaw.space`.
+- This keeps a compatibility `/en/` path available while preserving
+  `https://scsda.cn/` as the preferred future public entry point.
 
 ## Future Production Target
 
 After user review, move the production domain to:
 
-- `https://scsda.cn/en/`
-- `https://www.scsda.cn/en/`
+- `https://scsda.cn/`
+- `https://www.scsda.cn/`
 
 The current `ultraclaw.space` deployment should remain a review/staging environment or be redirected.

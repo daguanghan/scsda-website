@@ -2,6 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { site, platformMetrics, safeClaims } from "@data/site";
 import { researchThemes, caseStudies } from "@data/research";
+
+interface Props {
+  pathPrefix?: string;
+}
+
+const { pathPrefix = "" } = Astro.props;
+const pageHref = (href: string) => `${pathPrefix}${href}`;
 ---
 
 <BaseLayout title={site.name} description={site.tagline}>
@@ -18,8 +25,8 @@ import { researchThemes, caseStudies } from "@data/research";
         environments, smart infrastructure, and sustainable urban systems.
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="/leadership/">Dr Han's leadership role</a>
-        <a class="button ghost" href="/research/">Research themes</a>
+        <a class="button primary" href={pageHref("/leadership/")}>Dr Han's leadership role</a>
+        <a class="button ghost" href={pageHref("/research/")}>Research themes</a>
       </div>
     </div>
   </section>

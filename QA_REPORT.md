@@ -6,7 +6,7 @@ Repository: `https://github.com/daguanghan/scsda-website`
 
 Review site: `https://ultraclaw.space/`
 
-Latest checked commit: `3a8ddb5`
+Latest checked branch: `main`
 
 ## Summary
 
@@ -19,7 +19,7 @@ been changed.
 | Check | Result |
 |---|---|
 | Local `npm run build` | Pass |
-| Generated pages | 16 after `/en/` path alignment |
+| Generated pages | 17, including `404.html`, `robots.txt` and `sitemap.xml` |
 | GitHub Actions latest deployment | Success |
 | GitHub Pages custom domain | `ultraclaw.space` |
 | HTTPS | Enabled |
@@ -27,7 +27,8 @@ been changed.
 
 ## Live Page QA
 
-Browser-level QA was run against the live site.
+Browser-level QA was run against the live site after the first deployment and
+against local preview after the production metadata update.
 
 | URL | Status | Result |
 |---|---:|---|
@@ -52,6 +53,8 @@ Additional browser QA:
 
 - Broken images: none detected.
 - Horizontal overflow: none detected.
+- Custom 404 route returns HTTP 404 and renders the SCSDA fallback page.
+- `robots.txt` and `sitemap.xml` are generated for the current review domain.
 - `https://www.ultraclaw.space/` redirects/serves the same site.
 - Homepage title: `Smart Cities and Sustainable Development Academy`.
 - `/en/` navigation remains within `/en/` paths.

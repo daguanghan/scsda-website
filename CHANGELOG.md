@@ -10,3 +10,7 @@
 - Created GitHub repository `daguanghan/scsda-website`.
 - Deployed the review site to `https://ultraclaw.space/`.
 - Enabled HTTPS for the review domain.
+- Added production metadata, favicon, `robots.txt`, `sitemap.xml`, `.nojekyll`
+  and a custom 404 page.
+- Confirmed `https://scsda.cn/` as the preferred future English public entry
+  point, with `/en/` retained as a compatibility path.

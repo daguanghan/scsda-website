@@ -40,15 +40,15 @@ The review deployment target is:
 https://ultraclaw.space
 ```
 
-The intended future canonical English path is:
+The intended future canonical English entry point is:
 
 ```text
-https://scsda.cn/en/
+https://scsda.cn/
 ```
 
 The same English content is available from both root paths and `/en/` paths on
-the review deployment. This keeps the staging site easy to review while making
-the future `scsda.cn/en/` production structure testable before DNS cutover.
+the review deployment. The root path is the preferred public entry point, while
+`/en/` remains available as a compatibility path before DNS cutover.
 
 GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYMENT.md`.
 
