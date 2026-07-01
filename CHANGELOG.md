@@ -48,3 +48,5 @@
   rollback packet before any `scsda.cn` DNS cutover.
 - Added `npm run screenshots:staging` to capture repeatable desktop and mobile
   staging screenshots for visual review.
+- Added `npm run health:staging` to check staging metadata, internal links,
+  image resources and public external profile links.

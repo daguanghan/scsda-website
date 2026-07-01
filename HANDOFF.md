@@ -216,6 +216,16 @@ the `/en/` compatibility paths, sensitive positive-claim traps, and optional
 Playwright desktop/mobile viewport overflow. It does not change DNS or GitHub
 settings.
 
+Read-only staging health check:
+
+```bash
+npm run health:staging
+```
+
+This checks page metadata, internal links, image resources and public external
+profile links. External anti-bot responses such as `403` are reported as
+warnings when the target is likely reachable in a normal browser.
+
 Repeatable staging screenshots:
 
 ```bash

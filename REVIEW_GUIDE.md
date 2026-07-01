@@ -70,6 +70,19 @@ It checks the core staging pages, key acceptance text, the `/en/`
 compatibility paths, sensitive positive-claim traps, and, when Playwright is
 available locally, desktop/mobile viewport overflow.
 
+## Staging Health Check
+
+Run this read-only command to check page metadata, internal links, image
+resources and public external profile links:
+
+```bash
+npm run health:staging
+```
+
+Some external academic profile pages may return `403` to automated requests
+while still opening in a browser. The health check reports those as warnings
+instead of broken links.
+
 ## Visual Evidence Screenshots
 
 Run this command to capture repeatable desktop and mobile screenshots of the

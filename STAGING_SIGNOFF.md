@@ -80,6 +80,7 @@ Latest local checks:
 ```text
 npm run check              PASS
 npm run build              PASS
+npm run health:staging     PASS with one external-link warning
 npm run screenshots:staging PASS
 npm run review:staging     PASS
 npm run audit:precutover   PASS
@@ -110,6 +111,9 @@ Visual QA:
 - No horizontal overflow detected.
 - Main navigation remained visible.
 - Key pages had non-empty titles and strategic positioning text.
+- `npm run health:staging` found no broken internal links or image resources.
+  It reported the Southeast University profile as an external-link warning
+  because the site returned `403` to automated requests.
 
 ## Current DNS Before Cutover
 

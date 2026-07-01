@@ -149,9 +149,9 @@ Run:
 ```bash
 npm run check
 npm run build
+npm run health:staging
 npm run review:staging
 npm run audit:precutover
 ```
 
 Only proceed if all checks pass and the user has reviewed the staging site.
-

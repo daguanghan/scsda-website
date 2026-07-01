@@ -41,6 +41,7 @@ publish it to `ultraclaw.space` for review before any `scsda.cn` cutover.
 | Preserve design context for future updates | `PRODUCT.md`, `DESIGN.md`, `DESIGN_SKILLS.md`, `.impeccable/design.json` | Complete |
 | Publish to `ultraclaw.space` | GitHub Pages deployment succeeds and `npm run audit:precutover` returns staging 200 responses | Complete |
 | Automated staging review | `npm run review:staging` checks core pages, key content and optional viewport overflow | Complete |
+| Staging health check | `npm run health:staging` checks metadata, internal links, image resources and external profile links | Complete |
 | Repeatable visual review evidence | `npm run screenshots:staging`; screenshots written locally to `qa-screenshots/current-staging/` | Complete |
 | Keep DNS changes gated | `CUTOVER_CHECKLIST.md`, `HANDOFF.md`, `STAGING_SIGNOFF.md`, `npm run audit:precutover` | Complete |
 | Post-cutover verification | `npm run verify:production` | Complete as tooling; production verification is expected to fail before DNS cutover |
@@ -54,6 +55,7 @@ npm run check
 npm run build
 npm audit --omit=dev --audit-level=moderate
 node .agents/skills/impeccable/scripts/detect.mjs --json src public
+npm run health:staging
 npm run screenshots:staging
 npm run review:staging
 npm run audit:precutover

@@ -29,6 +29,12 @@ Run the read-only staging review:
 npm run review:staging
 ```
 
+Run the read-only staging health check for page metadata, links and assets:
+
+```bash
+npm run health:staging
+```
+
 Capture visual review screenshots for the staging site:
 
 ```bash
