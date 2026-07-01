@@ -12,6 +12,7 @@
     "health:staging": "node scripts/check-staging-health.mjs",
     "screenshots:staging": "node scripts/capture-staging-screenshots.mjs",
     "review:staging": "node scripts/review-staging.mjs",
+    "cutover:ready": "node scripts/check-cutover-readiness.mjs",
     "audit:precutover": "node scripts/precutover-audit.mjs",
     "verify:production": "node scripts/verify-production.mjs"
   },

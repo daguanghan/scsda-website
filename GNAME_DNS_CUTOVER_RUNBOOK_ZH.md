@@ -27,6 +27,7 @@ www.scsda.cn
 - `npm run claims:guard` 通过。
 - `npm run health:staging` 通过。
 - `npm run review:staging` 通过。
+- `npm run cutover:ready` 通过。
 - `npm run audit:precutover` 通过。
 - 已再次展示当前 DNS 记录、计划修改记录、影响范围和回滚方式。
 

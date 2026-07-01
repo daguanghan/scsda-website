@@ -35,6 +35,12 @@ Run the read-only staging health check for page metadata, links and assets:
 npm run health:staging
 ```
 
+Run the full read-only formal-domain readiness check before touching DNS:
+
+```bash
+npm run cutover:ready
+```
+
 Run the local claims guard before publishing sensitive wording changes:
 
 ```bash
