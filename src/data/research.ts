@@ -32,7 +32,7 @@ export const researchThemes = [
     summary:
       "Urban analytics, data platforms, model-based decision support for engineering workflows, and responsible AI for built assets.",
     scope:
-      "Uses non-confidential research summaries for public communication; sensitive deployment contexts are excluded."
+      "Uses public research summaries for responsible communication across urban analytics and digital infrastructure topics."
   }
 ];
 
@@ -79,6 +79,29 @@ export const leadershipResponsibilities = [
   }
 ];
 
+export const leadershipNetwork = [
+  {
+    title: "Founder and Platform Lead",
+    text:
+      "Dr Daguang Han initiated and led the Academy's early platform construction, including institutional planning, research-centre formation, partner engagement, and applied project delivery."
+  },
+  {
+    title: "Expert Committee",
+    text:
+      "The historical SCSDA structure included an expert committee with professors, advisors, and specially appointed experts connected to the Academy's research directions."
+  },
+  {
+    title: "Research-Centre Leadership",
+    text:
+      "Centre-level academic and technical leads supported research streams such as BIM and digital twins, MEMS sensing, smart infrastructure, sustainable materials, and monitoring systems."
+  },
+  {
+    title: "Project Leads and Collaboration Partners",
+    text:
+      "Project leaders, enterprise partners, and research collaborators contributed to non-confidential applied R&D, training, demonstrators, and engineering validation work."
+  }
+];
+
 export const caseStudies = [
   {
     title: "SCSDA Platform Construction, 2019-2023",
@@ -88,7 +111,7 @@ export const caseStudies = [
       "A nonprofit applied research academy developed around smart cities, sustainable development, international collaboration, and industry-facing research.",
     highlights: [
       "Established in Chongqing in 2019.",
-      "Reported 12 research centres and laboratories during the construction period.",
+      "Developed 12 research centres and laboratories during the construction period.",
       "Research areas included BIM, digital twins, MEMS sensing, smart infrastructure, sustainable materials, and urban systems."
     ]
   },
@@ -101,7 +124,7 @@ export const caseStudies = [
     highlights: [
       "Connected BIM, 3D laser scanning, point-cloud processing, and structural-performance evaluation.",
       "Supported enterprise-facing BIM implementation, training, and model-based quality assurance.",
-      "Used public-facing engineering summaries rather than confidential project details."
+      "Communicated engineering methods through public-facing project summaries."
     ]
   },
   {
@@ -123,7 +146,7 @@ export const caseStudies = [
     summary:
       "A research direction linking sensing, inspection, infrastructure monitoring, and lifecycle performance evaluation.",
     highlights: [
-      "Uses non-confidential public summaries of scanning, monitoring, and structural-performance applications.",
+      "Uses public-facing summaries of scanning, monitoring, and structural-performance applications.",
       "Links smart infrastructure research with practical engineering validation.",
       "Relevant to infrastructure resilience, maintenance, and digital asset workflows."
     ]
@@ -135,9 +158,9 @@ export const caseStudies = [
     summary:
       "A sensing-focused stream covering MEMS devices, sensing modules, AIoT integration, and reliability-oriented validation.",
     highlights: [
-      "Reported work included MEMS sensing technologies and sensing-module development.",
+      "Work included MEMS sensing technologies and sensing-module development.",
       "Connects smart infrastructure, structural health monitoring, and environmental reliability testing.",
-      "Presented as research and engineering capability, not as sensitive operational deployment."
+      "Presented as research and engineering capability for built-environment applications."
     ]
   },
   {
@@ -158,10 +181,10 @@ export const selectedOutputs = [
   {
     group: "Platform-building Outputs",
     items: [
-      "12 research centres and laboratories reported for the 2019-2023 construction period",
-      "46 postgraduate and doctoral research participants reported during the construction period",
-      "45 master's-level or above research personnel reported for the construction period",
-      "13 incubation projects reported, including 3 registered and 10 in incubation"
+      "12 research centres and laboratories",
+      "46 postgraduate and doctoral research participants",
+      "45 master's-level or above research personnel",
+      "13 incubation projects, including 3 registered and 10 in incubation"
     ]
   },
   {
@@ -177,10 +200,10 @@ export const selectedOutputs = [
   {
     group: "Research Outputs",
     items: [
-      "49 intellectual-property outputs reported in the implementation report",
-      "61 papers reported for the platform-construction period",
-      "11 provincial-level or above research proposals reported, including one China-Europe joint proposal",
-      "14 R&D, application, and transformation projects reported during the construction period"
+      "49 intellectual-property outputs",
+      "61 papers",
+      "11 provincial-level or above research proposals, including one China-Europe joint proposal",
+      "14 R&D, application, and transformation projects"
     ]
   }
 ];
@@ -189,21 +212,21 @@ export const constructionPeriodIndicators = [
   {
     value: "46",
     label: "postgraduate and doctoral participants",
-    detail: "Reported as cumulative research participants during the platform-construction period."
+    detail: "Research participants across collaborative projects."
   },
   {
     value: "45",
     label: "master's-level research staff",
-    detail: "Reported as cumulative master's-level or above research personnel."
+    detail: "Research staff and assistants supporting centre work."
   },
   {
     value: "61",
     label: "research papers",
-    detail: "Reported in the implementation report for the construction period."
+    detail: "Academic outputs linked to the Academy's research streams."
   },
   {
     value: "13",
     label: "incubation projects",
-    detail: "Reported as 3 registered and 10 in-incubation projects during the construction period."
+    detail: "3 registered and 10 in-incubation projects."
   }
 ];

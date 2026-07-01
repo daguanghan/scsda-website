@@ -5,18 +5,14 @@ import { constructionPeriodIndicators, selectedOutputs } from "@data/research";
 
 <BaseLayout
   title="Outputs"
-  description="Selected SCSDA construction-period outputs, applied research directions, and platform-building indicators reported for 2019-2023."
+  description="Selected SCSDA outputs, applied research directions, and platform-building indicators from the 2019-2023 construction period."
 >
   <section class="section">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Outputs</p>
+        <p class="eyebrow">2019-2023 Platform Construction</p>
         <h2>Selected research, platform-building, and applied R&D outputs.</h2>
       </div>
-      <p>
-        The figures on this page are period-labelled and should be read as
-        reported outputs for the 2019-2023 platform-construction period.
-      </p>
     </div>
     <div class="shell output-grid">
       {selectedOutputs.map((group) => (
@@ -34,13 +30,8 @@ import { constructionPeriodIndicators, selectedOutputs } from "@data/research";
     <div class="shell section-heading">
       <div>
         <p class="eyebrow">Construction-Period Indicators</p>
-        <h2>Additional institutional indicators reported in the implementation record.</h2>
+        <h2>Additional institutional indicators from platform construction.</h2>
       </div>
-      <p>
-        These indicators help describe the scale of SCSDA's construction-period
-        platform activity. They are not presented as current staffing,
-        enrollment, or operational-scale claims.
-      </p>
     </div>
     <div class="shell metric-grid">
       {constructionPeriodIndicators.map((metric) => (
@@ -69,11 +60,11 @@ import { constructionPeriodIndicators, selectedOutputs } from "@data/research";
         <p class="eyebrow">Outputs in Context</p>
         <h2>Research outputs are linked to platform development.</h2>
         <p>
-          SCSDA's reported outputs combine research publications, intellectual
-          property, applied R&D, training, research-centre formation, and
-          incubation activity. The Academy's value lies in linking these
-          outputs through an applied research platform rather than treating
-          them as isolated deliverables.
+          SCSDA's outputs combine research publications, intellectual property,
+          applied R&D, training, research-centre formation, and incubation
+          activity. The Academy's value lies in linking these outputs through
+          an applied research platform rather than treating them as isolated
+          deliverables.
         </p>
       </div>
     </div>

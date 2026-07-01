@@ -57,17 +57,17 @@ export const platformMetrics = [
   {
     value: "12",
     label: "research centres and laboratories",
-    detail: "Reported for the 2019-2023 platform-construction period."
+    detail: "A 2019-2023 construction-period platform indicator."
   },
   {
     value: "14",
     label: "applied R&D and translation projects",
-    detail: "Reported as research, application, and transformation activity."
+    detail: "Research, application, and transformation activity."
   },
   {
     value: "49",
     label: "intellectual-property outputs",
-    detail: "Reported in the implementation report for the construction period."
+    detail: "Construction-period intellectual-property outputs."
   }
 ];
 
@@ -83,9 +83,9 @@ export const institutionalPrinciples = [
       "The Academy brings together BIM, digital twins, sensing technologies, AIoT, urban analytics, sustainable construction, and engineering education."
   },
   {
-    title: "Responsible Public Communication",
+    title: "Public Engagement",
     text:
-      "This website uses concise, source-bounded wording and avoids overstating institutional scale, authority, or confidential project details."
+      "The Academy presents public research summaries, education engagement, and non-confidential project material for academic and industry audiences."
   }
 ];
 

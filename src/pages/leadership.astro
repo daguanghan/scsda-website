@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { site } from "@data/site";
-import { leadershipResponsibilities } from "@data/research";
+import { leadershipNetwork, leadershipResponsibilities } from "@data/research";
 ---
 
 <BaseLayout
@@ -29,11 +29,9 @@ import { leadershipResponsibilities } from "@data/research";
           enterprise engagement, and the delivery of applied research projects.
         </p>
         <p>
-          The public implementation record identifies Dr Han as the responsible
-          person for the Academy's platform-construction project. The wording on
-          this website therefore presents his leadership in a formal,
-          institution-facing way: founder, founding executive leader, and
-          coordinator of the Academy's early research platform.
+          During this period, Dr Han served as founder, founding president,
+          board chair, and executive lead for the Academy's early research
+          platform.
         </p>
       </div>
     </div>
@@ -42,12 +40,34 @@ import { leadershipResponsibilities } from "@data/research";
   <section class="section surface">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Leadership Scope</p>
+        <p class="eyebrow">Leadership Structure</p>
+        <h2>Founder, expert committee, research centres, and project collaboration.</h2>
+      </div>
+      <p>
+        The Academy's platform was developed through founding leadership,
+        expert engagement, research-centre coordination, project delivery, and
+        collaboration with academic and enterprise partners.
+      </p>
+    </div>
+    <div class="shell theme-grid">
+      {leadershipNetwork.map((item) => (
+        <article class="theme-card">
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Founding Leadership Scope</p>
         <h2>Strategic, academic, and industry-facing responsibilities.</h2>
       </div>
       <p>
-        The Academy's early development required more than topic-level research:
-        it required agenda-setting, partner development, project formation,
+        Dr Han's leadership is presented as platform-building work: agenda
+        setting, centre formation, partner development, project formation,
         expert engagement, institutional reporting, and public communication.
       </p>
     </div>
@@ -61,15 +81,15 @@ import { leadershipResponsibilities } from "@data/research";
     </div>
   </section>
 
-  <section class="section">
+  <section class="section surface">
     <div class="shell split">
       <div class="article">
         <p class="eyebrow">Public Profile Links</p>
-        <h2>Academic identity remains connected to verified external profiles.</h2>
+        <h2>External academic profiles.</h2>
         <p>
-          This institutional website presents SCSDA's platform and Dr Han's
-          role within it. Broader personal academic records, publications, and
-          profile details should be checked through verified academic channels.
+          Selected academic profile links for Dr Han are provided for
+          publication records, institutional affiliation, and external academic
+          reference.
         </p>
         <div class="profile-links">
           {site.profiles.map((profile) => (
