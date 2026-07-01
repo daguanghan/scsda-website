@@ -13,11 +13,14 @@ Current staging site:
 https://ultraclaw.space/
 ```
 
-Current review commit:
+Current visible site-content baseline:
 
 ```text
 dba9c77 test: add claims safety guard
 ```
+
+The latest deployment may show a later documentation-only commit. Re-run
+`npm run audit:precutover` for the current GitHub Pages deployment commit.
 
 Formal domain:
 
