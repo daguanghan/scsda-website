@@ -18,3 +18,5 @@
   with Dr Han's UK/European academic application narrative.
 - Added `REVIEW_GUIDE.md` for staging-site acceptance checks before formal
   `scsda.cn` cutover.
+- Added `HANDOFF.md` with repository, deployment, DNS, content-update, rollback
+  and cutover operating notes.
