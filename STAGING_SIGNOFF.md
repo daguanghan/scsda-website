@@ -6,14 +6,18 @@ Repository: `https://github.com/daguanghan/scsda-website`
 
 Staging site: `https://ultraclaw.space/`
 
-Current verified commit should be refreshed with:
+Current verified site-build baseline:
+
+```text
+293b65e test: add staging screenshot capture
+```
+
+Refresh the live commit, staging URL status, current DNS snapshot and explicit
+manual DNS gate with:
 
 ```bash
 npm run audit:precutover
 ```
-
-The audit prints the latest local commit, staging URL status, current DNS
-snapshot and the explicit manual DNS gate.
 
 ## Decision Needed
 
@@ -76,8 +80,10 @@ Latest local checks:
 ```text
 npm run check              PASS
 npm run build              PASS
+npm run screenshots:staging PASS
 npm run review:staging     PASS
 npm run audit:precutover   PASS
+npm audit                  PASS
 Impeccable detector        PASS after removing flagged visual tells
 ```
 
@@ -94,7 +100,12 @@ https://ultraclaw.space/sitemap.xml   200
 
 Visual QA:
 
-- Desktop, tablet and mobile checks passed for 10 key pages.
+- Desktop and mobile screenshots were generated locally in
+  `qa-screenshots/current-staging/`.
+- Screenshot set: `desktop-home.png`, `desktop-evidence.png`,
+  `desktop-leadership.png`, `mobile-home.png`, `mobile-evidence.png`,
+  `mobile-outputs.png`.
+- Desktop, tablet and mobile checks passed for key pages.
 - No broken images detected.
 - No horizontal overflow detected.
 - Main navigation remained visible.

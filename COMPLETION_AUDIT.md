@@ -16,7 +16,7 @@ publish it to `ultraclaw.space` for review before any `scsda.cn` cutover.
 | Local source | `/Users/daguanghan/Desktop/HDG-application/HDG 网站/01-scsda-cn-academy-website/scsda-website` | Complete |
 | Staging deployment | `https://ultraclaw.space/` | Complete |
 | Deployment platform | GitHub Pages | Complete |
-| Latest commit before this audit update | `0741303` | Complete |
+| Latest verified site-build baseline before this audit sync | `293b65e` | Complete |
 | Formal `scsda.cn` DNS | Still points to `hkdsn99.maohao.vip -> 154.12.23.232` | Intentionally pending |
 
 ## Source Material Coverage
@@ -41,6 +41,7 @@ publish it to `ultraclaw.space` for review before any `scsda.cn` cutover.
 | Preserve design context for future updates | `PRODUCT.md`, `DESIGN.md`, `DESIGN_SKILLS.md`, `.impeccable/design.json` | Complete |
 | Publish to `ultraclaw.space` | GitHub Pages deployment succeeds and `npm run audit:precutover` returns staging 200 responses | Complete |
 | Automated staging review | `npm run review:staging` checks core pages, key content and optional viewport overflow | Complete |
+| Repeatable visual review evidence | `npm run screenshots:staging`; screenshots written locally to `qa-screenshots/current-staging/` | Complete |
 | Keep DNS changes gated | `CUTOVER_CHECKLIST.md`, `HANDOFF.md`, `STAGING_SIGNOFF.md`, `npm run audit:precutover` | Complete |
 | Post-cutover verification | `npm run verify:production` | Complete as tooling; production verification is expected to fail before DNS cutover |
 
@@ -53,6 +54,7 @@ npm run check
 npm run build
 npm audit --omit=dev --audit-level=moderate
 node .agents/skills/impeccable/scripts/detect.mjs --json src public
+npm run screenshots:staging
 npm run review:staging
 npm run audit:precutover
 ```
