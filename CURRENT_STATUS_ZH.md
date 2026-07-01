@@ -26,6 +26,14 @@ e24da3b test: add cutover readiness check
 
 后续如果只是文档更新，GitHub 最新提交号可能晚于该基线。正式切换前以 `npm run cutover:ready` 和 `npm run audit:precutover` 的实时输出为准。
 
+当前稳定测试标签：
+
+```text
+staging-ready-2026-07-01
+```
+
+该标签用于标记正式 DNS 切换前的测试站可审阅版本，便于后续回滚或比较。
+
 ## 网站定位
 
 当前英文站采用的定位是：

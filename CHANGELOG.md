@@ -52,3 +52,12 @@
   image resources and public external profile links.
 - Added `npm run claims:guard` to fail unsupported positive use of risk
   phrases listed in `CLAIMS_REGISTER.md`.
+- Added Chinese review and operations documents:
+  `USER_REVIEW_CHECKLIST_ZH.md`, `GNAME_DNS_CUTOVER_RUNBOOK_ZH.md` and
+  `CURRENT_STATUS_ZH.md`.
+- Expanded `CLAIMS_REGISTER.md` with Chinese high-risk wording and included the
+  Chinese status/review/runbook documents in `npm run claims:guard`.
+- Added `npm run cutover:ready` as a single read-only readiness check before
+  any formal-domain DNS work.
+- Reserved the stable staging tag `staging-ready-2026-07-01` for the current
+  user-reviewable pre-cutover version.
