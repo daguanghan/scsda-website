@@ -13,14 +13,26 @@ Current staging site:
 https://ultraclaw.space/
 ```
 
-Current visible site-content baseline:
+Current review source version:
 
 ```text
-dba9c77 test: add claims safety guard
+staging-ready-2026-07-01-v3
 ```
 
-The latest deployment may show a later documentation-only commit. Re-run
-`npm run audit:precutover` for the current GitHub Pages deployment commit.
+Current visible content-change baseline:
+
+```text
+e1ab73c docs: align future English citation path
+```
+
+Current stable review tag:
+
+```text
+staging-ready-2026-07-01-v3
+```
+
+Re-run `npm run audit:precutover` for the current GitHub Pages deployment
+commit, staging status and formal-domain DNS snapshot.
 
 Formal domain:
 

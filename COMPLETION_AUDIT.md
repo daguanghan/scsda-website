@@ -16,7 +16,8 @@ publish it to `ultraclaw.space` for review before any `scsda.cn` cutover.
 | Local source | `/Users/daguanghan/Desktop/HDG-application/HDG 网站/01-scsda-cn-academy-website/scsda-website` | Complete |
 | Staging deployment | `https://ultraclaw.space/` | Complete |
 | Deployment platform | GitHub Pages | Complete |
-| Latest verified site-content baseline | `dba9c77 test: add claims safety guard`; later docs-only commits may appear in deployment audit | Complete |
+| Current review source version | Tag `staging-ready-2026-07-01-v3`; exact commit is shown by `git show staging-ready-2026-07-01-v3` | Complete |
+| Current visible content-change baseline | `e1ab73c docs: align future English citation path` | Complete |
 | Formal `scsda.cn` DNS | Still points to `hkdsn99.maohao.vip -> 154.12.23.232` | Intentionally pending |
 
 ## Source Material Coverage
@@ -40,6 +41,7 @@ publish it to `ultraclaw.space` for review before any `scsda.cn` cutover.
 | Use Taste Skill | Installed locally from `Leonxlnx/taste-skill` as `design-taste-frontend`; rules used for anti-slop review | Complete |
 | Preserve design context for future updates | `PRODUCT.md`, `DESIGN.md`, `DESIGN_SKILLS.md`, `.impeccable/design.json` | Complete |
 | Publish to `ultraclaw.space` | GitHub Pages deployment succeeds and `npm run audit:precutover` returns staging 200 responses | Complete |
+| Preserve current review release | Git tag and GitHub release `staging-ready-2026-07-01-v3` point to the current review source version | Complete |
 | Automated staging review | `npm run review:staging` checks core pages, key content and optional viewport overflow | Complete |
 | Claims safety guard | `npm run claims:guard` reads `CLAIMS_REGISTER.md` and checks source and built text for risky positive claims | Complete |
 | Staging health check | `npm run health:staging` checks metadata, internal links, image resources and external profile links | Complete |
@@ -61,6 +63,7 @@ npm run health:staging
 npm run screenshots:staging
 npm run review:staging
 npm run audit:precutover
+npm run cutover:ready
 ```
 
 After user-approved formal DNS cutover, run:

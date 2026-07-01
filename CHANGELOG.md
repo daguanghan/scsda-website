@@ -61,5 +61,8 @@
 - Added `npm run cutover:ready` as a single read-only readiness check before
   any formal-domain DNS work.
 - Reserved the original stable staging tag `staging-ready-2026-07-01`.
-- Added `staging-ready-2026-07-01-v2` as the current user-reviewable
-  pre-cutover source version after aligning the future English citation path.
+- Added `staging-ready-2026-07-01-v2` after aligning the future English
+  citation path.
+- Added `staging-ready-2026-07-01-v3` as the current user-reviewable
+  pre-cutover source version after refreshing the completion audit and launch
+  signoff records.

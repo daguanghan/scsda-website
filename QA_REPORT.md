@@ -8,6 +8,10 @@ Review site: `https://ultraclaw.space/`
 
 Latest checked branch: `main`
 
+Current review source version: `staging-ready-2026-07-01-v3`
+
+Current stable review tag: `staging-ready-2026-07-01-v3`
+
 For the current verified commit, run:
 
 ```bash

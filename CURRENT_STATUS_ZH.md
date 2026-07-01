@@ -31,11 +31,12 @@ e1ab73c docs: align future English citation path
 当前稳定测试标签：
 
 ```text
-staging-ready-2026-07-01-v2
+staging-ready-2026-07-01-v3
 ```
 
 该标签用于标记正式 DNS 切换前的当前测试站可审阅源码版本，便于后续回滚或比较。
-旧标签 `staging-ready-2026-07-01` 保留为早一版审阅记录。
+旧标签 `staging-ready-2026-07-01` 和 `staging-ready-2026-07-01-v2`
+保留为早期审阅记录。
 
 ## 网站定位
 

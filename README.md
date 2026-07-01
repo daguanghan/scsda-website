@@ -139,7 +139,7 @@ git push
 The current stable pre-cutover staging tag is:
 
 ```bash
-git show staging-ready-2026-07-01-v2
+git show staging-ready-2026-07-01-v3
 ```
 
 GitHub Pages will redeploy after the revert reaches `main`.
