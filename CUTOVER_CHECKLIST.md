@@ -12,6 +12,7 @@ Do not execute this checklist until the user explicitly says:
 ## 1. Pre-Cutover Checks
 
 - [ ] Confirm user has reviewed `https://ultraclaw.space/`.
+- [ ] Confirm user has reviewed `REVIEW_GUIDE.md` acceptance and rejection criteria.
 - [ ] Confirm latest GitHub Actions deployment is successful.
 - [ ] Confirm local `npm run build` passes.
 - [ ] Confirm `git status` is clean.
@@ -76,6 +77,7 @@ Browser-check:
 - [ ] `https://www.scsda.cn/en/`
 - [ ] Homepage
 - [ ] Leadership
+- [ ] Evidence
 - [ ] Research
 - [ ] Projects
 - [ ] Contact

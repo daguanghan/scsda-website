@@ -52,6 +52,9 @@ the review deployment. The root path is the preferred public entry point, while
 
 GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYMENT.md`.
 
+Before approving the formal `scsda.cn` move, review the staging site against
+`REVIEW_GUIDE.md`.
+
 ## Rollback
 
 Use Git history:

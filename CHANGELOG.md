@@ -16,3 +16,5 @@
   point, with `/en/` retained as a compatibility path.
 - Added a reviewer-facing Evidence Map page to connect SCSDA source materials
   with Dr Han's UK/European academic application narrative.
+- Added `REVIEW_GUIDE.md` for staging-site acceptance checks before formal
+  `scsda.cn` cutover.
