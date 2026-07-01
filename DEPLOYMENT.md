@@ -28,8 +28,10 @@ The custom domain is controlled by `public/CNAME`.
 Check:
 
 - `https://ultraclaw.space`
+- `https://ultraclaw.space/en/`
 - `https://www.ultraclaw.space` if DNS or redirect is configured
 - Home, About, Leadership, Research, Projects, Outputs, Legacy, Contact
+- `/en/` equivalents of the same pages
 - HTTPS status
 - Mobile layout
 - Desktop layout
@@ -44,6 +46,13 @@ Check:
 - HTTPS certificate was approved for `ultraclaw.space` and `www.ultraclaw.space`.
 - GitHub Pages HTTPS enforcement was enabled.
 - Browser QA checked homepage, Leadership and Research pages: no broken images and no horizontal overflow.
+
+## 2026-07-01 Path Alignment Update
+
+- Added `/en/` routes for the same English pages.
+- Static build now generates 16 pages: 8 root pages and 8 `/en/` pages.
+- This prepares the future production structure `https://scsda.cn/en/` without
+  removing the convenient review root path on `ultraclaw.space`.
 
 ## Future Production Target
 

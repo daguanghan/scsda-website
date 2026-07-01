@@ -80,6 +80,8 @@ Expected impact:
 
 - `scsda.cn` and `www.scsda.cn` will stop serving the legacy IIS host and start
   serving the new GitHub Pages site after DNS propagation.
+- English content will be available both at the root path and under `/en/`;
+  `/en/` is the preferred future canonical structure for academic use.
 - GitHub Pages HTTPS certificate provisioning may take up to about an hour after
   the custom domain and DNS are accepted.
 - During propagation, some visitors may see the old site and others may see the

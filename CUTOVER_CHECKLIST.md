@@ -72,6 +72,8 @@ Browser-check:
 
 - [ ] `https://scsda.cn/`
 - [ ] `https://www.scsda.cn/`
+- [ ] `https://scsda.cn/en/`
+- [ ] `https://www.scsda.cn/en/`
 - [ ] Homepage
 - [ ] Leadership
 - [ ] Research
@@ -104,4 +106,3 @@ dig +short www.scsda.cn
 curl -I http://scsda.cn/
 curl -I http://www.scsda.cn/
 ```
-

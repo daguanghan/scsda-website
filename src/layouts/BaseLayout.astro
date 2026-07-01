@@ -15,6 +15,9 @@ const {
 } = Astro.props;
 
 const pageTitle = title === site.name ? title : `${title} | ${site.shortName}`;
+const isEnglishPath = Astro.url.pathname === "/en/" || Astro.url.pathname.startsWith("/en/");
+const pathPrefix = isEnglishPath ? "/en" : "";
+const localHref = (href: string) => href === "/" ? `${pathPrefix}/` : `${pathPrefix}${href}`;
 ---
 
 <!doctype html>
@@ -30,7 +33,7 @@ const pageTitle = title === site.name ? title : `${title} | ${site.shortName}`;
     <a class="skip-link" href="#content">Skip to content</a>
     <header class="site-header">
       <div class="shell nav-shell">
-        <a class="brand" href="/" aria-label={`${site.shortName} home`}>
+        <a class="brand" href={localHref("/")} aria-label={`${site.shortName} home`}>
           <span class="brand-mark">S</span>
           <span>
             <strong>{site.shortName}</strong>
@@ -38,7 +41,7 @@ const pageTitle = title === site.name ? title : `${title} | ${site.shortName}`;
           </span>
         </a>
         <nav class="main-nav" aria-label="Main navigation">
-          {site.nav.map((item) => <a href={item.href}>{item.label}</a>)}
+          {site.nav.map((item) => <a href={localHref(item.href)}>{item.label}</a>)}
         </nav>
       </div>
     </header>
@@ -71,7 +74,7 @@ const pageTitle = title === site.name ? title : `${title} | ${site.shortName}`;
         <div>
           <p class="footer-kicker">Links</p>
           <ul class="footer-links">
-            {footerLinks.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+            {footerLinks.map((item) => <li><a href={localHref(item.href)}>{item.label}</a></li>)}
           </ul>
         </div>
       </div>

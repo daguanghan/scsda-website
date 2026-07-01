@@ -46,6 +46,10 @@ The intended future canonical English path is:
 https://scsda.cn/en/
 ```
 
+The same English content is available from both root paths and `/en/` paths on
+the review deployment. This keeps the staging site easy to review while making
+the future `scsda.cn/en/` production structure testable before DNS cutover.
+
 GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYMENT.md`.
 
 ## Rollback

@@ -6,7 +6,7 @@ Repository: `https://github.com/daguanghan/scsda-website`
 
 Review site: `https://ultraclaw.space/`
 
-Latest checked commit: `16467b3`
+Latest checked commit: `3a8ddb5`
 
 ## Summary
 
@@ -19,7 +19,7 @@ been changed.
 | Check | Result |
 |---|---|
 | Local `npm run build` | Pass |
-| Generated pages | 8 |
+| Generated pages | 16 after `/en/` path alignment |
 | GitHub Actions latest deployment | Success |
 | GitHub Pages custom domain | `ultraclaw.space` |
 | HTTPS | Enabled |
@@ -39,6 +39,14 @@ Browser-level QA was run against the live site.
 | `https://ultraclaw.space/outputs/` | 200 | Pass |
 | `https://ultraclaw.space/legacy/` | 200 | Pass |
 | `https://ultraclaw.space/contact/` | 200 | Pass |
+| `https://ultraclaw.space/en/` | 200 | Pass |
+| `https://ultraclaw.space/en/about/` | 200 | Pass |
+| `https://ultraclaw.space/en/leadership/` | 200 | Pass |
+| `https://ultraclaw.space/en/research/` | 200 | Pass |
+| `https://ultraclaw.space/en/projects/` | 200 | Pass |
+| `https://ultraclaw.space/en/outputs/` | 200 | Pass |
+| `https://ultraclaw.space/en/legacy/` | 200 | Pass |
+| `https://ultraclaw.space/en/contact/` | 200 | Pass |
 
 Additional browser QA:
 
@@ -46,6 +54,7 @@ Additional browser QA:
 - Horizontal overflow: none detected.
 - `https://www.ultraclaw.space/` redirects/serves the same site.
 - Homepage title: `Smart Cities and Sustainable Development Academy`.
+- `/en/` navigation remains within `/en/` paths.
 
 ## Content QA
 
@@ -80,6 +89,7 @@ The only remaining gate is user approval after reviewing:
 
 ```text
 https://ultraclaw.space/
+https://ultraclaw.space/en/
 ```
 
 After approval, execute the cutover plan in `DNS.md` only after the user says:
@@ -87,4 +97,3 @@ After approval, execute the cutover plan in `DNS.md` only after the user says:
 ```text
 确认修改 scsda.cn DNS
 ```
-
