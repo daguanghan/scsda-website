@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { caseStudies } from "@data/research";
+---
+
+<BaseLayout
+  title="Selected Projects and Case Studies"
+  description="Public-facing, non-confidential summaries of selected SCSDA platform and applied research activities."
+>
+  <section class="section">
+    <div class="shell case-grid">
+      {caseStudies.map((item) => (
+        <article class="case-card">
+          <img src={item.image} alt={`${item.title} visual evidence`} />
+          <div class="case-body">
+            <span class="category">{item.category}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <ul class="clean-list">
+              {item.highlights.map((highlight) => <li>{highlight}</li>)}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell article narrow">
+      <p class="eyebrow">Selection rule</p>
+      <h2>Only low-risk, public-facing material is used.</h2>
+      <p>
+        The old Chinese website and implementation report contain many useful
+        records. This English site selects only research and engineering
+        evidence that is suitable for an international academic reader. It does
+        not foreground public-security, government-decision, military,
+        confidential or politically sensitive wording.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

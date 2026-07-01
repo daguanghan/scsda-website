@@ -1,0 +1,80 @@
+---
+import { site, footerLinks } from "@data/site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  eyebrow?: string;
+}
+
+const {
+  title = site.name,
+  description = site.description,
+  eyebrow = "Smart cities, sustainable infrastructure, digital built environment"
+} = Astro.props;
+
+const pageTitle = title === site.name ? title : `${title} | ${site.shortName}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="shell nav-shell">
+        <a class="brand" href="/" aria-label={`${site.shortName} home`}>
+          <span class="brand-mark">S</span>
+          <span>
+            <strong>{site.shortName}</strong>
+            <small>{site.name}</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          {site.nav.map((item) => <a href={item.href}>{item.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="content">
+      <slot name="hero">
+        <section class="page-hero">
+          <div class="shell narrow">
+            <p class="eyebrow">{eyebrow}</p>
+            <h1>{title}</h1>
+            <p>{description}</p>
+          </div>
+        </section>
+      </slot>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <p class="footer-kicker">{site.shortName}</p>
+          <p>
+            Public-facing, non-confidential research evidence for smart cities,
+            digital built environments and sustainable infrastructure.
+          </p>
+        </div>
+        <div>
+          <p class="footer-kicker">Review domain</p>
+          <p><a href={site.reviewDomain}>{site.reviewDomain}</a></p>
+          <p class="muted">Future canonical English path: {site.canonicalFutureDomain}</p>
+        </div>
+        <div>
+          <p class="footer-kicker">Links</p>
+          <ul class="footer-links">
+            {footerLinks.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

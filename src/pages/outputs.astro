@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { selectedOutputs } from "@data/research";
+---
+
+<BaseLayout
+  title="Public Outputs"
+  description="Selected SCSDA outputs and academic relevance, presented with cautious evidence-based wording."
+>
+  <section class="section">
+    <div class="shell output-grid">
+      {selectedOutputs.map((group) => (
+        <article class="output-card">
+          <h3>{group.group}</h3>
+          <ul class="clean-list">
+            {group.items.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell article narrow">
+      <p class="eyebrow">Publication metrics</p>
+      <h2>Metrics should be refreshed before formal use.</h2>
+      <p>
+        The implementation report records 61 papers for the SCSDA
+        platform-construction period. Dr Han's broader personal publication and
+        citation metrics should be verified against live academic profiles
+        before being reused in applications, CVs or future website updates.
+      </p>
+      <div class="callout">
+        This page is intended to support academic credibility. It is not a
+        complete patent, publication or project database.
+      </div>
+    </div>
+  </section>
+</BaseLayout>

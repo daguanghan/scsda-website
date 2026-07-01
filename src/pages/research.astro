@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { researchThemes, evidenceNotes } from "@data/research";
+---
+
+<BaseLayout
+  title="Research Themes"
+  description="SCSDA research themes in BIM, digital twins, smart infrastructure, sensing, AIoT and sustainable urban systems."
+>
+  <section class="section">
+    <div class="shell theme-grid">
+      {researchThemes.map((theme) => (
+        <article class="theme-card">
+          <h3>{theme.title}</h3>
+          <p>{theme.summary}</p>
+          <p class="evidence">{theme.evidence}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell split">
+      <div class="article">
+        <p class="eyebrow">Academic fit</p>
+        <h2>Designed for digital built-environment and infrastructure roles.</h2>
+        <p>
+          The English site is structured for readers in civil engineering,
+          construction management, digital construction, construction
+          informatics, infrastructure resilience and sustainable urban systems.
+        </p>
+        <p>
+          It avoids a sales-style service catalogue. Instead, it frames SCSDA as
+          evidence of research leadership, platform development and applied
+          academic collaboration.
+        </p>
+      </div>
+      <figure class="image-panel">
+        <img src="/images/digital-projects.png" alt="Digital built-environment project visuals" />
+        <figcaption class="image-caption">
+          Project visuals reused as public historical evidence, not as current
+          service claims.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell claim-grid">
+      {evidenceNotes.map((note) => (
+        <article class="claim-card">
+          <h3>{note.title}</h3>
+          <p>{note.text}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

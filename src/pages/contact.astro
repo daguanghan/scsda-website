@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { site } from "@data/site";
+---
+
+<BaseLayout
+  title="Contact"
+  description="Contact and academic profile links for SCSDA-related public enquiries."
+>
+  <section class="section">
+    <div class="shell split">
+      <div class="article">
+        <p class="eyebrow">Enquiries</p>
+        <h2>Academic and research-platform contact.</h2>
+        <p>
+          For academic, research collaboration or evidence-verification
+          enquiries, contact Dr Daguang Han through the email below or through
+          verified academic profile pages.
+        </p>
+        <p>
+          <a class="button" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+        </p>
+      </div>
+      <div class="output-card">
+        <h3>Profile links</h3>
+        <div class="profile-links">
+          {site.profiles.map((profile) => (
+            <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>
+          ))}
+        </div>
+        <p class="muted">
+          Phone numbers and sensitive personal details are intentionally not
+          published on this website.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

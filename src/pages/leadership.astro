@@ -1,0 +1,104 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { site } from "@data/site";
+---
+
+<BaseLayout
+  title="Dr Daguang Han's Founding Leadership"
+  description="Evidence-focused summary of Dr Daguang Han's leadership role in SCSDA's early platform-construction period."
+>
+  <section class="section">
+    <div class="shell split reverse">
+      <figure class="image-panel">
+        <img
+          src="/images/lab-engagement.jpg"
+          alt="Public visual record of research engagement and laboratory visit"
+        />
+        <figcaption class="image-caption">
+          Public visual material reused from the preserved SCSDA website.
+        </figcaption>
+      </figure>
+      <div class="article">
+        <p class="eyebrow">Application relevance</p>
+        <h2>From researcher to research-platform builder.</h2>
+        <p>
+          For UK and European academic applications, SCSDA is most valuable as
+          evidence that Dr Daguang Han has worked beyond individual publication
+          output. It shows platform building, research-centre development,
+          interdisciplinary coordination, applied project formation and
+          international research engagement.
+        </p>
+        <p>
+          The implementation report lists Dr Han as the responsible person for
+          the SCSDA platform-construction project. Public wording on this site
+          therefore uses the cautious phrase "principal responsible person and
+          founding executive lead".
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Leadership scope</p>
+        <h2>What this site can credibly evidence.</h2>
+      </div>
+      <p>
+        Stronger titles such as Founding President or Chair of the Board should
+        be added only when appointment, board or registration evidence is placed
+        in the evidence folder and mapped in the claim register.
+      </p>
+    </div>
+    <div class="shell theme-grid">
+      <article class="theme-card">
+        <h3>Platform planning and delivery</h3>
+        <p>
+          Coordinating the early-stage development of a nonprofit applied
+          research platform in smart cities and sustainable infrastructure.
+        </p>
+      </article>
+      <article class="theme-card">
+        <h3>Research-centre development</h3>
+        <p>
+          Connecting BIM, digital twins, sensing, smart infrastructure and
+          sustainable construction into a coherent applied research structure.
+        </p>
+      </article>
+      <article class="theme-card">
+        <h3>International expert engagement</h3>
+        <p>
+          Building links between European academic expertise, Chinese
+          engineering application contexts and public-facing research outputs.
+        </p>
+      </article>
+      <article class="theme-card">
+        <h3>Enterprise-facing research</h3>
+        <p>
+          Translating digital built-environment research into non-confidential
+          applied projects, training, implementation guides and validation work.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell article narrow">
+      <p class="eyebrow">Suggested public wording</p>
+      <h2>Use precise language that helps rather than distracts.</h2>
+      <div class="callout">
+        During SCSDA's early platform-construction period, Dr Daguang Han
+        served as the principal responsible person and founding executive lead,
+        coordinating research-centre development, international expert
+        engagement, enterprise-facing applied research, and public
+        research-platform delivery in smart cities and sustainable
+        infrastructure.
+      </div>
+      <div class="profile-links">
+        {site.profiles.map((profile) => (
+          <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

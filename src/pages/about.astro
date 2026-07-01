@@ -1,0 +1,79 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { platformMetrics } from "@data/site";
+---
+
+<BaseLayout
+  title="About SCSDA"
+  description="SCSDA is presented as a nonprofit applied research organization focused on smart cities, sustainable infrastructure and digital built environments."
+>
+  <section class="section">
+    <div class="shell split">
+      <div class="article">
+        <p class="eyebrow">Institutional background</p>
+        <h2>A research platform for smart cities and sustainable development.</h2>
+        <p>
+          Smart Cities and Sustainable Development Academy, or SCSDA, was
+          established in Chongqing in 2019. This English site presents a
+          concise, public-facing and non-confidential account of its research
+          platform, selected applied research directions and relevance to
+          international academic audiences.
+        </p>
+        <p>
+          The Academy's work is best understood as applied research and
+          knowledge exchange across digital built environments, BIM, digital
+          twins, sensing technologies, smart infrastructure and sustainable
+          urban systems.
+        </p>
+      </div>
+      <figure class="image-panel">
+        <img src="/images/research-space.jpg" alt="SCSDA research and meeting space" />
+        <figcaption class="image-caption">
+          Preserved public image from the earlier Chinese SCSDA website.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Platform-construction record</p>
+        <h2>Period-labelled evidence rather than current-scale overstatement.</h2>
+      </div>
+      <p>
+        Figures on this site are used carefully. Where they come from the
+        implementation report, they are described as reported outputs for the
+        2019-2023 platform-construction period.
+      </p>
+    </div>
+    <div class="shell metric-grid">
+      {platformMetrics.map((metric) => (
+        <article class="metric">
+          <strong>{metric.value}</strong>
+          <span>{metric.label}</span>
+          <p>{metric.detail}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell article narrow">
+      <p class="eyebrow">Mission</p>
+      <h2>Research, education and responsible applied innovation.</h2>
+      <p>
+        SCSDA's English presentation emphasizes research capacity, international
+        collaboration, applied education and responsible engagement with
+        engineering practice. It avoids language that would imply government
+        authority, confidential work, public-security operations or exaggerated
+        institutional scale.
+      </p>
+      <div class="callout">
+        The old Chinese site is preserved as historical material. The English
+        site is a redesigned academic-facing research portfolio, not a direct
+        translation of all legacy pages.
+      </div>
+    </div>
+  </section>
+</BaseLayout>
