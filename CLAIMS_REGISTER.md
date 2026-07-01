@@ -14,7 +14,12 @@ This register maps public website wording to evidence status. Stronger claims sh
 | 12 research centres/labs | 12 research centres and laboratories reported for the 2019-2023 platform-construction period | Supported by implementation report | Period-label required |
 | 49 IP outputs | 49 IP outputs reported in the implementation report | Supported by implementation report | Period-label required |
 | 61 papers | 61 papers reported in the implementation report | Supported by implementation report | Period-label required |
-| Public platform funding | public research-platform construction funding | Supported by implementation report | Avoid political or official-authority wording |
+| 46 postgraduate and doctoral participants | 46 postgraduate and doctoral participants reported for the 2019-2023 construction period | Supported by implementation report | Period-label required; do not imply current enrollment |
+| 45 master's-level research staff | 45 master's-level or above research personnel reported for the construction period | Supported by implementation report | Period-label required; do not imply current staffing |
+| 14 R&D/application/transformation projects | 14 R&D, application and transformation projects reported in the implementation report | Supported by implementation report | Use non-confidential summaries only |
+| 13 incubation projects | 13 incubation projects reported in the implementation report | Supported by implementation report | Use as construction-period ecosystem evidence, not current business claims |
+| Flexible expert count | international expert engagement | Source has summary inconsistency between 16 and 17 people | Do not publish a numeric expert-count claim until source reconciliation |
+| Public platform funding | externally supported platform-construction project | Supported by implementation report | Avoid political or official-authority wording |
 | Externally supported platform delivery | externally supported research-platform delivery | Supported by implementation report project source and responsible-person field | Do not describe as government appointment, government role or official authority |
 | International expert engagement | international expert engagement | Supported by old website and user-confirmed context | Avoid implying official government authorization |
 | Enterprise-facing applied research | enterprise-facing applied research | Supported by implementation report project list | Do not publish confidential project details |

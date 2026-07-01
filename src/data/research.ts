@@ -93,7 +93,7 @@ export const selectedOutputs = [
     items: [
       "12 research centres and laboratories reported for the 2019-2023 construction period",
       "49 IP outputs and 61 papers reported in the implementation report",
-      "Public research-platform construction funding reported through the Chongqing Science and Technology Bureau project"
+      "Externally supported platform-construction project recorded in the implementation report"
     ]
   },
   {
@@ -114,6 +114,29 @@ export const selectedOutputs = [
       "Sustainable construction and circular materials",
       "International research collaboration and applied education"
     ]
+  }
+];
+
+export const constructionPeriodIndicators = [
+  {
+    value: "46",
+    label: "postgraduate and doctoral participants",
+    detail: "Reported as cumulative research participants during the platform-construction period."
+  },
+  {
+    value: "45",
+    label: "master's-level research staff",
+    detail: "Reported as cumulative master's-level or above research personnel."
+  },
+  {
+    value: "14",
+    label: "R&D, application and transformation projects",
+    detail: "Reported in the implementation report as applied research and translation activity."
+  },
+  {
+    value: "13",
+    label: "incubation projects",
+    detail: "Reported as 3 registered and 10 in-incubation projects during the construction period."
   }
 ];
 

@@ -273,6 +273,7 @@ Staging review checklist:
 
 ```text
 REVIEW_GUIDE.md
+COMPLETION_AUDIT.md
 ```
 
 Formal cutover checklist:

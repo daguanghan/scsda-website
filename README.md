@@ -80,6 +80,9 @@ For the current approval packet before formal DNS cutover, see
 
 For the current operational handoff, see `HANDOFF.md`.
 
+For a requirement-by-requirement completion audit against the current objective,
+see `COMPLETION_AUDIT.md`.
+
 ## Rollback
 
 Use Git history:

@@ -37,3 +37,8 @@
   callout styling.
 - Added `npm run verify:production` for read-only post-cutover verification of
   `scsda.cn` and `www.scsda.cn`.
+- Expanded the Outputs page with additional construction-period indicators from
+  the implementation report and recorded source boundaries in
+  `CLAIMS_REGISTER.md`.
+- Added `COMPLETION_AUDIT.md` to map the repository and staging deployment
+  against the user objective before any formal-domain cutover.
