@@ -7,6 +7,9 @@
 - Source branch: `main`
 - Build command: `npm run build`
 - Output directory: `dist`
+- First review deployment: 2026-07-01
+- Initial deployment commit: `a2d4a12`
+- GitHub repository: `https://github.com/daguanghan/scsda-website`
 
 ## GitHub Pages Setup
 
@@ -32,6 +35,15 @@ Check:
 - Desktop layout
 - Images loading
 - Links to ORCID, Google Scholar and Southeast University profile
+
+## 2026-07-01 Verification
+
+- GitHub Actions deployment completed successfully.
+- `https://ultraclaw.space/` returned HTTP 200 and the new SCSDA English homepage.
+- `https://www.ultraclaw.space/` resolved to the same site.
+- HTTPS certificate was approved for `ultraclaw.space` and `www.ultraclaw.space`.
+- GitHub Pages HTTPS enforcement was enabled.
+- Browser QA checked homepage, Leadership and Research pages: no broken images and no horizontal overflow.
 
 ## Future Production Target
 
