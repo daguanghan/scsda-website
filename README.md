@@ -2,7 +2,7 @@
 
 English-first static website for Smart Cities and Sustainable Development Academy (SCSDA).
 
-This repository presents SCSDA as a nonprofit applied research organization and public-facing, non-confidential research portfolio. It is designed to support international academic review of Dr Daguang Han's research-platform leadership in digital built environments, smart infrastructure, BIM, digital twins, sensing and sustainable urban systems.
+This repository presents SCSDA as a formal nonprofit applied research academy website. The public site focuses on smart cities, sustainable development, digital built environments, smart infrastructure, BIM, digital twins, sensing, AIoT and responsible public communication.
 
 ## Local Development
 
@@ -68,8 +68,9 @@ npm run preview
 
 ## Content Rules
 
-- Use cautious, evidence-backed language.
-- Use `principal responsible person` and `founding executive lead` unless stronger appointment or board evidence is added.
+- Use cautious, source-bounded language.
+- Present SCSDA as a formal institution-facing research website, not as a self-explaining strategy page.
+- Present Dr Daguang Han's role through formal leadership wording, for example: SCSDA was initiated and led by Dr Daguang Han.
 - Do not imply SCSDA is a government website, official authority, state platform or public-security platform.
 - Do not publish sensitive, confidential, military, public-security or government-decision material.
 - Period-label metrics from the implementation report, for example `reported for the 2019-2023 platform-construction period`.
@@ -99,7 +100,7 @@ https://scsda.cn/en/
 The same English content is available from both root paths and `/en/` paths on
 the review deployment. The formal domains `scsda.cn` and `www.scsda.cn` should
 remain easy entry points after cutover, while `/en/` is the preferred English
-citation path for UK and European academic-review materials.
+entry path.
 
 GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYMENT.md`.
 

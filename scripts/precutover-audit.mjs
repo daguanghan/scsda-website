@@ -3,9 +3,9 @@ import { resolve4, resolveCname } from "node:dns/promises";
 
 const REVIEW_URLS = [
   "https://ultraclaw.space/",
-  "https://ultraclaw.space/evidence/",
   "https://ultraclaw.space/en/",
-  "https://ultraclaw.space/en/evidence/",
+  "https://ultraclaw.space/research/",
+  "https://ultraclaw.space/projects/",
   "https://ultraclaw.space/robots.txt",
   "https://ultraclaw.space/sitemap.xml"
 ];

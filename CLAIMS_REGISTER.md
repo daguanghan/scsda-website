@@ -1,30 +1,25 @@
 # Claims Register
 
-This register maps public website wording to evidence status. Stronger claims should not be published until their evidence is added here.
+This register maps public website wording to the current source boundary. It is for cautious public communication, not for writing a self-explaining strategy page.
 
-| Claim | Public wording | Evidence status | Notes |
+| Claim | Public wording | Source status | Notes |
 |---|---|---|---|
-| Best site positioning | SCSDA is an institutional research-platform website with a Dr Han evidence layer | Derived from domain identity, preserved website and implementation report | Safer than a personal-only promotional site |
 | SCSDA was established in 2019 | SCSDA was established in Chongqing in 2019 | Supported by implementation report and legacy website | Safe for public use |
-| SCSDA is nonprofit | nonprofit applied research organization | Supported by implementation report wording | Add registration evidence when available |
-| Dr Han led the project | principal responsible person | Strong, implementation report lists Dr Daguang Han as responsible person | Safe for public use |
-| Dr Han was founding executive lead | founding executive lead | User-confirmed and consistent with role evidence | Use cautious wording until appointment evidence is added |
-| Dr Han was Founding President | Founding President | Pending evidence | Needs appointment, board or registration document |
-| Dr Han was Chair of the Board | Chair of the Board | Pending evidence | Needs board or registration document |
+| SCSDA is nonprofit | nonprofit applied research academy / nonprofit applied research organization | Supported by user confirmation and implementation-report wording | Add registration document when available |
+| Main institutional positioning | Research, education, and applied innovation in smart cities and sustainable development | Derived from preserved website, implementation report, and user direction | Formal homepage positioning |
+| Dr Han founded and led SCSDA | SCSDA was initiated and led by Dr Daguang Han | User-confirmed; implementation report lists Dr Han as responsible person | Use formal leadership wording; avoid "one person solely completed everything" |
+| Dr Han's platform role | founder, founding executive leader, and coordinator of the Academy's early research platform | User-confirmed and consistent with implementation-report role | Stronger appointment titles can be added when registration or board documents are added |
 | 12 research centres/labs | 12 research centres and laboratories reported for the 2019-2023 platform-construction period | Supported by implementation report | Period-label required |
-| 49 IP outputs | 49 IP outputs reported in the implementation report | Supported by implementation report | Period-label required |
+| 49 IP outputs | 49 intellectual-property outputs reported in the implementation report | Supported by implementation report | Period-label required |
 | 61 papers | 61 papers reported in the implementation report | Supported by implementation report | Period-label required |
 | 46 postgraduate and doctoral participants | 46 postgraduate and doctoral participants reported for the 2019-2023 construction period | Supported by implementation report | Period-label required; do not imply current enrollment |
 | 45 master's-level research staff | 45 master's-level or above research personnel reported for the construction period | Supported by implementation report | Period-label required; do not imply current staffing |
 | 14 R&D/application/transformation projects | 14 R&D, application and transformation projects reported in the implementation report | Supported by implementation report | Use non-confidential summaries only |
-| 13 incubation projects | 13 incubation projects reported in the implementation report | Supported by implementation report | Use as construction-period ecosystem evidence, not current business claims |
+| 13 incubation projects | 13 incubation projects reported in the implementation report | Supported by implementation report | Use as construction-period ecosystem record, not current business claims |
 | Flexible expert count | international expert engagement | Source has summary inconsistency between 16 and 17 people | Do not publish a numeric expert-count claim until source reconciliation |
-| Public platform funding | externally supported platform-construction project | Supported by implementation report | Avoid political or official-authority wording |
-| Externally supported platform delivery | externally supported research-platform delivery | Supported by implementation report project source and responsible-person field | Do not describe as government appointment, government role or official authority |
-| International expert engagement | international expert engagement | Supported by old website and user-confirmed context | Avoid implying official government authorization |
+| Public platform support | externally supported platform-construction project | Supported by implementation report | Avoid political or official-authority wording |
 | Enterprise-facing applied research | enterprise-facing applied research | Supported by implementation report project list | Do not publish confidential project details |
-| Reviewer-facing evidence map | evidence map for UK and European academic review | Derived from implementation report, preserved website and master academic archive | Interpretive page; keep source boundaries visible |
-| Dr Han's broader academic alignment | verified academic profile in BIM, digital twins and smart infrastructure | Supported by master archive and public profile links | Avoid unrefreshed citation metrics unless checked live |
+| Research directions | BIM, digital twins, smart infrastructure, MEMS sensing, AIoT, sustainable construction, and urban systems | Supported by preserved website and implementation report | Safe when written as research themes |
 
 ## Wording To Avoid
 
@@ -51,7 +46,7 @@ This register maps public website wording to evidence status. Stronger claims sh
 ## Preferred Architecture
 
 - Main SCSDA formal domain entry points: `scsda.cn` and `www.scsda.cn`
-- Preferred English academic-review citation path: `scsda.cn/en/`
+- Preferred English entry point: `scsda.cn/en/`
 - Chinese or historical material: `scsda.cn/zh/` or `scsda.cn/legacy/`
 - Dr Han's full personal CV and academic profile: `daguanghan.com`
 - Temporary staging and review: `ultraclaw.space` until formal DNS cutover is approved

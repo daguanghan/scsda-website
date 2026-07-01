@@ -5,15 +5,15 @@ import { site } from "@data/site";
 
 <BaseLayout
   title="Contact"
-  description="Contact and academic profile links for SCSDA-related public enquiries."
+  description="Contact and academic profile links for SCSDA-related research and collaboration enquiries."
 >
   <section class="section">
     <div class="shell split">
       <div class="article">
         <p class="eyebrow">Enquiries</p>
-        <h2>Academic and research-platform contact.</h2>
+        <h2>Research and collaboration contact.</h2>
         <p>
-          For academic, research collaboration or evidence-verification
+          For SCSDA-related academic, research, education, or collaboration
           enquiries, contact Dr Daguang Han through the email below or through
           verified academic profile pages.
         </p>
@@ -22,7 +22,7 @@ import { site } from "@data/site";
         </p>
       </div>
       <div class="output-card">
-        <h3>Profile links</h3>
+        <h3>Profile Links</h3>
         <div class="profile-links">
           {site.profiles.map((profile) => (
             <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>

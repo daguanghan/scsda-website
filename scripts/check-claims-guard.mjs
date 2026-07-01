@@ -35,9 +35,9 @@ const BUILT_PAGE_ROOT = "dist";
 const REQUIRED_BUILT_PHRASES = [
   "public-facing",
   "non-confidential",
-  "institutional research-platform website",
-  "principal responsible person",
-  "founding executive lead"
+  "nonprofit applied research academy",
+  "Research, education, and applied innovation",
+  "Dr Daguang Han's role in building SCSDA"
 ];
 
 const BUILT_FORBIDDEN_EXCEPTIONS = [
@@ -88,6 +88,7 @@ const GLOBAL_FORBIDDEN_EXCEPTIONS = [
   "不是",
   "不应当",
   "不能",
+  "不暗示",
   "不涉及",
   "没有",
   "尚未",

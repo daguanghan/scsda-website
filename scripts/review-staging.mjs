@@ -7,29 +7,22 @@ const PAGE_CHECKS = [
     path: "/",
     includes: [
       "Smart Cities and Sustainable Development Academy",
-      "Non-confidential research portfolio",
-      "Dr Han's leadership role"
+      "Applied research academy established in Chongqing in 2019",
+      "Research, education, and applied innovation"
     ]
   },
   {
     path: "/about/",
     includes: [
       "A research platform for smart cities and sustainable development.",
-      "Period-labelled evidence rather than current-scale overstatement."
+      "Research, education, and responsible applied innovation."
     ]
   },
   {
     path: "/leadership/",
     includes: [
-      "principal responsible person and founding executive lead",
-      "From researcher to research-platform builder."
-    ]
-  },
-  {
-    path: "/evidence/",
-    includes: [
-      "institutional research-platform website",
-      "This is stronger and safer than making the domain a personal ability site"
+      "Dr Daguang Han's role in building SCSDA.",
+      "Strategic, academic, and industry-facing responsibilities."
     ]
   },
   {
@@ -49,7 +42,7 @@ const PAGE_CHECKS = [
   {
     path: "/outputs/",
     includes: [
-      "Construction-period indicators",
+      "Construction-Period Indicators",
       "46",
       "postgraduate and doctoral participants",
       "13",
@@ -59,8 +52,8 @@ const PAGE_CHECKS = [
   {
     path: "/legacy/",
     includes: [
-      "Legacy",
-      "historical material"
+      "Archive",
+      "Earlier Chinese website materials are preserved as institutional records."
     ]
   },
   {
@@ -74,14 +67,7 @@ const PAGE_CHECKS = [
     path: "/en/",
     includes: [
       "Smart Cities and Sustainable Development Academy",
-      "/en/evidence/"
-    ]
-  },
-  {
-    path: "/en/evidence/",
-    includes: [
-      "Evidence Map",
-      "institutional research-platform website"
+      "/en/research/"
     ]
   },
   {
@@ -92,7 +78,11 @@ const PAGE_CHECKS = [
     path: "/sitemap.xml",
     includes: [
       "https://ultraclaw.space/",
-      "https://ultraclaw.space/evidence/"
+      "https://ultraclaw.space/research/"
+    ],
+    excludes: [
+      "https://ultraclaw.space/evidence/",
+      "https://ultraclaw.space/en/evidence/"
     ]
   }
 ];
@@ -105,13 +95,17 @@ const FORBIDDEN_POSITIVE_CLAIMS = [
   "military technology",
   "surveillance platform",
   "confidential technology",
-  "technology transfer to China"
+  "technology transfer to China",
+  "academic applications",
+  "reviewer-facing",
+  "evidence map",
+  "From researcher to research-platform builder"
 ];
 
 const VIEWPORT_CHECKS = [
   { name: "desktop-home", path: "/", width: 1440, height: 1000 },
   { name: "mobile-home", path: "/", width: 390, height: 1000 },
-  { name: "mobile-evidence", path: "/evidence/", width: 390, height: 1000 },
+  { name: "mobile-research", path: "/research/", width: 390, height: 1000 },
   { name: "mobile-outputs", path: "/outputs/", width: 390, height: 1000 }
 ];
 
@@ -157,13 +151,19 @@ async function runPageChecks() {
     const result = await fetchText(check.path);
     const normalizedText = result.text.toLowerCase();
     const missing = check.includes.filter((needle) => !normalizedText.includes(needle.toLowerCase()));
+    const unexpected = (check.excludes || []).filter((needle) =>
+      normalizedText.includes(needle.toLowerCase())
+    );
     const forbidden = findForbiddenPositiveClaims(result.text);
-    const ok = result.ok && missing.length === 0 && forbidden.length === 0;
-    results.push({ ...result, missing, forbidden, ok });
+    const ok = result.ok && missing.length === 0 && unexpected.length === 0 && forbidden.length === 0;
+    results.push({ ...result, missing, unexpected, forbidden, ok });
     const marker = ok ? "PASS" : "FAIL";
     console.log(`${marker} ${result.status} ${result.url} ${result.contentType}`);
     if (missing.length > 0) {
       console.log(`  missing: ${missing.join(" | ")}`);
+    }
+    if (unexpected.length > 0) {
+      console.log(`  unexpected: ${unexpected.join(" | ")}`);
     }
     if (forbidden.length > 0) {
       console.log(`  forbidden positive claim: ${forbidden.join(" | ")}`);

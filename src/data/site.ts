@@ -3,12 +3,12 @@ export const site = {
   shortName: "SCSDA",
   chineseName: "Chongqing Smart Cities and Sustainable Development Academy",
   tagline:
-    "A nonprofit applied research platform for smart cities, digital built environments, smart infrastructure, and sustainable urban systems.",
+    "Research, education, and applied innovation in smart cities and sustainable development.",
   description:
-    "SCSDA presents public-facing, non-confidential research evidence in BIM, digital twins, smart infrastructure, sensing, AIoT and sustainable construction.",
+    "SCSDA is a nonprofit applied research academy established in Chongqing in 2019, focused on smart cities, digital built environments, smart infrastructure, sensing technologies, and sustainable urban systems.",
   reviewDomain: "https://ultraclaw.space",
   canonicalFutureDomain: "https://scsda.cn/en/",
-  defaultImage: "/images/lab-engagement.jpg",
+  defaultImage: "/images/academy-launch.jpg",
   keywords: [
     "smart cities",
     "sustainable development",
@@ -19,18 +19,17 @@ export const site = {
     "construction informatics",
     "MEMS sensing",
     "AIoT",
-    "urban analytics",
+    "urban analytics"
   ],
   contactEmail: "daguang.han@gmail.com",
   nav: [
     { href: "/", label: "Home" },
     { href: "/about/", label: "About" },
     { href: "/leadership/", label: "Leadership" },
-    { href: "/evidence/", label: "Evidence" },
     { href: "/research/", label: "Research" },
     { href: "/projects/", label: "Projects" },
     { href: "/outputs/", label: "Outputs" },
-    { href: "/legacy/", label: "Legacy" },
+    { href: "/legacy/", label: "Archive" },
     { href: "/contact/", label: "Contact" }
   ],
   profiles: [
@@ -52,37 +51,47 @@ export const site = {
 export const platformMetrics = [
   {
     value: "2019",
-    label: "platform establishment",
-    detail: "SCSDA was established in Chongqing in 2019."
+    label: "established in Chongqing",
+    detail: "The Academy was established as a nonprofit applied research organization."
   },
   {
     value: "12",
-    label: "research centres and labs",
+    label: "research centres and laboratories",
     detail: "Reported for the 2019-2023 platform-construction period."
   },
   {
-    value: "49",
-    label: "IP outputs",
-    detail: "Reported in the implementation report for the construction period."
+    value: "14",
+    label: "applied R&D and translation projects",
+    detail: "Reported as research, application, and transformation activity."
   },
   {
-    value: "61",
-    label: "research papers",
+    value: "49",
+    label: "intellectual-property outputs",
     detail: "Reported in the implementation report for the construction period."
   }
 ];
 
-export const safeClaims = [
-  "Institutional research-platform website, not a personal-only profile",
-  "Public-facing and non-confidential research summaries",
-  "Nonprofit applied research organization",
-  "Platform-construction evidence for smart cities and sustainable infrastructure",
-  "Dr Daguang Han as principal responsible person and founding executive lead"
+export const institutionalPrinciples = [
+  {
+    title: "Applied Research",
+    text:
+      "SCSDA connects engineering research with public-facing, non-confidential applications in smart cities, infrastructure, and digital built environments."
+  },
+  {
+    title: "Interdisciplinary Platform",
+    text:
+      "The Academy brings together BIM, digital twins, sensing technologies, AIoT, urban analytics, sustainable construction, and engineering education."
+  },
+  {
+    title: "Responsible Public Communication",
+    text:
+      "This website uses concise, source-bounded wording and avoids overstating institutional scale, authority, or confidential project details."
+  }
 ];
 
 export const footerLinks = [
-  { href: "/contact/", label: "Contact" },
-  { href: "/evidence/", label: "Evidence map" },
-  { href: "/legacy/", label: "Legacy archive" },
-  { href: "/outputs/", label: "Outputs" }
+  { href: "/about/", label: "About SCSDA" },
+  { href: "/research/", label: "Research" },
+  { href: "/projects/", label: "Projects" },
+  { href: "/contact/", label: "Contact" }
 ];

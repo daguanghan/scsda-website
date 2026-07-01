@@ -175,7 +175,7 @@ https://www.scsda.cn/en/
 
 - HTTPS 是否正常。
 - 首页是否为新版 SCSDA 英文站。
-- Leadership、Evidence、Research、Projects、Contact 是否可访问。
+- Leadership、Research、Projects、Outputs、Contact 是否可访问。
 - 手机端是否正常。
 - 是否还显示旧 IIS 页面。
 

@@ -6,10 +6,10 @@ const OUT_DIR = "qa-screenshots/current-staging";
 
 const CAPTURES = [
   { name: "desktop-home", path: "/", width: 1440, height: 1100, fullPage: true },
-  { name: "desktop-evidence", path: "/evidence/", width: 1440, height: 1100, fullPage: true },
+  { name: "desktop-research", path: "/research/", width: 1440, height: 1100, fullPage: true },
   { name: "desktop-leadership", path: "/leadership/", width: 1440, height: 1100, fullPage: true },
   { name: "mobile-home", path: "/", width: 390, height: 1000, fullPage: true },
-  { name: "mobile-evidence", path: "/evidence/", width: 390, height: 1000, fullPage: true },
+  { name: "mobile-research", path: "/research/", width: 390, height: 1000, fullPage: true },
   { name: "mobile-outputs", path: "/outputs/", width: 390, height: 1000, fullPage: true }
 ];
 
@@ -25,7 +25,7 @@ function markdownReport(results) {
     "",
     `Base URL: ${BASE_URL}`,
     "",
-    "These screenshots are visual review evidence for the staging site only.",
+    "These screenshots are visual review records for the staging site only.",
     "They do not imply approval to modify `scsda.cn` DNS.",
     "",
     "## Files",

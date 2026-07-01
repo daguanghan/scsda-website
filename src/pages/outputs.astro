@@ -4,10 +4,20 @@ import { constructionPeriodIndicators, selectedOutputs } from "@data/research";
 ---
 
 <BaseLayout
-  title="Public Outputs"
-  description="Selected SCSDA outputs and academic relevance, presented with cautious evidence-based wording."
+  title="Outputs"
+  description="Selected SCSDA construction-period outputs, applied research directions, and platform-building indicators reported for 2019-2023."
 >
   <section class="section">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Outputs</p>
+        <h2>Selected research, platform-building, and applied R&D outputs.</h2>
+      </div>
+      <p>
+        The figures on this page are period-labelled and should be read as
+        reported outputs for the 2019-2023 platform-construction period.
+      </p>
+    </div>
     <div class="shell output-grid">
       {selectedOutputs.map((group) => (
         <article class="output-card">
@@ -23,13 +33,13 @@ import { constructionPeriodIndicators, selectedOutputs } from "@data/research";
   <section class="section surface">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Construction-period indicators</p>
-        <h2>Additional source-bounded evidence from the implementation report.</h2>
+        <p class="eyebrow">Construction-Period Indicators</p>
+        <h2>Additional institutional indicators reported in the implementation record.</h2>
       </div>
       <p>
-        These figures are included to evidence platform-building scope during
-        the 2019-2023 construction period. They should not be read as current
-        staffing, current scale or ongoing operational claims.
+        These indicators help describe the scale of SCSDA's construction-period
+        platform activity. They are not presented as current staffing,
+        enrollment, or operational-scale claims.
       </p>
     </div>
     <div class="shell metric-grid">
@@ -44,18 +54,27 @@ import { constructionPeriodIndicators, selectedOutputs } from "@data/research";
   </section>
 
   <section class="section">
-    <div class="shell article narrow">
-      <p class="eyebrow">Publication metrics</p>
-      <h2>Metrics should be refreshed before formal use.</h2>
-      <p>
-        The implementation report records 61 papers for the SCSDA
-        platform-construction period. Dr Han's broader personal publication and
-        citation metrics should be verified against live academic profiles
-        before being reused in applications, CVs or future website updates.
-      </p>
-      <div class="callout">
-        This page is intended to support academic credibility. It is not a
-        complete patent, publication or project database.
+    <div class="shell split">
+      <figure class="image-panel">
+        <img
+          src="/images/bim-prefabrication.jpg"
+          alt="BIM-based prefabrication and point-cloud analysis"
+        />
+        <figcaption class="image-caption">
+          Public SCSDA visual material on BIM-based prefabrication and digital
+          measurement.
+        </figcaption>
+      </figure>
+      <div class="article">
+        <p class="eyebrow">Outputs in Context</p>
+        <h2>Research outputs are linked to platform development.</h2>
+        <p>
+          SCSDA's reported outputs combine research publications, intellectual
+          property, applied R&D, training, research-centre formation, and
+          incubation activity. The Academy's value lies in linking these
+          outputs through an applied research platform rather than treating
+          them as isolated deliverables.
+        </p>
       </div>
     </div>
   </section>

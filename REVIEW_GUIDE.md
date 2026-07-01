@@ -1,6 +1,6 @@
 # Review Guide
 
-Use this guide to review the staging site before approving the formal move to
+Use this guide to review the staging site before approving any formal move to
 `scsda.cn`.
 
 Staging site:
@@ -14,153 +14,69 @@ the legacy host until DNS cutover is explicitly approved.
 
 ## Review Goal
 
-The site should read as an SCSDA institutional research-platform website, not as
-a personal advertising page. At the same time, it should clearly support Dr
-Daguang Han's UK and European academic applications by evidencing:
+The site should read as a formal SCSDA English website. It should present the
+Academy's background, mission, leadership, research themes, selected public
+projects, construction-period outputs, archive note, and contact route.
 
-- founding and executive platform leadership;
-- research-centre development and coordination;
-- digital construction, BIM and digital twin capability;
-- smart infrastructure, sensing and AIoT capability;
-- sustainable cities and applied knowledge-exchange relevance;
-- cautious, non-confidential and source-bounded public claims.
-
-Preferred framing:
-
-- `scsda.cn` should be the Academy's English institutional website.
-- Dr Han's role should be visible as an evidence-backed leadership layer inside
-  the institutional record.
-- The site should not become a personal-only digital construction portfolio;
-  that material belongs primarily on `daguanghan.com`, with cross-links where
-  appropriate.
+It should not read as a planning note, self-explaining strategy page, personal
+advertisement, government website, or sensitive project platform.
 
 ## Pages To Review
-
-Core pages:
 
 - `https://ultraclaw.space/`
 - `https://ultraclaw.space/about/`
 - `https://ultraclaw.space/leadership/`
-- `https://ultraclaw.space/evidence/`
 - `https://ultraclaw.space/research/`
 - `https://ultraclaw.space/projects/`
 - `https://ultraclaw.space/outputs/`
 - `https://ultraclaw.space/legacy/`
 - `https://ultraclaw.space/contact/`
-
-Compatibility paths:
-
 - `https://ultraclaw.space/en/`
-- `https://ultraclaw.space/en/evidence/`
-
-Technical discovery files:
-
 - `https://ultraclaw.space/robots.txt`
 - `https://ultraclaw.space/sitemap.xml`
 
-## Automated Staging Review
-
-Run this read-only command before approving formal DNS cutover:
+## Automated Review
 
 ```bash
+npm run check
+npm run build
+npm run claims:guard
 npm run review:staging
-```
-
-It checks the core staging pages, key acceptance text, the `/en/`
-compatibility paths, sensitive positive-claim traps, and, when Playwright is
-available locally, desktop/mobile viewport overflow.
-
-## Staging Health Check
-
-Run this read-only command to check page metadata, internal links, image
-resources and public external profile links:
-
-```bash
 npm run health:staging
 ```
 
-Some external academic profile pages may return `403` to automated requests
-while still opening in a browser. The health check reports those as warnings
-instead of broken links.
+## Acceptance Criteria
 
-## Claims Guard
+- The homepage immediately identifies SCSDA and its smart-cities /
+  sustainable-development mission.
+- The site uses formal English and does not explain itself as an application or
+  positioning exercise.
+- Leadership presents Dr Han's role in institutional terms.
+- Research and projects foreground BIM, digital twins, smart infrastructure,
+  sensing, AIoT, sustainable construction, and urban systems.
+- Outputs are period-labelled and do not imply current scale.
+- Legacy material is treated as historical source material.
+- Contact information avoids sensitive phone numbers and private details.
+- Mobile and desktop layouts have no text or image overlap.
 
-Run this local command before approving substantial wording updates:
+## Rejection Criteria
 
-```bash
-npm run claims:guard
-```
+Do not approve cutover if any public page implies:
 
-It reads `CLAIMS_REGISTER.md`, scans source and built text, and fails if
-high-risk wording appears as a positive claim rather than a risk boundary.
-
-## Visual Evidence Screenshots
-
-Run this command to capture repeatable desktop and mobile screenshots of the
-staging site:
-
-```bash
-npm run screenshots:staging
-```
-
-The files are written to:
-
-```text
-qa-screenshots/current-staging/
-```
-
-## Content Acceptance Criteria
-
-Approve the site only if the following are true:
-
-- The homepage immediately signals SCSDA, smart cities, digital built
-  environment, smart infrastructure and sustainable urban systems.
-- The site clearly explains why SCSDA matters for Dr Han's academic case without
-  becoming a personal-only site.
-- The Evidence page makes the source-to-capability chain clear.
-- The Evidence page makes clear why the site is institution-first rather than a
-  personal-only ability page.
-- The Leadership page uses cautious wording: `principal responsible person` and
-  `founding executive lead`.
-- Research themes align with UK/European academic roles in digital
-  construction, construction informatics, BIM, digital twins, infrastructure
-  resilience and sustainable urban systems.
-- Legacy Chinese-site material is treated as historical source material, not as
-  automatically current or fully translated content.
-- Contact information avoids sensitive personal phone numbers.
-
-## Risk Rejection Criteria
-
-Do not approve cutover if any page appears to claim or imply:
-
-- SCSDA is a government authority or official government website;
-- government authorization beyond what the evidence supports;
-- public-security, surveillance, military or confidential work;
+- government authority or official government website status;
+- public-security, surveillance, military, or confidential work;
 - sensitive technology transfer;
-- current institutional scale not supported by the evidence;
+- current institutional scale beyond the period-labelled record;
 - that Dr Han alone completed every institutional output;
-- awarded UK professional status that is only in preparation.
+- meta-copy about why the website should persuade a reader.
 
-## Visual And Usability Checks
+## DNS Approval Phrase
 
-Check at least once on desktop and mobile:
-
-- navigation is readable and not crowded;
-- hero text is legible over the image;
-- cards and buttons do not overlap;
-- images load;
-- text does not overflow on a phone screen;
-- links to ORCID, Google Scholar and Southeast University profile open;
-- `www.ultraclaw.space` redirects to `ultraclaw.space`.
-
-## Approval Phrase
-
-If the staging site is acceptable and the formal domain should be moved, use:
+If staging is approved and the formal domain should be moved, use:
 
 ```text
 确认修改 scsda.cn DNS
 ```
 
 Before any DNS edit, current records and planned replacement records must be
-shown again. The cutover procedure is documented in `DNS.md` and
-`CUTOVER_CHECKLIST.md`.
+shown again.

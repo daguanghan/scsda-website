@@ -13,8 +13,8 @@ const PRODUCTION_URLS = [
   "https://www.scsda.cn/",
   "https://scsda.cn/en/",
   "https://www.scsda.cn/en/",
-  "https://scsda.cn/evidence/",
-  "https://www.scsda.cn/evidence/",
+  "https://scsda.cn/research/",
+  "https://www.scsda.cn/research/",
   "https://scsda.cn/robots.txt",
   "https://scsda.cn/sitemap.xml"
 ];
@@ -25,8 +25,8 @@ const CONTENT_CHECKS = [
     includes: "Smart Cities and Sustainable Development Academy"
   },
   {
-    url: "https://scsda.cn/evidence/",
-    includes: "institutional research-platform website"
+    url: "https://scsda.cn/research/",
+    includes: "BIM, Digital Twins and Reality Capture"
   }
 ];
 

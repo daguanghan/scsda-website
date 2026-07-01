@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { site, platformMetrics, safeClaims } from "@data/site";
-import { researchThemes, caseStudies } from "@data/research";
+import { institutionalPrinciples, platformMetrics, site } from "@data/site";
+import { caseStudies, researchThemes } from "@data/research";
 
 interface Props {
   pathPrefix?: string;
@@ -15,19 +15,20 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
   <section
     slot="hero"
     class="hero"
-    style={`--hero-image: url('/images/lab-engagement.jpg')`}
+    style={`--hero-image: url('/images/academy-launch.jpg')`}
   >
     <div class="shell hero-content">
-      <p class="eyebrow">Non-confidential research portfolio</p>
+      <p class="eyebrow">Applied research academy established in Chongqing in 2019</p>
       <h1>Smart Cities and Sustainable Development Academy</h1>
       <p class="lead">
-        A nonprofit applied research platform for smart cities, digital built
-        environments, smart infrastructure, and sustainable urban systems.
+        Research, education, and applied innovation in smart cities, digital
+        built environments, smart infrastructure, sensing technologies, and
+        sustainable urban systems.
       </p>
       <div class="hero-actions">
-        <a class="button primary" href={pageHref("/leadership/")}>Dr Han's leadership role</a>
-        <a class="button ghost" href={pageHref("/evidence/")}>Evidence map</a>
-        <a class="button ghost" href={pageHref("/research/")}>Research themes</a>
+        <a class="button primary" href={pageHref("/about/")}>About SCSDA</a>
+        <a class="button ghost" href={pageHref("/research/")}>Research Themes</a>
+        <a class="button ghost" href={pageHref("/projects/")}>Selected Projects</a>
       </div>
     </div>
   </section>
@@ -35,13 +36,14 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
   <section class="section surface">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Purpose</p>
-        <h2>Institutional evidence, written for international academic review.</h2>
+        <p class="eyebrow">Institutional Profile</p>
+        <h2>A nonprofit applied research academy for smart cities and sustainable development.</h2>
       </div>
       <p>
-        This English site presents SCSDA as an institutional research platform,
-        while making clear Dr Daguang Han's founding and executive leadership in
-        the Academy's early platform-construction period.
+        SCSDA was established in Chongqing in 2019. The Academy's work is best
+        understood as an interdisciplinary applied-research platform linking
+        digital built environments, smart infrastructure, sensing technologies,
+        sustainable construction, and international knowledge exchange.
       </p>
     </div>
     <div class="shell metric-grid">
@@ -58,63 +60,50 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
   <section class="section">
     <div class="shell split">
       <div class="article">
-        <p class="eyebrow">Leadership evidence</p>
-        <h2>Built around platform leadership, not personal promotion.</h2>
+        <p class="eyebrow">Platform Development</p>
+        <h2>Connecting research themes with engineering practice.</h2>
         <p>
-          SCSDA is presented first as a research-organization website. Its
-          UK-facing value is that it documents how Dr Han helped initiate,
-          structure and coordinate a research platform across BIM, digital
-          twins, sensing, smart infrastructure and sustainable urban systems.
+          The Academy developed a portfolio of research centres and applied R&D
+          activities across BIM, digital twins, MEMS sensing, smart
+          infrastructure, intelligent monitoring, sustainable materials, and
+          urban systems.
+        </p>
+        <p>
+          Its public record shows a platform-building approach: forming research
+          centres, coordinating academic and enterprise partners, translating
+          research ideas into demonstrators and engineering studies, and
+          supporting education-oriented knowledge exchange.
         </p>
         <div class="callout">
-          During SCSDA's early platform-construction period, Dr Daguang Han
-          served as the principal responsible person and founding executive
-          lead, coordinating research-centre development, international expert
-          engagement, enterprise-facing applied research, and externally
-          supported research-platform delivery.
+          Public pages on this site use non-confidential summaries and
+          period-labelled figures from the 2019-2023 platform-construction
+          period. They do not present confidential project details or imply
+          government authority.
         </div>
       </div>
       <figure class="image-panel">
         <img
-          src="/images/platform-bridge-bim.png"
-          alt="BIM and bridge engineering analysis from the preserved SCSDA public site"
+          src="/images/research-exhibition.jpg"
+          alt="SCSDA research exhibition and smart infrastructure display"
         />
         <figcaption class="image-caption">
-          Preserved public visual material from the earlier Chinese SCSDA site.
+          Public SCSDA display material showing smart infrastructure and
+          research-centre work.
         </figcaption>
       </figure>
-    </div>
-  </section>
-
-  <section class="section surface">
-    <div class="shell section-heading">
-      <div>
-        <p class="eyebrow">Evidence map</p>
-        <h2>A reviewer-facing bridge between the Academy and Dr Han's academic case.</h2>
-      </div>
-      <p>
-        The Evidence page explains how SCSDA supports Dr Han's UK and European
-        academic applications while keeping institutional claims cautious,
-        public-facing and source-bounded. This is deliberately stronger than a
-        personal profile, because it lets reviewers see an institutional record
-        and Dr Han's role inside that record.
-      </p>
-    </div>
-    <div class="shell article narrow">
-      <a class="button" href={pageHref("/evidence/")}>Review the evidence map</a>
     </div>
   </section>
 
   <section class="section tint">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Research themes</p>
-        <h2>Digital built environment, smart infrastructure and sustainable cities.</h2>
+        <p class="eyebrow">Research Areas</p>
+        <h2>Digital built environment, smart infrastructure, sensing, and sustainable cities.</h2>
       </div>
       <p>
-        The site foregrounds research areas that align with UK and European
-        academic posts in digital construction, construction informatics,
-        infrastructure resilience and sustainable urban systems.
+        SCSDA's research themes connect engineering methods with urban systems:
+        from BIM and point-cloud analysis to MEMS sensing, AIoT, green
+        construction, and data-driven infrastructure workflows.
       </p>
     </div>
     <div class="shell theme-grid">
@@ -122,7 +111,7 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
         <article class="theme-card">
           <h3>{theme.title}</h3>
           <p>{theme.summary}</p>
-          <p class="evidence">{theme.evidence}</p>
+          <p class="theme-note">{theme.scope}</p>
         </article>
       ))}
     </div>
@@ -131,19 +120,19 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
   <section class="section surface">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Selected case studies</p>
-        <h2>Public-facing examples of applied research platform development.</h2>
+        <p class="eyebrow">Selected Work</p>
+        <h2>Public-facing examples of applied research and platform construction.</h2>
       </div>
       <p>
-        These examples are intentionally limited to public, non-confidential
-        summaries. Sensitive or security-adjacent topics from older records are
-        not foregrounded on the English site.
+        The examples below are selected because they communicate SCSDA's work
+        clearly to international academic and research collaborators while
+        keeping project descriptions low-risk and non-confidential.
       </p>
     </div>
     <div class="shell case-grid">
       {caseStudies.slice(0, 2).map((item) => (
         <article class="case-card">
-          <img src={item.image} alt={`${item.title} visual evidence`} />
+          <img src={item.image} alt={`${item.title} visual record`} />
           <div class="case-body">
             <span class="category">{item.category}</span>
             <h3>{item.title}</h3>
@@ -159,14 +148,10 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
 
   <section class="section tight">
     <div class="shell claim-grid">
-      {safeClaims.map((claim) => (
+      {institutionalPrinciples.map((item) => (
         <article class="claim-card">
-          <h3>{claim}</h3>
-          <p>
-            This claim is intended for a cautious international audience and is
-            mapped to preserved website materials, the implementation report or
-            Dr Han's verified academic profile.
-          </p>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
         </article>
       ))}
     </div>
