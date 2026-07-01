@@ -29,6 +29,12 @@ Run the read-only staging review:
 npm run review:staging
 ```
 
+Capture visual review screenshots for the staging site:
+
+```bash
+npm run screenshots:staging
+```
+
 After the formal `scsda.cn` DNS cutover has been approved and applied, run the
 read-only production verification:
 

@@ -46,3 +46,5 @@
   acceptance checks before formal-domain approval.
 - Added `LAUNCH_DECISION_PACKET.md` to give the user a short approve, delay or
   rollback packet before any `scsda.cn` DNS cutover.
+- Added `npm run screenshots:staging` to capture repeatable desktop and mobile
+  staging screenshots for visual review.

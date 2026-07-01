@@ -216,6 +216,15 @@ the `/en/` compatibility paths, sensitive positive-claim traps, and optional
 Playwright desktop/mobile viewport overflow. It does not change DNS or GitHub
 settings.
 
+Repeatable staging screenshots:
+
+```bash
+npm run screenshots:staging
+```
+
+This writes desktop and mobile screenshots to `qa-screenshots/current-staging/`
+for visual review before formal-domain approval.
+
 Read-only production verification after formal DNS cutover:
 
 ```bash

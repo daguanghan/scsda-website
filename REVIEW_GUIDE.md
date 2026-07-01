@@ -70,6 +70,21 @@ It checks the core staging pages, key acceptance text, the `/en/`
 compatibility paths, sensitive positive-claim traps, and, when Playwright is
 available locally, desktop/mobile viewport overflow.
 
+## Visual Evidence Screenshots
+
+Run this command to capture repeatable desktop and mobile screenshots of the
+staging site:
+
+```bash
+npm run screenshots:staging
+```
+
+The files are written to:
+
+```text
+qa-screenshots/current-staging/
+```
+
 ## Content Acceptance Criteria
 
 Approve the site only if the following are true:
