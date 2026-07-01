@@ -134,3 +134,65 @@ export const evidenceNotes = [
       "The English site avoids sensitive, public-security, military, confidential or government-decision wording."
   }
 ];
+
+export const evidenceMap = [
+  {
+    capability: "Founding and executive platform leadership",
+    whatItShows:
+      "Dr Han was not only producing individual research outputs; he coordinated a nonprofit applied research platform during its 2019-2023 construction period.",
+    evidence:
+      "Implementation report lists Dr Daguang Han as the responsible person and records the Academy's platform-construction scope.",
+    safeUse:
+      "Use as evidence of platform building, strategic planning, research coordination and applied research leadership."
+  },
+  {
+    capability: "Research-centre architecture",
+    whatItShows:
+      "The platform connected smart cities, BIM, digital twins, MEMS sensing, smart infrastructure, sustainable materials and digital urban systems.",
+    evidence:
+      "Implementation report records 12 research centres and laboratories, including BIM and Digital Twin, Smart Infrastructure and Equipment, Smart MEMS Sensing, and Sustainable Green Urban Recycled Materials centres.",
+    safeUse:
+      "Use as evidence of interdisciplinary agenda-setting rather than current institutional scale."
+  },
+  {
+    capability: "Industry-facing applied research",
+    whatItShows:
+      "The Academy translated research themes into public-facing engineering projects, training, BIM implementation, scanning-based assessment and sensing applications.",
+    evidence:
+      "Implementation report records 14 R&D, application and transformation projects, including BIM implementation, bridge scanning, curtain-wall assessment, HVAC energy retrofit and lifecycle bridge sensing.",
+    safeUse:
+      "Use only non-confidential summaries; exclude sensitive public-security or government-decision wording."
+  },
+  {
+    capability: "International academic relevance",
+    whatItShows:
+      "SCSDA sits within Dr Han's broader academic profile across Southeast University, OsloMet, BIM innovation centres, digital construction, structural monitoring and infrastructure digital twins.",
+    evidence:
+      "Dr Han's verified academic profile records Associate Professor appointments, BIM centre leadership, smart construction roles and selected publications in BIM, digital twins and smart infrastructure.",
+    safeUse:
+      "Use as a bridge between institutional leadership evidence and research-led academic applications."
+  }
+];
+
+export const academicApplicationAngles = [
+  {
+    angle: "Research leadership",
+    text:
+      "The site demonstrates how Dr Han organized a research platform around coherent themes rather than presenting a loose list of services."
+  },
+  {
+    angle: "Impact and knowledge exchange",
+    text:
+      "Public project summaries show movement from research concepts to engineering validation, training and enterprise-facing collaboration."
+  },
+  {
+    angle: "Teaching and curriculum relevance",
+    text:
+      "BIM, digital twins, AIoT, sensing and sustainable construction themes align with UK/European modules in digital construction, construction informatics and infrastructure resilience."
+  },
+  {
+    angle: "Cautious credibility",
+    text:
+      "The English site keeps period labels, source boundaries and non-confidential wording so that claims help applications rather than creating avoidable risk."
+  }
+];

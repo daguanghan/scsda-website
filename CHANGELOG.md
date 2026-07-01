@@ -3,7 +3,7 @@
 ## 2026-07-01
 
 - Created Astro static website for the English SCSDA research-platform site.
-- Added core pages: Home, About, Leadership, Research, Projects, Outputs, Legacy and Contact.
+- Added core pages: Home, About, Leadership, Evidence, Research, Projects, Outputs, Legacy and Contact.
 - Added evidence-focused data model and cautious public wording.
 - Added selected public images from the preserved old Chinese website.
 - Added GitHub Pages deployment workflow and review-domain notes.
@@ -14,3 +14,5 @@
   and a custom 404 page.
 - Confirmed `https://scsda.cn/` as the preferred future English public entry
   point, with `/en/` retained as a compatibility path.
+- Added a reviewer-facing Evidence Map page to connect SCSDA source materials
+  with Dr Han's UK/European academic application narrative.

@@ -30,7 +30,7 @@ Check:
 - `https://ultraclaw.space`
 - `https://ultraclaw.space/en/`
 - `https://www.ultraclaw.space` if DNS or redirect is configured
-- Home, About, Leadership, Research, Projects, Outputs, Legacy, Contact
+- Home, About, Leadership, Evidence, Research, Projects, Outputs, Legacy, Contact
 - `/en/` equivalents of the same pages
 - HTTPS status
 - Mobile layout
@@ -50,7 +50,7 @@ Check:
 ## 2026-07-01 Path Alignment Update
 
 - Added `/en/` routes for the same English pages.
-- Static build now generates 16 pages: 8 root pages and 8 `/en/` pages.
+- Static build now generates 18 content pages: 9 root pages and 9 `/en/` pages.
 - This keeps a compatibility `/en/` path available while preserving
   `https://scsda.cn/` as the preferred future public entry point.
 

@@ -461,6 +461,50 @@ a:hover {
   gap: 1rem;
 }
 
+.evidence-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.evidence-card {
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.evidence-card h3 {
+  margin: 0 0 0.7rem;
+  color: var(--teal-dark);
+  font-size: 1.18rem;
+  line-height: 1.2;
+}
+
+.evidence-card p {
+  color: var(--ink-soft);
+}
+
+.evidence-card dl {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.1rem 0 0;
+}
+
+.evidence-card dt {
+  margin-bottom: 0.2rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.evidence-card dd {
+  margin: 0;
+  color: var(--muted);
+}
+
 .profile-links {
   display: flex;
   flex-wrap: wrap;
@@ -537,7 +581,8 @@ a:hover {
   .theme-grid,
   .case-grid,
   .output-grid,
-  .claim-grid {
+  .claim-grid,
+  .evidence-grid {
     grid-template-columns: 1fr;
   }
 }

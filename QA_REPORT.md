@@ -19,7 +19,7 @@ been changed.
 | Check | Result |
 |---|---|
 | Local `npm run build` | Pass |
-| Generated pages | 17, including `404.html`, `robots.txt` and `sitemap.xml` |
+| Generated pages | 19 HTML pages: 18 content pages plus `404.html`; `robots.txt` and `sitemap.xml` also generated |
 | GitHub Actions latest deployment | Success |
 | GitHub Pages custom domain | `ultraclaw.space` |
 | HTTPS | Enabled |
@@ -28,13 +28,14 @@ been changed.
 ## Live Page QA
 
 Browser-level QA was run against the live site after the first deployment and
-against local preview after the production metadata update.
+against local preview after the production metadata and Evidence Map updates.
 
 | URL | Status | Result |
 |---|---:|---|
 | `https://ultraclaw.space/` | 200 | Pass |
 | `https://ultraclaw.space/about/` | 200 | Pass |
 | `https://ultraclaw.space/leadership/` | 200 | Pass |
+| `https://ultraclaw.space/evidence/` | 200 | Pass |
 | `https://ultraclaw.space/research/` | 200 | Pass |
 | `https://ultraclaw.space/projects/` | 200 | Pass |
 | `https://ultraclaw.space/outputs/` | 200 | Pass |
@@ -43,6 +44,7 @@ against local preview after the production metadata update.
 | `https://ultraclaw.space/en/` | 200 | Pass |
 | `https://ultraclaw.space/en/about/` | 200 | Pass |
 | `https://ultraclaw.space/en/leadership/` | 200 | Pass |
+| `https://ultraclaw.space/en/evidence/` | 200 | Pass |
 | `https://ultraclaw.space/en/research/` | 200 | Pass |
 | `https://ultraclaw.space/en/projects/` | 200 | Pass |
 | `https://ultraclaw.space/en/outputs/` | 200 | Pass |
@@ -53,6 +55,9 @@ Additional browser QA:
 
 - Broken images: none detected.
 - Horizontal overflow: none detected.
+- Evidence page checked on desktop, tablet and mobile local preview.
+- `/en/` homepage hero links remain inside `/en/` paths, including
+  `/en/evidence/`.
 - Custom 404 route returns HTTP 404 and renders the SCSDA fallback page.
 - `robots.txt` and `sitemap.xml` are generated for the current review domain.
 - `https://www.ultraclaw.space/` redirects/serves the same site.
@@ -67,6 +72,8 @@ The site follows the agreed strategic positioning:
   promotional site.
 - It supports Dr Daguang Han's UK/European academic applications by evidencing
   his platform-building and founding executive leadership.
+- It includes a reviewer-facing Evidence page that maps source material to
+  safe academic-use interpretations.
 - It uses cautious language such as `principal responsible person` and
   `founding executive lead`.
 - It avoids government-official, public-security, military, confidential,

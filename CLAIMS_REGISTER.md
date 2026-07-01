@@ -16,6 +16,8 @@ This register maps public website wording to evidence status. Stronger claims sh
 | Public platform funding | public research-platform construction funding | Supported by implementation report | Avoid political or official-authority wording |
 | International expert engagement | international expert engagement | Supported by old website and user-confirmed context | Avoid implying official government authorization |
 | Enterprise-facing applied research | enterprise-facing applied research | Supported by implementation report project list | Do not publish confidential project details |
+| Reviewer-facing evidence map | evidence map for UK and European academic review | Derived from implementation report, preserved website and master academic archive | Interpretive page; keep source boundaries visible |
+| Dr Han's broader academic alignment | verified academic profile in BIM, digital twins and smart infrastructure | Supported by master archive and public profile links | Avoid unrefreshed citation metrics unless checked live |
 
 ## Wording To Avoid
 

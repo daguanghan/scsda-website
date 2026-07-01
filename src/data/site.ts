@@ -26,6 +26,7 @@ export const site = {
     { href: "/", label: "Home" },
     { href: "/about/", label: "About" },
     { href: "/leadership/", label: "Leadership" },
+    { href: "/evidence/", label: "Evidence" },
     { href: "/research/", label: "Research" },
     { href: "/projects/", label: "Projects" },
     { href: "/outputs/", label: "Outputs" },
@@ -80,6 +81,7 @@ export const safeClaims = [
 
 export const footerLinks = [
   { href: "/contact/", label: "Contact" },
+  { href: "/evidence/", label: "Evidence map" },
   { href: "/legacy/", label: "Legacy archive" },
   { href: "/outputs/", label: "Outputs" }
 ];
