@@ -159,7 +159,7 @@ export const evidenceMap = [
     whatItShows:
       "The Academy record can evidence grant-facing platform development, project structuring and accountable delivery, rather than only research-topic participation.",
     evidence:
-      "The implementation report identifies a Chongqing Science and Technology Bureau platform-construction project and lists Dr Daguang Han as the responsible person.",
+      "The implementation report identifies an externally supported platform-construction project and lists Dr Daguang Han as the responsible person.",
     safeUse:
       "Use as evidence of externally supported research-platform leadership; do not describe SCSDA as a government authority or official government website."
   },
