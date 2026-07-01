@@ -36,7 +36,7 @@ Check:
 - Mobile layout
 - Desktop layout
 - Images loading
-- Links to ORCID, Google Scholar and Southeast University profile
+- Links to ORCID, Google Scholar, Southeast University English profile and Southeast University Chinese profile
 
 ## 2026-07-01 Verification
 
