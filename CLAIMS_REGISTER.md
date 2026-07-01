@@ -50,7 +50,8 @@ This register maps public website wording to evidence status. Stronger claims sh
 
 ## Preferred Architecture
 
-- Main SCSDA English site: `scsda.cn`
+- Main SCSDA formal domain entry points: `scsda.cn` and `www.scsda.cn`
+- Preferred English academic-review citation path: `scsda.cn/en/`
 - Chinese or historical material: `scsda.cn/zh/` or `scsda.cn/legacy/`
 - Dr Han's full personal CV and academic profile: `daguanghan.com`
 - Temporary staging and review: `ultraclaw.space` until formal DNS cutover is approved

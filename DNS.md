@@ -25,8 +25,8 @@ Actual DNS must be verified in the domain registrar before any edit.
 Recommended final structure:
 
 ```text
-https://scsda.cn/         English academic-facing site
-https://scsda.cn/en/      compatibility path for English pages
+https://scsda.cn/         formal domain entry point
+https://scsda.cn/en/      canonical English academic-facing site
 https://scsda.cn/zh/      concise Chinese institutional page
 https://scsda.cn/legacy/  preserved historical Chinese archive
 ```
@@ -82,7 +82,8 @@ Expected impact:
 - `scsda.cn` and `www.scsda.cn` will stop serving the legacy IIS host and start
   serving the new GitHub Pages site after DNS propagation.
 - English content will be available both at the root path and under `/en/`;
-  the root path is the preferred public entry point for academic use.
+  `/en/` is the preferred citation path for academic use, while the root path
+  remains an easy formal-domain entry point.
 - GitHub Pages HTTPS certificate provisioning may take up to about an hour after
   the custom domain and DNS are accepted.
 - During propagation, some visitors may see the old site and others may see the

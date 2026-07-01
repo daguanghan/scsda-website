@@ -12,8 +12,9 @@
 - Enabled HTTPS for the review domain.
 - Added production metadata, favicon, `robots.txt`, `sitemap.xml`, `.nojekyll`
   and a custom 404 page.
-- Confirmed `https://scsda.cn/` as the preferred future English public entry
-  point, with `/en/` retained as a compatibility path.
+- Confirmed `https://scsda.cn/en/` as the preferred future English citation
+  path for academic-review materials, with root formal-domain paths retained as
+  easy entry points.
 - Added a reviewer-facing Evidence Map page to connect SCSDA source materials
   with Dr Han's UK/European academic application narrative.
 - Added `REVIEW_GUIDE.md` for staging-site acceptance checks before formal

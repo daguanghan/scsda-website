@@ -51,8 +51,10 @@ Check:
 
 - Added `/en/` routes for the same English pages.
 - Static build now generates 18 content pages: 9 root pages and 9 `/en/` pages.
-- This keeps a compatibility `/en/` path available while preserving
-  `https://scsda.cn/` as the preferred future public entry point.
+- This keeps root English pages and `/en/` pages in parallel. After user
+  review, the formal domains should remain easy entry points, while
+  `https://scsda.cn/en/` should be the preferred English citation path for
+  academic-review materials.
 
 ## Future Production Target
 

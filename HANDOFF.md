@@ -114,7 +114,7 @@ https://scsda.cn/
 https://www.scsda.cn/
 ```
 
-Compatibility paths retained after cutover:
+Preferred English citation paths retained after cutover:
 
 ```text
 https://scsda.cn/en/

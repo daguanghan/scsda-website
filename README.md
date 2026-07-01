@@ -93,12 +93,13 @@ https://ultraclaw.space
 The intended future canonical English entry point is:
 
 ```text
-https://scsda.cn/
+https://scsda.cn/en/
 ```
 
 The same English content is available from both root paths and `/en/` paths on
-the review deployment. The root path is the preferred public entry point, while
-`/en/` remains available as a compatibility path before DNS cutover.
+the review deployment. The formal domains `scsda.cn` and `www.scsda.cn` should
+remain easy entry points after cutover, while `/en/` is the preferred English
+citation path for UK and European academic-review materials.
 
 GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYMENT.md`.
 

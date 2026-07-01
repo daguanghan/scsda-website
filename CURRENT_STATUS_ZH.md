@@ -50,7 +50,7 @@ SCSDA 是英文机构型研究平台网站。
 - 已用 GitHub 仓库管理源码和发布记录。
 - 已发布到 `https://ultraclaw.space/` 供审阅。
 - 已建立英文首页、About、Leadership、Evidence、Research、Projects、Outputs、Legacy、Contact 页面。
-- 已保留 `/en/` 兼容路径。
+- 已保留 `/en/` 英文路径，并将其作为未来英国/欧洲教职申请材料中更清晰的英文引用路径。
 - 已使用旧中文网站的公开材料、照片和研究院实施报告内容进行重构。
 - 已加入 Impeccable 和 Taste Skill 的设计上下文与反模板检查。
 - 已加入 `CLAIMS_REGISTER.md`，约束强表述和风险表述。
