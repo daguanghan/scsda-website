@@ -44,3 +44,5 @@
   against the user objective before any formal-domain cutover.
 - Added `npm run review:staging` for read-only staging content and viewport
   acceptance checks before formal-domain approval.
+- Added `LAUNCH_DECISION_PACKET.md` to give the user a short approve, delay or
+  rollback packet before any `scsda.cn` DNS cutover.

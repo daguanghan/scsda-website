@@ -284,6 +284,7 @@ Staging review checklist:
 
 ```text
 REVIEW_GUIDE.md
+LAUNCH_DECISION_PACKET.md
 COMPLETION_AUDIT.md
 ```
 

@@ -84,6 +84,9 @@ Before approving the formal `scsda.cn` move, review the staging site against
 For the current approval packet before formal DNS cutover, see
 `STAGING_SIGNOFF.md`.
 
+For the short approve, delay or rollback decision packet, see
+`LAUNCH_DECISION_PACKET.md`.
+
 For the current operational handoff, see `HANDOFF.md`.
 
 For a requirement-by-requirement completion audit against the current objective,
