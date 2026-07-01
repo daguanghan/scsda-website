@@ -24,3 +24,5 @@
   checks before any formal domain move.
 - Updated the GitHub Pages deployment workflow to current GitHub Actions
   versions after a successful staging deployment check.
+- Refreshed `QA_REPORT.md` with live desktop/tablet/mobile visual QA results
+  and current staging-site acceptance notes.

@@ -8,6 +8,8 @@ Review site: `https://ultraclaw.space/`
 
 Latest checked branch: `main`
 
+Latest checked commit: `8a81460`
+
 ## Summary
 
 The SCSDA English review site is built, deployed and available on GitHub Pages.
@@ -29,6 +31,8 @@ been changed.
 
 Browser-level QA was run against the live site after the first deployment and
 against local preview after the production metadata and Evidence Map updates.
+A further live visual QA pass was run after the Evidence/Leadership positioning
+updates and GitHub Pages workflow maintenance.
 
 | URL | Status | Result |
 |---|---:|---|
@@ -56,6 +60,11 @@ Additional browser QA:
 - Broken images: none detected.
 - Horizontal overflow: none detected.
 - Evidence page checked on desktop, tablet and mobile local preview.
+- Current live visual QA checked 10 key pages across desktop, tablet and mobile
+  viewports: Home, About, Leadership, Evidence, Research, Projects, Outputs,
+  Contact, `/en/` and `/en/evidence/`.
+- Current live visual QA confirmed visible navigation, non-empty page titles,
+  strategic positioning text, and risk-boundary language on checked pages.
 - `/en/` homepage hero links remain inside `/en/` paths, including
   `/en/evidence/`.
 - Custom 404 route returns HTTP 404 and renders the SCSDA fallback page.
@@ -78,8 +87,35 @@ The site follows the agreed strategic positioning:
   `founding executive lead`.
 - It avoids government-official, public-security, military, confidential,
   surveillance and over-claiming language.
+- It explicitly presents `scsda.cn` as an institutional research-platform site
+  with a Dr Han evidence layer, rather than as a personal-only digital
+  construction portfolio.
+- It uses `externally supported platform-construction project` wording for
+  platform funding/delivery evidence to reduce government-backdrop ambiguity.
 - Legacy Chinese-site material is reused selectively as public historical
   evidence, not translated wholesale.
+
+## Design QA Notes
+
+The current design has been checked with a live browser on desktop, tablet and
+mobile. The observed visual direction is suitable for an academic and
+institutional evidence site:
+
+- The first screen strongly signals SCSDA and uses preserved public research
+  imagery rather than a stock-like hero.
+- The palette is restrained and professional, with academic green/teal, white,
+  ink text and amber accents rather than a single-hue or decorative gradient
+  treatment.
+- Cards are used for repeated evidence items and project summaries, not as
+  nested page-section decoration.
+- Mobile navigation wraps cleanly without horizontal scrolling.
+- The Evidence page remains readable on mobile and foregrounds the reviewer
+  route before detailed evidence cards.
+
+Requested exact local skills named `impeccable` and `taste` were not available
+as standalone installed skills in this environment. The practical substitute
+used for this QA pass was the available design-review workflow plus live
+browser checks against the staging site.
 
 ## Current Formal Domain State
 
