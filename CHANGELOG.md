@@ -72,3 +72,6 @@
   the Projects page from locally preserved SCSDA-related product material.
 - Ignored local Firecrawl cache and uncommitted source-extraction folders so
   public deployment includes only reviewed web assets.
+- Updated Dr Han's Southeast University links to use the English profile as
+  the primary public link and the Chinese profile as a detailed supplementary
+  link.

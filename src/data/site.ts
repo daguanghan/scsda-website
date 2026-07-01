@@ -42,7 +42,11 @@ export const site = {
       href: "https://scholar.google.com/citations?user=oKGc4VYAAAAJ"
     },
     {
-      label: "Southeast University profile",
+      label: "Southeast University English profile",
+      href: "https://civil.seu.edu.cn/hdg_en/list.htm"
+    },
+    {
+      label: "Southeast University Chinese profile",
       href: "https://civil.seu.edu.cn/hdg/list.htm"
     }
   ]
