@@ -26,3 +26,5 @@
   versions after a successful staging deployment check.
 - Refreshed `QA_REPORT.md` with live desktop/tablet/mobile visual QA results
   and current staging-site acceptance notes.
+- Added `STAGING_SIGNOFF.md` as the user-facing approval packet before any
+  formal `scsda.cn` DNS cutover.

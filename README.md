@@ -61,6 +61,9 @@ GitHub Actions builds and deploys the site from the `main` branch. See `DEPLOYME
 Before approving the formal `scsda.cn` move, review the staging site against
 `REVIEW_GUIDE.md`.
 
+For the current approval packet before formal DNS cutover, see
+`STAGING_SIGNOFF.md`.
+
 For the current operational handoff, see `HANDOFF.md`.
 
 ## Rollback
