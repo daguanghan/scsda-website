@@ -137,6 +137,15 @@ export const evidenceNotes = [
 
 export const evidenceMap = [
   {
+    capability: "Institution-first public positioning",
+    whatItShows:
+      "The strongest public framing is an SCSDA institutional website with a clear evidence layer for Dr Han's role, not a personal-only promotional page.",
+    evidence:
+      "The domain, preserved Chinese site and implementation report all centre on the Academy as a nonprofit applied research organization.",
+    safeUse:
+      "Use the site as institutional evidence that supports Dr Han's academic case while keeping his personal CV and broader academic profile on separate channels."
+  },
+  {
     capability: "Founding and executive platform leadership",
     whatItShows:
       "Dr Han was not only producing individual research outputs; he coordinated a nonprofit applied research platform during its 2019-2023 construction period.",
@@ -144,6 +153,15 @@ export const evidenceMap = [
       "Implementation report lists Dr Daguang Han as the responsible person and records the Academy's platform-construction scope.",
     safeUse:
       "Use as evidence of platform building, strategic planning, research coordination and applied research leadership."
+  },
+  {
+    capability: "Externally supported platform-construction delivery",
+    whatItShows:
+      "The Academy record can evidence grant-facing platform development, project structuring and accountable delivery, rather than only research-topic participation.",
+    evidence:
+      "The implementation report identifies a Chongqing Science and Technology Bureau platform-construction project and lists Dr Daguang Han as the responsible person.",
+    safeUse:
+      "Use as evidence of externally supported research-platform leadership; do not describe SCSDA as a government authority or official government website."
   },
   {
     capability: "Research-centre architecture",
@@ -178,7 +196,7 @@ export const academicApplicationAngles = [
   {
     angle: "Research leadership",
     text:
-      "The site demonstrates how Dr Han organized a research platform around coherent themes rather than presenting a loose list of services."
+      "The site demonstrates how Dr Han organized a research platform around coherent themes rather than presenting a loose list of services or a personal-only profile."
   },
   {
     angle: "Impact and knowledge exchange",

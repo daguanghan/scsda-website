@@ -73,6 +73,7 @@ export const platformMetrics = [
 ];
 
 export const safeClaims = [
+  "Institutional research-platform website, not a personal-only profile",
   "Public-facing and non-confidential research summaries",
   "Nonprofit applied research organization",
   "Platform-construction evidence for smart cities and sustainable infrastructure",

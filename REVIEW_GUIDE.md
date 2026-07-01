@@ -25,6 +25,15 @@ Daguang Han's UK and European academic applications by evidencing:
 - sustainable cities and applied knowledge-exchange relevance;
 - cautious, non-confidential and source-bounded public claims.
 
+Preferred framing:
+
+- `scsda.cn` should be the Academy's English institutional website.
+- Dr Han's role should be visible as an evidence-backed leadership layer inside
+  the institutional record.
+- The site should not become a personal-only digital construction portfolio;
+  that material belongs primarily on `daguanghan.com`, with cross-links where
+  appropriate.
+
 ## Pages To Review
 
 Core pages:
@@ -58,6 +67,8 @@ Approve the site only if the following are true:
 - The site clearly explains why SCSDA matters for Dr Han's academic case without
   becoming a personal-only site.
 - The Evidence page makes the source-to-capability chain clear.
+- The Evidence page makes clear why the site is institution-first rather than a
+  personal-only ability page.
 - The Leadership page uses cautious wording: `principal responsible person` and
   `founding executive lead`.
 - Research themes align with UK/European academic roles in digital
@@ -102,4 +113,3 @@ If the staging site is acceptable and the formal domain should be moved, use:
 Before any DNS edit, current records and planned replacement records must be
 shown again. The cutover procedure is documented in `DNS.md` and
 `CUTOVER_CHECKLIST.md`.
-

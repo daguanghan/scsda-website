@@ -4,6 +4,7 @@ This register maps public website wording to evidence status. Stronger claims sh
 
 | Claim | Public wording | Evidence status | Notes |
 |---|---|---|---|
+| Best site positioning | SCSDA is an institutional research-platform website with a Dr Han evidence layer | Derived from domain identity, preserved website and implementation report | Safer than a personal-only promotional site |
 | SCSDA was established in 2019 | SCSDA was established in Chongqing in 2019 | Supported by implementation report and legacy website | Safe for public use |
 | SCSDA is nonprofit | nonprofit applied research organization | Supported by implementation report wording | Add registration evidence when available |
 | Dr Han led the project | principal responsible person | Strong, implementation report lists Dr Daguang Han as responsible person | Safe for public use |
@@ -14,6 +15,7 @@ This register maps public website wording to evidence status. Stronger claims sh
 | 49 IP outputs | 49 IP outputs reported in the implementation report | Supported by implementation report | Period-label required |
 | 61 papers | 61 papers reported in the implementation report | Supported by implementation report | Period-label required |
 | Public platform funding | public research-platform construction funding | Supported by implementation report | Avoid political or official-authority wording |
+| Externally supported platform delivery | externally supported research-platform delivery | Supported by implementation report project source and responsible-person field | Do not describe as government appointment, government role or official authority |
 | International expert engagement | international expert engagement | Supported by old website and user-confirmed context | Avoid implying official government authorization |
 | Enterprise-facing applied research | enterprise-facing applied research | Supported by implementation report project list | Do not publish confidential project details |
 | Reviewer-facing evidence map | evidence map for UK and European academic review | Derived from implementation report, preserved website and master academic archive | Interpretive page; keep source boundaries visible |
@@ -31,3 +33,10 @@ This register maps public website wording to evidence status. Stronger claims sh
 - confidential technology
 - technology transfer to China
 - all work was solely completed by one person
+
+## Preferred Architecture
+
+- Main SCSDA English site: `scsda.cn`
+- Chinese or historical material: `scsda.cn/zh/` or `scsda.cn/legacy/`
+- Dr Han's full personal CV and academic profile: `daguanghan.com`
+- Temporary staging and review: `ultraclaw.space` until formal DNS cutover is approved
