@@ -15,6 +15,7 @@ Do not execute this checklist until the user explicitly says:
 - [ ] Confirm user has reviewed `REVIEW_GUIDE.md` acceptance and rejection criteria.
 - [ ] Confirm latest GitHub Actions deployment is successful.
 - [ ] Confirm local `npm run build` passes.
+- [ ] Run `npm run audit:precutover` and save the output.
 - [ ] Confirm `git status` is clean.
 - [ ] Re-check current DNS records in GNAME before editing.
 - [ ] Record screenshots or exported DNS table before making changes.

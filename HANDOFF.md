@@ -195,6 +195,16 @@ Security audit for production dependencies:
 npm audit --omit=dev --audit-level=moderate
 ```
 
+Read-only pre-cutover audit:
+
+```bash
+npm run audit:precutover
+```
+
+This command checks the staging URLs, records the current `scsda.cn` DNS
+snapshot, prints the planned GitHub Pages DNS records, and repeats the explicit
+manual approval gate. It does not change DNS or GitHub settings.
+
 ## Content Structure
 
 Primary data files:
@@ -261,6 +271,7 @@ DNS.md
 npm run build
 npm run check
 npm audit --omit=dev --audit-level=moderate
+npm run audit:precutover
 ```
 
 6. Review locally with `npm run preview` when the change affects layout.
@@ -318,4 +329,3 @@ Avoid:
   optimized for international academic review and stable overseas access.
 - The old Chinese ICP/hosting context should not be treated as the main strategy
   for this English academic-facing site.
-

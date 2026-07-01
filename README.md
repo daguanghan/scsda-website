@@ -17,6 +17,12 @@ Build the static site:
 npm run build
 ```
 
+Run the read-only pre-cutover audit:
+
+```bash
+npm run audit:precutover
+```
+
 Preview the built site:
 
 ```bash

@@ -20,3 +20,5 @@
   `scsda.cn` cutover.
 - Added `HANDOFF.md` with repository, deployment, DNS, content-update, rollback
   and cutover operating notes.
+- Added `npm run audit:precutover` for read-only staging, DNS and cutover-gate
+  checks before any formal domain move.
