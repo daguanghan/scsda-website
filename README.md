@@ -23,6 +23,12 @@ Run the read-only pre-cutover audit:
 npm run audit:precutover
 ```
 
+Run the read-only staging review:
+
+```bash
+npm run review:staging
+```
+
 After the formal `scsda.cn` DNS cutover has been approved and applied, run the
 read-only production verification:
 

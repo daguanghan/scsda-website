@@ -8,6 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "review:staging": "node scripts/review-staging.mjs",
     "audit:precutover": "node scripts/precutover-audit.mjs",
     "verify:production": "node scripts/verify-production.mjs"
   },

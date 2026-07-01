@@ -205,6 +205,17 @@ This command checks the staging URLs, records the current `scsda.cn` DNS
 snapshot, prints the planned GitHub Pages DNS records, and repeats the explicit
 manual approval gate. It does not change DNS or GitHub settings.
 
+Read-only staging review:
+
+```bash
+npm run review:staging
+```
+
+This command checks all core staging pages, selected key acceptance strings,
+the `/en/` compatibility paths, sensitive positive-claim traps, and optional
+Playwright desktop/mobile viewport overflow. It does not change DNS or GitHub
+settings.
+
 Read-only production verification after formal DNS cutover:
 
 ```bash

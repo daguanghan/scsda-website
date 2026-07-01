@@ -42,3 +42,5 @@
   `CLAIMS_REGISTER.md`.
 - Added `COMPLETION_AUDIT.md` to map the repository and staging deployment
   against the user objective before any formal-domain cutover.
+- Added `npm run review:staging` for read-only staging content and viewport
+  acceptance checks before formal-domain approval.

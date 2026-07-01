@@ -58,6 +58,18 @@ Technical discovery files:
 - `https://ultraclaw.space/robots.txt`
 - `https://ultraclaw.space/sitemap.xml`
 
+## Automated Staging Review
+
+Run this read-only command before approving formal DNS cutover:
+
+```bash
+npm run review:staging
+```
+
+It checks the core staging pages, key acceptance text, the `/en/`
+compatibility paths, sensitive positive-claim traps, and, when Playwright is
+available locally, desktop/mobile viewport overflow.
+
 ## Content Acceptance Criteria
 
 Approve the site only if the following are true:

@@ -76,6 +76,7 @@ Latest local checks:
 ```text
 npm run check              PASS
 npm run build              PASS
+npm run review:staging     PASS
 npm run audit:precutover   PASS
 Impeccable detector        PASS after removing flagged visual tells
 ```
