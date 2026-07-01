@@ -22,3 +22,5 @@
   and cutover operating notes.
 - Added `npm run audit:precutover` for read-only staging, DNS and cutover-gate
   checks before any formal domain move.
+- Updated the GitHub Pages deployment workflow to current GitHub Actions
+  versions after a successful staging deployment check.
