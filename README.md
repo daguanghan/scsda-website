@@ -23,6 +23,13 @@ Run the read-only pre-cutover audit:
 npm run audit:precutover
 ```
 
+After the formal `scsda.cn` DNS cutover has been approved and applied, run the
+read-only production verification:
+
+```bash
+npm run verify:production
+```
+
 Preview the built site:
 
 ```bash
@@ -37,6 +44,13 @@ npm run preview
 - Do not publish sensitive, confidential, military, public-security or government-decision material.
 - Period-label metrics from the implementation report, for example `reported for the 2019-2023 platform-construction period`.
 - Do not publish phone numbers.
+
+## Design Context
+
+- `PRODUCT.md` defines the institution-first product strategy.
+- `DESIGN.md` defines the visual system, tokens and anti-pattern rules.
+- `DESIGN_SKILLS.md` records the Impeccable and Taste Skill setup used for the
+  current refinement pass.
 
 ## Deployment
 

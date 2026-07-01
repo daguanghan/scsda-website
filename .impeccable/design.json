@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-01T00:00:00.000Z",
+  "title": "Design System: Smart Cities and Sustainable Development Academy",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#122124",
+        "tonalRamp": ["#081012", "#122124", "#25383c", "#405054", "#667579", "#9caaa9", "#d8e0df", "#f7f6f2"]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Institutional Teal",
+        "canonical": "#0e6d6b",
+        "tonalRamp": ["#042526", "#084f50", "#0e6d6b", "#238b87", "#5bb2ad", "#9bd3cf", "#cce8e5", "#edf3f1"]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Academic Gold",
+        "canonical": "#b7822b",
+        "tonalRamp": ["#2b1c08", "#5a3c10", "#8d641e", "#b7822b", "#d4a354", "#e7c287", "#f1dcba", "#f8ead4"]
+      },
+      "hero-base": {
+        "role": "neutral",
+        "displayName": "Hero Base",
+        "canonical": "#0d272d",
+        "tonalRamp": ["#050d0f", "#0d272d", "#173b43", "#31535b", "#60747a", "#96a7aa", "#c9d3d2", "#edf3f1"]
+      },
+      "button-ink": {
+        "role": "neutral",
+        "displayName": "Button Ink",
+        "canonical": "#17120a",
+        "tonalRamp": ["#0c0905", "#17120a", "#302614", "#5c4823", "#8f743d", "#bda36d", "#e0d1a9", "#f8ead4"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Serif Display",
+        "purpose": "Hero and page titles only."
+      },
+      "body": {
+        "displayName": "Readable Institutional Sans",
+        "purpose": "Long-form evidence and navigation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "Image Panel Shadow",
+        "value": "0 24px 70px rgba(18, 33, 36, 0.12)",
+        "purpose": "Separate large research visuals from the page surface."
+      }
+    ],
+    "motion": [
+      {
+        "name": "Restrained State Motion",
+        "value": "150-300ms ease-out",
+        "purpose": "Interactive feedback only; evidence comprehension must not depend on motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-wrap",
+        "value": "900px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "560px"
+      }
+    ],
+    "components": [
+      {
+        "name": "Primary Button",
+        "kind": "button",
+        "refersTo": "button-primary",
+        "description": "Gold institutional CTA for the most important evidence path.",
+        "html": "<a class=\"ds-button-primary\" href=\"#\">Evidence map</a>",
+        "css": ".ds-button-primary { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:.72rem 1rem; border:1px solid #b7822b; border-radius:8px; background:#b7822b; color:#17120a; font-family:Aptos, 'Avenir Next', 'Segoe UI', sans-serif; font-weight:700; text-decoration:none; } .ds-button-primary:hover { background:#a37325; border-color:#a37325; } .ds-button-primary:focus-visible { outline:3px solid #0e6d6b; outline-offset:3px; }"
+      },
+      {
+        "name": "Evidence Card",
+        "kind": "card",
+        "refersTo": "card",
+        "description": "Flat bordered evidence container with restrained institutional spacing.",
+        "html": "<article class=\"ds-evidence-card\"><h3>Platform leadership</h3><p>Source-bounded public evidence for academic review.</p></article>",
+        "css": ".ds-evidence-card { padding:1.35rem; border:1px solid #d8e0df; border-radius:8px; background:#ffffff; color:#122124; font-family:Aptos, 'Avenir Next', 'Segoe UI', sans-serif; } .ds-evidence-card h3 { margin:0 0 .65rem; color:#084f50; font-size:1.18rem; line-height:1.2; } .ds-evidence-card p { margin:0; color:#405054; line-height:1.6; }"
+      },
+      {
+        "name": "Evidence Callout",
+        "kind": "custom",
+        "refersTo": "callout",
+        "description": "Softly tinted claim boundary without side-stripe decoration.",
+        "html": "<div class=\"ds-callout\">Use cautious, source-bounded wording for public academic review.</div>",
+        "css": ".ds-callout { padding:1.25rem; border:1px solid rgba(14,109,107,.22); border-radius:0; background:#edf3f1; color:#405054; font-family:Aptos, 'Avenir Next', 'Segoe UI', sans-serif; line-height:1.6; }"
+      }
+    ],
+    "narrative": {
+      "northStar": "The Evidence Ledger",
+      "overview": "A carefully maintained institutional record: calm, legible and serious, with enough editorial presence to support an international academic audience.",
+      "keyCharacteristics": [
+        "Evidence-led institutional tone",
+        "Light pages with teal and gold accents used sparingly",
+        "Serif headings for authority and sans body text for scanning",
+        "Simple 8px radii",
+        "Real research imagery rather than fake screenshots"
+      ],
+      "rules": [
+        {
+          "name": "The Caution Rule",
+          "body": "Teal and gold mark evidence hierarchy. They do not create decorative gradients, glows or attention effects.",
+          "section": "colors"
+        },
+        {
+          "name": "The Flat Evidence Rule",
+          "body": "Evidence cards stay flat. If every item has a shadow, none of the evidence feels more credible.",
+          "section": "elevation"
+        }
+      ],
+      "dos": [
+        "Do keep SCSDA institution-first, with Dr Han's role evidenced inside the institution.",
+        "Do use preserved public visuals and source-bounded wording.",
+        "Do keep typography calm and readable."
+      ],
+      "donts": [
+        "Don't make the site look like a generic AI-generated SaaS landing page.",
+        "Don't use purple-blue gradients, glassmorphism, fake dashboards or nested card layouts.",
+        "Don't imply government authority, official authorization, confidential access or public-security work."
+      ]
+    }
+  }
+}

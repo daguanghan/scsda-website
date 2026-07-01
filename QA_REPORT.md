@@ -117,11 +117,13 @@ institutional evidence site:
 - Mobile navigation wraps cleanly without horizontal scrolling.
 - The Evidence page remains readable on mobile and foregrounds the reviewer
   route before detailed evidence cards.
-
-Requested exact local skills named `impeccable` and `taste` were not available
-as standalone installed skills in this environment. The practical substitute
-used for this QA pass was the available design-review workflow plus live
-browser checks against the staging site.
+- Requested design skills were installed locally for the current refinement
+  pass: Impeccable (`pbakaus/impeccable`) and Taste Skill
+  (`Leonxlnx/taste-skill`, `design-taste-frontend`).
+- Impeccable detector findings were addressed by replacing the default `Inter`
+  stack and removing the thick left-stripe callout pattern.
+- `PRODUCT.md`, `DESIGN.md`, `DESIGN_SKILLS.md` and `.impeccable/design.json`
+  now preserve the design strategy for future site updates.
 
 ## Current Formal Domain State
 

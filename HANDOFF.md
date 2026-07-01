@@ -205,6 +205,29 @@ This command checks the staging URLs, records the current `scsda.cn` DNS
 snapshot, prints the planned GitHub Pages DNS records, and repeats the explicit
 manual approval gate. It does not change DNS or GitHub settings.
 
+Read-only production verification after formal DNS cutover:
+
+```bash
+npm run verify:production
+```
+
+This command checks `scsda.cn` and `www.scsda.cn` DNS, HTTPS URLs and key page
+content after the user-approved DNS move. Before cutover, it is expected to
+fail because the formal domain still points to the legacy host.
+
+Design context and skill notes:
+
+```text
+PRODUCT.md
+DESIGN.md
+DESIGN_SKILLS.md
+.impeccable/design.json
+```
+
+The requested Impeccable and Taste Skill sources were installed locally for the
+refinement pass. The downloaded third-party skill source files are ignored by
+Git; reinstall commands are recorded in `DESIGN_SKILLS.md`.
+
 ## Content Structure
 
 Primary data files:

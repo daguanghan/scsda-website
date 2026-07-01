@@ -77,6 +77,7 @@ Latest local checks:
 npm run check              PASS
 npm run build              PASS
 npm run audit:precutover   PASS
+Impeccable detector        PASS after removing flagged visual tells
 ```
 
 Latest live checks:
@@ -133,6 +134,8 @@ Expected impact:
 - The staging domain `ultraclaw.space` may need to be removed from this GitHub
   Pages repository because GitHub Pages generally supports one primary custom
   domain per repository.
+- After cutover, run `npm run verify:production` to confirm DNS, HTTPS and key
+  page content on both `scsda.cn` and `www.scsda.cn`.
 
 ## Rollback
 

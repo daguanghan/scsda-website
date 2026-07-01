@@ -30,3 +30,10 @@
   formal `scsda.cn` DNS cutover.
 - Replaced fixed commit references in QA and signoff documents with the
   read-only pre-cutover audit command to avoid stale approval metadata.
+- Installed and applied Impeccable plus Taste Skill locally for design QA.
+- Added `PRODUCT.md`, `DESIGN.md`, `DESIGN_SKILLS.md` and Impeccable design
+  context for future institution-first site updates.
+- Removed detected design tells: default `Inter` stack and thick left-stripe
+  callout styling.
+- Added `npm run verify:production` for read-only post-cutover verification of
+  `scsda.cn` and `www.scsda.cn`.

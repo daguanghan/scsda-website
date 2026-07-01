@@ -70,6 +70,12 @@ curl -I https://scsda.cn/
 curl -I https://www.scsda.cn/
 ```
 
+Run the full read-only production verifier:
+
+```bash
+npm run verify:production
+```
+
 Browser-check:
 
 - [ ] `https://scsda.cn/`
