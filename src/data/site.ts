@@ -8,7 +8,7 @@ export const site = {
     "SCSDA is a nonprofit applied research academy established in Chongqing in 2019, focused on smart cities, digital built environments, smart infrastructure, sensing technologies, and sustainable urban systems.",
   reviewDomain: "https://ultraclaw.space",
   canonicalFutureDomain: "https://scsda.cn/en/",
-  defaultImage: "/images/research-exhibition.jpg",
+  defaultImage: "/images/reality-capture-site.jpg",
   keywords: [
     "smart cities",
     "sustainable development",

@@ -47,6 +47,12 @@ Run the local claims guard before publishing sensitive wording changes:
 npm run claims:guard
 ```
 
+Run the visual asset guard before publishing page-image changes:
+
+```bash
+npm run visual:assets
+```
+
 Capture visual review screenshots for the staging site:
 
 ```bash
@@ -75,6 +81,10 @@ npm run preview
 - Do not publish sensitive, confidential, military, public-security or government-decision material.
 - Period-label metrics from the implementation report, for example `reported for the 2019-2023 platform-construction period`.
 - Do not publish phone numbers.
+- Use each content image intentionally and only once across public content.
+- Do not use reception, government-visit or signing-event photographs as public
+  evidence visuals for the English site; prefer technical platform, system,
+  equipment, dashboard and project images.
 
 ## Design Context
 

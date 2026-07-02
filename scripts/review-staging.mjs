@@ -105,6 +105,13 @@ const FORBIDDEN_POSITIVE_CLAIMS = [
   "From researcher to research-platform builder"
 ];
 
+const FORBIDDEN_IMAGE_PATHS = [
+  "/images/academy-launch.jpg",
+  "/images/research-space.jpg",
+  "/images/research-exhibition.jpg",
+  "/images/lab-engagement.jpg"
+];
+
 const VIEWPORT_CHECKS = [
   { name: "desktop-home", path: "/", width: 1440, height: 1000 },
   { name: "mobile-home", path: "/", width: 390, height: 1000 },
@@ -147,6 +154,10 @@ function findForbiddenPositiveClaims(text) {
   return FORBIDDEN_POSITIVE_CLAIMS.filter((claim) => normalized.includes(claim.toLowerCase()));
 }
 
+function findForbiddenImagePaths(text) {
+  return FORBIDDEN_IMAGE_PATHS.filter((imagePath) => text.includes(imagePath));
+}
+
 async function runPageChecks() {
   printSection("HTTP and content checks");
   const results = [];
@@ -158,8 +169,14 @@ async function runPageChecks() {
       normalizedText.includes(needle.toLowerCase())
     );
     const forbidden = findForbiddenPositiveClaims(result.text);
-    const ok = result.ok && missing.length === 0 && unexpected.length === 0 && forbidden.length === 0;
-    results.push({ ...result, missing, unexpected, forbidden, ok });
+    const forbiddenImages = findForbiddenImagePaths(result.text);
+    const ok =
+      result.ok &&
+      missing.length === 0 &&
+      unexpected.length === 0 &&
+      forbidden.length === 0 &&
+      forbiddenImages.length === 0;
+    results.push({ ...result, missing, unexpected, forbidden, forbiddenImages, ok });
     const marker = ok ? "PASS" : "FAIL";
     console.log(`${marker} ${result.status} ${result.url} ${result.contentType}`);
     if (missing.length > 0) {
@@ -170,6 +187,9 @@ async function runPageChecks() {
     }
     if (forbidden.length > 0) {
       console.log(`  forbidden positive claim: ${forbidden.join(" | ")}`);
+    }
+    if (forbiddenImages.length > 0) {
+      console.log(`  forbidden image path: ${forbiddenImages.join(" | ")}`);
     }
   }
   return results;

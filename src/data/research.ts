@@ -142,7 +142,7 @@ export const caseStudies = [
   {
     title: "SCSDA Platform Construction, 2019-2023",
     category: "Research platform",
-    image: "/images/research-exhibition.jpg",
+    image: "/images/digital-projects.png",
     summary:
       "A nonprofit applied research academy developed around smart cities, sustainable development, international collaboration, and industry-facing research.",
     highlights: [
@@ -166,7 +166,7 @@ export const caseStudies = [
   {
     title: "Reality Capture and Engineering Assessment",
     category: "Scanning and monitoring",
-    image: "/images/reality-capture-site.jpg",
+    image: "/images/air-corridor-bim.png",
     summary:
       "Applied work using field scanning, digital measurement, and model comparison for construction quality and asset assessment.",
     highlights: [
@@ -190,7 +190,7 @@ export const caseStudies = [
   {
     title: "MEMS Sensing and AIoT Applications",
     category: "Sensing technologies",
-    image: "/images/research-exhibition.jpg",
+    image: "/images/platform-bridge-bim.png",
     summary:
       "A sensing-focused stream covering MEMS devices, sensing modules, AIoT integration, and reliability-oriented validation.",
     highlights: [

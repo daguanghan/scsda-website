@@ -2,8 +2,12 @@
 
 ## 2026-07-02
 
-- Replaced the homepage hero image with `research-exhibition.jpg` and moved the
-  launch/signing image into the About page as a platform-history record.
+- Replaced reception, visitor-tour and signing-event visuals with technical,
+  platform and project-oriented presentation.
+- Added `npm run visual:assets` to block banned public visuals and duplicate
+  content-image references before publication.
+- Replaced the homepage hero image with `reality-capture-site.jpg` and removed
+  launch/signing and reception images from public page presentation.
 - Added homepage public-material highlights using preserved SCSDA research,
   product/prototype, and interview media assets.
 - Updated the public contact address to `info@scsda.cn` and recorded the

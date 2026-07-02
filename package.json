@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "claims:guard": "node scripts/check-claims-guard.mjs",
+    "visual:assets": "node scripts/check-visual-assets.mjs",
     "health:staging": "node scripts/check-staging-health.mjs",
     "screenshots:staging": "node scripts/capture-staging-screenshots.mjs",
     "review:staging": "node scripts/review-staging.mjs",

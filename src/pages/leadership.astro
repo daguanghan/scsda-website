@@ -9,31 +9,19 @@ import { leadershipNetwork, leadershipResponsibilities } from "@data/research";
   description="SCSDA was initiated and led by Dr Daguang Han during its platform-construction period, with responsibilities across strategic planning, research-centre development, collaboration, and applied project delivery."
 >
   <section class="section">
-    <div class="shell split reverse">
-      <figure class="image-panel">
-        <img
-          src="/images/lab-engagement.jpg"
-          alt="Public visual record of SCSDA research engagement"
-        />
-        <figcaption class="image-caption">
-          Public SCSDA visual record of research engagement and laboratory work.
-        </figcaption>
-      </figure>
-      <div class="article">
-        <p class="eyebrow">Founding Leadership</p>
-        <h2>Dr Daguang Han's role in building SCSDA.</h2>
-        <p>
-          SCSDA was initiated and led by Dr Daguang Han during the Academy's
-          platform-construction period. His role covered institutional
-          planning, research-centre development, international academic links,
-          enterprise engagement, and the delivery of applied research projects.
-        </p>
-        <p>
-          During this period, Dr Han served as founder, founding president,
-          board chair, and executive lead for the Academy's early research
-          platform.
-        </p>
-      </div>
+    <div class="shell article narrow">
+      <p class="eyebrow">Founding Leadership</p>
+      <h2>Dr Daguang Han's role in building SCSDA.</h2>
+      <p>
+        SCSDA was initiated and led by Dr Daguang Han during the Academy's
+        platform-construction period. His role covered institutional planning,
+        research-centre development, international academic links, enterprise
+        engagement, and the delivery of applied research projects.
+      </p>
+      <p>
+        During this period, Dr Han served as founder, founding president, board
+        chair, and executive lead for the Academy's early research platform.
+      </p>
     </div>
   </section>
 
@@ -82,34 +70,22 @@ import { leadershipNetwork, leadershipResponsibilities } from "@data/research";
   </section>
 
   <section class="section surface">
-    <div class="shell split">
-      <div class="article">
-        <p class="eyebrow">Public Profile Links</p>
-        <h2>External academic profiles.</h2>
-        <p>
-          Selected academic profile links for Dr Han are provided for
-          publication records, institutional affiliation, and external academic
-          reference.
-        </p>
-        <div class="profile-affiliation" aria-label="Current academic affiliation">
-          <span>Current academic affiliation</span>
-          <strong>{site.academicAffiliation}</strong>
-        </div>
-        <div class="profile-links">
-          {site.profiles.map((profile) => (
-            <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>
-          ))}
-        </div>
+    <div class="shell article narrow">
+      <p class="eyebrow">Public Profile Links</p>
+      <h2>External academic profiles.</h2>
+      <p>
+        Selected academic profile links for Dr Han are provided for publication
+        records, institutional affiliation, and external academic reference.
+      </p>
+      <div class="profile-affiliation" aria-label="Current academic affiliation">
+        <span>Current academic affiliation</span>
+        <strong>{site.academicAffiliation}</strong>
       </div>
-      <figure class="image-panel">
-        <img
-          src="/images/research-exhibition.jpg"
-          alt="SCSDA research display and institutional visit"
-        />
-        <figcaption class="image-caption">
-          Public display material from SCSDA research-centre work.
-        </figcaption>
-      </figure>
+      <div class="profile-links">
+        {site.profiles.map((profile) => (
+          <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>
+        ))}
+      </div>
     </div>
   </section>
 </BaseLayout>
