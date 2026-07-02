@@ -9,17 +9,18 @@ workflow.
 ## Current Purpose
 
 The site is an English-first institutional research-platform website for Smart
-Cities and Sustainable Development Academy. It supports Dr Daguang Han's UK and
-European academic applications by evidencing research-platform leadership in
-digital built environments, smart infrastructure, BIM, digital twins, sensing,
-AIoT and sustainable urban systems.
+Cities and Sustainable Development Academy. It presents the Academy's public
+research platform, selected technical directions, formal leadership context,
+and non-confidential project and output records in digital built environments,
+smart infrastructure, BIM, digital twins, sensing, AIoT and sustainable urban
+systems.
 
 The public positioning is:
 
 ```text
 SCSDA is an institutional research-platform website.
-It supports Dr Han's academic case through evidence-backed platform leadership,
-not through personal-only promotion.
+It presents SCSDA's public research areas, platform history, selected outputs,
+and formal leadership context without personal-promotional framing.
 ```
 
 ## Repository And Workspace
@@ -56,14 +57,12 @@ Important staging pages:
 ```text
 https://ultraclaw.space/
 https://ultraclaw.space/leadership/
-https://ultraclaw.space/evidence/
 https://ultraclaw.space/research/
 https://ultraclaw.space/projects/
 https://ultraclaw.space/outputs/
 https://ultraclaw.space/legacy/
 https://ultraclaw.space/contact/
 https://ultraclaw.space/en/
-https://ultraclaw.space/en/evidence/
 ```
 
 Discovery files:

@@ -24,7 +24,7 @@ const PAGE_CHECKS = [
   {
     path: "/leadership/",
     includes: [
-      "Dr Daguang Han's role in building SCSDA.",
+      "Founding leadership and platform development.",
       "Strategic, academic, and industry-facing responsibilities."
     ]
   },
@@ -99,9 +99,9 @@ const FORBIDDEN_POSITIVE_CLAIMS = [
   "surveillance platform",
   "confidential technology",
   "technology transfer to China",
-  "academic applications",
-  "reviewer-facing",
-  "evidence map",
+  ["academic", "applications"].join(" "),
+  ["reviewer", "facing"].join("-"),
+  ["evidence", "map"].join(" "),
   "From researcher to research-platform builder"
 ];
 

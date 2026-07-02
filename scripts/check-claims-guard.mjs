@@ -37,7 +37,7 @@ const REQUIRED_BUILT_PHRASES = [
   "non-confidential",
   "nonprofit applied research academy",
   "Research, education, and applied innovation",
-  "Dr Daguang Han's role in building SCSDA"
+  "Founding leadership and platform development"
 ];
 
 const BUILT_FORBIDDEN_EXCEPTIONS = [

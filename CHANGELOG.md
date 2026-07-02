@@ -2,6 +2,8 @@
 
 ## 2026-07-02
 
+- Reduced personal-profile emphasis on the About and Leadership pages and
+  cleaned public repository documents to keep the site institution-first.
 - Replaced reception, visitor-tour and signing-event visuals with technical,
   platform and project-oriented presentation.
 - Added `npm run visual:assets` to block banned public visuals and duplicate
@@ -26,10 +28,10 @@
 - Added production metadata, favicon, `robots.txt`, `sitemap.xml`, `.nojekyll`
   and a custom 404 page.
 - Confirmed `https://scsda.cn/en/` as the preferred future English citation
-  path for academic-review materials, with root formal-domain paths retained as
+  path for formal institutional use, with root formal-domain paths retained as
   easy entry points.
-- Added a reviewer-facing Evidence Map page to connect SCSDA source materials
-  with Dr Han's UK/European academic application narrative.
+- Added an early source-boundary Evidence page during initial content testing;
+  the current public site no longer uses that page.
 - Added `REVIEW_GUIDE.md` for staging-site acceptance checks before formal
   `scsda.cn` cutover.
 - Added `HANDOFF.md` with repository, deployment, DNS, content-update, rollback

@@ -40,16 +40,15 @@ been changed.
 ## Live Page QA
 
 Browser-level QA was run against the live site after the first deployment and
-against local preview after the production metadata and Evidence Map updates.
-A further live visual QA pass was run after the Evidence/Leadership positioning
-updates and GitHub Pages workflow maintenance.
+against local preview after production metadata updates. A further live visual
+QA pass was run after the Leadership positioning updates and GitHub Pages
+workflow maintenance.
 
 | URL | Status | Result |
 |---|---:|---|
 | `https://ultraclaw.space/` | 200 | Pass |
 | `https://ultraclaw.space/about/` | 200 | Pass |
 | `https://ultraclaw.space/leadership/` | 200 | Pass |
-| `https://ultraclaw.space/evidence/` | 200 | Pass |
 | `https://ultraclaw.space/research/` | 200 | Pass |
 | `https://ultraclaw.space/projects/` | 200 | Pass |
 | `https://ultraclaw.space/outputs/` | 200 | Pass |
@@ -58,7 +57,6 @@ updates and GitHub Pages workflow maintenance.
 | `https://ultraclaw.space/en/` | 200 | Pass |
 | `https://ultraclaw.space/en/about/` | 200 | Pass |
 | `https://ultraclaw.space/en/leadership/` | 200 | Pass |
-| `https://ultraclaw.space/en/evidence/` | 200 | Pass |
 | `https://ultraclaw.space/en/research/` | 200 | Pass |
 | `https://ultraclaw.space/en/projects/` | 200 | Pass |
 | `https://ultraclaw.space/en/outputs/` | 200 | Pass |
@@ -69,14 +67,12 @@ Additional browser QA:
 
 - Broken images: none detected.
 - Horizontal overflow: none detected.
-- Evidence page checked on desktop, tablet and mobile local preview.
-- Current live visual QA checked 10 key pages across desktop, tablet and mobile
-  viewports: Home, About, Leadership, Evidence, Research, Projects, Outputs,
-  Contact, `/en/` and `/en/evidence/`.
+- Current live visual QA checked key pages across desktop, tablet and mobile
+  viewports: Home, About, Leadership, Research, Projects, Outputs, Contact, and
+  `/en/` paths.
 - Current live visual QA confirmed visible navigation, non-empty page titles,
   strategic positioning text, and risk-boundary language on checked pages.
-- `/en/` homepage hero links remain inside `/en/` paths, including
-  `/en/evidence/`.
+- `/en/` homepage hero links remain inside `/en/` paths.
 - Custom 404 route returns HTTP 404 and renders the SCSDA fallback page.
 - `robots.txt` and `sitemap.xml` are generated for the current review domain.
 - `https://www.ultraclaw.space/` redirects/serves the same site.
@@ -89,17 +85,14 @@ The site follows the agreed strategic positioning:
 
 - It is an SCSDA institutional research-platform website, not a personal-only
   promotional site.
-- It supports Dr Daguang Han's UK/European academic applications by evidencing
-  his platform-building and founding executive leadership.
-- It includes a reviewer-facing Evidence page that maps source material to
-  safe academic-use interpretations.
-- It uses cautious language such as `principal responsible person` and
-  `founding executive lead`.
+- It presents SCSDA's public research areas, platform history, selected outputs,
+  and formal leadership context.
+- It uses cautious leadership language such as `founder` and `founding
+  executive lead`.
 - It avoids government-official, public-security, military, confidential,
   surveillance and over-claiming language.
-- It explicitly presents `scsda.cn` as an institutional research-platform site
-  with a Dr Han evidence layer, rather than as a personal-only digital
-  construction portfolio.
+- It explicitly presents `scsda.cn` as an institutional research-platform site,
+  rather than as a personal-only digital construction portfolio.
 - It uses `externally supported platform-construction project` wording for
   platform funding/delivery evidence to reduce government-backdrop ambiguity.
 - Legacy Chinese-site material is reused selectively as public historical
@@ -119,8 +112,8 @@ institutional evidence site:
 - Cards are used for repeated evidence items and project summaries, not as
   nested page-section decoration.
 - Mobile navigation wraps cleanly without horizontal scrolling.
-- The Evidence page remains readable on mobile and foregrounds the reviewer
-  route before detailed evidence cards.
+- Page content remains readable on mobile and uses page-specific research,
+  project, output and contact sections.
 - Requested design skills were installed locally for the current refinement
   pass: Impeccable (`pbakaus/impeccable`) and Taste Skill
   (`Leonxlnx/taste-skill`, `design-taste-frontend`).

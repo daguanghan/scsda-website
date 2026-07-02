@@ -36,20 +36,12 @@ export const site = {
   ],
   profiles: [
     {
-      label: "ORCID",
-      href: "https://orcid.org/0000-0003-3787-963X"
-    },
-    {
-      label: "Google Scholar",
-      href: "https://scholar.google.com/citations?user=oKGc4VYAAAAJ"
-    },
-    {
-      label: "Southeast University English profile",
+      label: "Southeast University profile",
       href: "https://civil.seu.edu.cn/hdg_en/list.htm"
     },
     {
-      label: "Southeast University Chinese profile",
-      href: "https://civil.seu.edu.cn/hdg/list.htm"
+      label: "ORCID",
+      href: "https://orcid.org/0000-0003-3787-963X"
     }
   ]
 };

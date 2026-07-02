@@ -8,7 +8,7 @@ This register maps public website wording to the current source boundary. It is 
 | SCSDA is nonprofit | nonprofit applied research academy / nonprofit applied research organization | Supported by user confirmation and implementation-report wording | Add registration document when available |
 | Main institutional positioning | Research, education, and applied innovation in smart cities and sustainable development | Derived from preserved website, implementation report, and user direction | Formal homepage positioning |
 | Dr Han founded and led SCSDA | SCSDA was initiated and led by Dr Daguang Han | User-confirmed; implementation report lists Dr Han as responsible person | Use formal leadership wording; avoid "one person solely completed everything" |
-| Dr Han's platform role | founder, founding executive leader, and coordinator of the Academy's early research platform | User-confirmed and consistent with implementation-report role | Stronger appointment titles can be added when registration or board documents are added |
+| Dr Han's platform role | founder and founding executive lead of the Academy's early research platform | User-confirmed and consistent with implementation-report role | Stronger appointment titles can be added when registration or board documents are added |
 | 12 research centres/labs | 12 research centres and laboratories reported for the 2019-2023 platform-construction period | Supported by implementation report | Period-label required |
 | 49 IP outputs | 49 intellectual-property outputs reported in the implementation report | Supported by implementation report | Period-label required |
 | 61 papers | 61 papers reported in the implementation report | Supported by implementation report | Period-label required |

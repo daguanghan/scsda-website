@@ -36,7 +36,7 @@ Check:
 - Mobile layout
 - Desktop layout
 - Images loading
-- Links to ORCID, Google Scholar, Southeast University English profile and Southeast University Chinese profile
+- External reference links used on the Leadership page
 
 ## 2026-07-01 Verification
 
@@ -54,7 +54,7 @@ Check:
 - This keeps root English pages and `/en/` pages in parallel. After user
   review, the formal domains should remain easy entry points, while
   `https://scsda.cn/en/` should be the preferred English citation path for
-  academic-review materials.
+  formal institutional use.
 
 ## Future Production Target
 

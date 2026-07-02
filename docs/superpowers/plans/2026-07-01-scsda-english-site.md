@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a professional English-first SCSDA website that presents the Academy as a credible nonprofit applied research platform and evidences Dr Daguang Han's founding/executive leadership for UK and European academic applications.
+**Goal:** Build a professional English-first SCSDA website that presents the Academy as a credible nonprofit applied research platform and records formal founding leadership in an institution-first way.
 
 **Architecture:** Use Astro as a static-site generator. Keep content structured in data files and Markdown-friendly components, copy only selected low-risk assets from the preserved Chinese site, and deploy through GitHub Pages initially to `ultraclaw.space` for review.
 
@@ -11,7 +11,7 @@
 ## Global Constraints
 
 - Do not frame SCSDA as a government website, official authority, state platform, public-security platform, or sensitive technology-transfer platform.
-- Use `principal responsible person`, `founding executive lead`, and `nonprofit applied research organization` unless documentary proof is added for stronger roles such as `Founding President` or `Chair of the Board`.
+- Use `principal responsible person`, `founding executive lead`, and `nonprofit applied research organization` unless documentary proof is added for any stronger appointment title.
 - Do not publish phone numbers.
 - Use old Chinese site photographs selectively as historical/public assets.
 - Prefer `scsda.cn/en/` as the eventual canonical English URL; use `ultraclaw.space` only as the review/staging domain.
@@ -43,7 +43,7 @@
 
 **Deliverable:** Public claims are separated from content rendering and mapped to evidence strength.
 
-- [ ] Add site navigation and contact/profile links.
+- [ ] Add site navigation, contact links, and limited public reference links.
 - [ ] Add research themes, metrics, case studies, and output summaries.
 - [ ] Add a claim register with safe wording and evidence status.
 
@@ -59,7 +59,7 @@
 - Create: `src/pages/contact.astro`
 - Create: `src/pages/legacy.astro`
 
-**Deliverable:** The website communicates SCSDA's institutional story and Dr Han's leadership evidence without overclaiming.
+**Deliverable:** The website communicates SCSDA's institutional story and formal leadership context without overclaiming.
 
 - [ ] Build the homepage as an English academic-research entry point.
 - [ ] Build the About and Leadership pages.
@@ -102,4 +102,3 @@
 - [ ] Capture desktop and mobile screenshots.
 - [ ] Check key pages render and links work.
 - [ ] Publish to `ultraclaw.space` or report the exact DNS/GitHub blocker if external configuration prevents completion.
-

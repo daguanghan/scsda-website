@@ -117,7 +117,7 @@ export const leadershipResponsibilities = [
 
 export const leadershipNetwork = [
   {
-    title: "Founder and Platform Lead",
+    title: "Founder and Founding Executive Lead",
     text:
       "Dr Daguang Han initiated and led the Academy's early platform construction, including institutional planning, research-centre formation, partner engagement, and applied project delivery."
   },
