@@ -2,6 +2,9 @@
 
 ## 2026-07-03
 
+- Removed the visible forwarding/sensitive-information notice from the Message
+  page, increased navigation and body text readability, reduced oversized page
+  titles, and replaced the homepage hero with a sharper wide-screen image.
 - Removed the public Legacy/Archive page and navigation entry from the staging
   website.
 - Added Join Us and Message pages for UK-facing opportunity enquiries,

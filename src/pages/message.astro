@@ -24,11 +24,6 @@ const thanksUrl = new URL(`${pathPrefix}/message/thanks/`, site.reviewDomain).to
           research themes, collaboration, visiting engagement, student
           participation, projects, or institutional enquiries.
         </p>
-        <p>
-          Messages are forwarded to <strong>{site.messageEmail}</strong>. Please
-          do not submit confidential, sensitive, personal-identification,
-          commercial-secret, restricted, or sensitive technical information.
-        </p>
       </div>
 
       <form
@@ -78,7 +73,7 @@ const thanksUrl = new URL(`${pathPrefix}/message/thanks/`, site.reviewDomain).to
             minlength="20"
             required
           ></textarea>
-          <p class="field-help">A concise summary is usually enough. Do not include sensitive material.</p>
+          <p class="field-help">A concise summary is usually enough.</p>
         </div>
 
         <label class="consent-row">
