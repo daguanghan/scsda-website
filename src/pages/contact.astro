@@ -5,7 +5,7 @@ import { site } from "@data/site";
 
 <BaseLayout
   title="Contact"
-  description="Contact and academic profile links for SCSDA-related research and collaboration enquiries."
+  description="Institutional contact details for SCSDA-related research and collaboration enquiries."
 >
   <section class="section">
     <div class="shell split">
@@ -15,27 +15,23 @@ import { site } from "@data/site";
         <p>
           For SCSDA-related academic, research, education, or collaboration
           enquiries, contact the Academy through the institutional email below.
-          Dr Daguang Han's academic identity can be checked through the verified
-          profile pages.
         </p>
         <p>
           <a class="button" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
         </p>
       </div>
       <div class="output-card">
-        <h3>Profile Links</h3>
-        <p class="profile-affiliation compact">
-          <span>Current academic affiliation</span>
-          <strong>{site.academicAffiliation}</strong>
-        </p>
-        <div class="profile-links">
-          {site.profiles.map((profile) => (
-            <a href={profile.href} target="_blank" rel="noreferrer">{profile.label}</a>
-          ))}
-        </div>
+        <h3>Institutional Contact Scope</h3>
+        <p>SCSDA welcomes public-facing, non-confidential enquiries related to:</p>
+        <ul class="clean-list">
+          <li>smart cities and sustainable development research</li>
+          <li>digital built environment, BIM, digital twins and sensing</li>
+          <li>education, training, workshops and academic engagement</li>
+          <li>non-confidential applied research and collaboration summaries</li>
+        </ul>
         <p class="muted">
-          SCSDA-related enquiries are handled through email and verified
-          academic profile pages.
+          Leadership background and academic-profile references are kept on the
+          Leadership page, separate from this institutional contact channel.
         </p>
       </div>
     </div>
