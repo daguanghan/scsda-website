@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-07-02
+
+- Updated the public contact address to `info@scsda.cn` and recorded the
+  planned future email-routing approach without changing DNS.
+
 ## 2026-07-01
 
 - Created Astro static website for the English SCSDA research-platform site.

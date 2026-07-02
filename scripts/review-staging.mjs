@@ -60,7 +60,7 @@ const PAGE_CHECKS = [
     path: "/contact/",
     includes: [
       "Contact",
-      "daguang.han@gmail.com"
+      "info@scsda.cn"
     ]
   },
   {

@@ -21,7 +21,7 @@ export const site = {
     "AIoT",
     "urban analytics"
   ],
-  contactEmail: "daguang.han@gmail.com",
+  contactEmail: "info@scsda.cn",
   academicAffiliation:
     "Associate Professor, School of Civil Engineering, Southeast University",
   nav: [

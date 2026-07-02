@@ -33,6 +33,28 @@ https://scsda.cn/legacy/  preserved historical Chinese archive
 
 The final production move should not be done until the user approves the `ultraclaw.space` review deployment.
 
+## Planned Institutional Email
+
+Public contact email for the English site:
+
+```text
+info@scsda.cn
+```
+
+No mail DNS records should be changed before the formal `scsda.cn` DNS plan is
+approved. After the domain is moved to Cloudflare or another formal DNS
+provider, the preferred first step is free inbound forwarding:
+
+```text
+info@scsda.cn  ->  daguang.han@gmail.com
+```
+
+This can be implemented with Cloudflare Email Routing if `scsda.cn` is managed
+through Cloudflare DNS. Before enabling it, record the current MX/TXT records,
+the planned MX/TXT records, the forwarding destination, and the expected
+impact. A paid mailbox is only needed if SCSDA must send outgoing email as
+`info@scsda.cn` or create separate named mailboxes.
+
 ## 2026-07-01 Current scsda.cn Read-Only Audit
 
 Read-only checks showed the current formal domain is still on the legacy host:
