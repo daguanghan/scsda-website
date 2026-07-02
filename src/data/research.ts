@@ -142,7 +142,7 @@ export const caseStudies = [
   {
     title: "SCSDA Platform Construction, 2019-2023",
     category: "Research platform",
-    image: "/images/academy-launch.jpg",
+    image: "/images/research-exhibition.jpg",
     summary:
       "A nonprofit applied research academy developed around smart cities, sustainable development, international collaboration, and industry-facing research.",
     highlights: [

@@ -2,6 +2,10 @@
 
 ## 2026-07-02
 
+- Replaced the homepage hero image with `research-exhibition.jpg` and moved the
+  launch/signing image into the About page as a platform-history record.
+- Added homepage public-material highlights using preserved SCSDA research,
+  product/prototype, and interview media assets.
 - Updated the public contact address to `info@scsda.cn` and recorded the
   planned future email-routing approach without changing DNS.
 

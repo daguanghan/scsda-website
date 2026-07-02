@@ -435,6 +435,12 @@ a:hover {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.highlight-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .product-grid {
   display: grid;
   gap: 1.2rem;
@@ -618,13 +624,14 @@ a:hover {
     min-height: 590px;
   }
 
-	  .metric-grid,
-	  .theme-grid,
-	  .case-grid,
-	  .product-grid,
-	  .output-grid,
-	  .claim-grid,
-	  .centre-grid {
+  .metric-grid,
+  .theme-grid,
+  .case-grid,
+  .highlight-grid,
+  .product-grid,
+  .output-grid,
+  .claim-grid,
+  .centre-grid {
     grid-template-columns: 1fr;
   }
 }

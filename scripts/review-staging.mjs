@@ -8,14 +8,17 @@ const PAGE_CHECKS = [
     includes: [
       "Smart Cities and Sustainable Development Academy",
       "Applied research academy established in Chongqing in 2019",
-      "Research, education, and applied innovation"
+      "Research, education, and applied innovation",
+      "Public Material Highlights"
     ]
   },
   {
     path: "/about/",
     includes: [
       "A research platform for smart cities and sustainable development.",
-      "Research, education, and responsible applied innovation."
+      "Research, education, and responsible applied innovation.",
+      "Platform History",
+      "Interview Record"
     ]
   },
   {

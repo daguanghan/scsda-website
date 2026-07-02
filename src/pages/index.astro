@@ -1,7 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { institutionalPrinciples, platformMetrics, site } from "@data/site";
-import { caseStudies, researchThemes } from "@data/research";
+import {
+  caseStudies,
+  engineeringMonitoringDemonstrators,
+  publicResearchCentreExamples,
+  researchThemes
+} from "@data/research";
 
 interface Props {
   pathPrefix?: string;
@@ -15,7 +20,7 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
   <section
     slot="hero"
     class="hero"
-    style={`--hero-image: url('/images/academy-launch.jpg')`}
+    style={`--hero-image: url('/images/research-exhibition.jpg')`}
   >
     <div class="shell hero-content">
       <p class="eyebrow">Applied research academy established in Chongqing in 2019</p>
@@ -34,6 +39,66 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
   </section>
 
   <section class="section surface">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Public Material Highlights</p>
+        <h2>Research platform, applied systems, and public media records.</h2>
+      </div>
+      <p>
+        Selected public materials show SCSDA as a research platform with
+        visible work in research-centre development, engineering monitoring,
+        digital built environments, sensing, and institutional engagement.
+      </p>
+    </div>
+    <div class="shell highlight-grid">
+      <article class="case-card">
+        <img
+          src={publicResearchCentreExamples[2].image}
+          alt="SCSDA laboratory engagement and microsystems research visual"
+        />
+        <div class="case-body">
+          <span class="category">Research platform</span>
+          <h3>Research-centre and laboratory engagement</h3>
+          <p>
+            Public visual material records SCSDA's research-centre development
+            across sensing, microsystems, BIM, digital twins, and smart
+            infrastructure.
+          </p>
+        </div>
+      </article>
+      <article class="case-card">
+        <img
+          src={engineeringMonitoringDemonstrators[1].image}
+          alt="SCSDA monitoring platform interface visual"
+        />
+        <div class="case-body">
+          <span class="category">Applied systems</span>
+          <h3>Engineering monitoring and digital operations</h3>
+          <p>
+            Public product and prototype material shows applied work around
+            sensing, construction-site monitoring, and data-supported engineering
+            workflows.
+          </p>
+        </div>
+      </article>
+      <article class="case-card">
+        <img
+          src="/images/han-scsda-interview-poster.jpg"
+          alt="Interview record with Dr Daguang Han on SCSDA-related work"
+        />
+        <div class="case-body">
+          <span class="category">Media record</span>
+          <h3>Interview record with Dr Daguang Han</h3>
+          <p>
+            A short public media record places Dr Han's leadership and research
+            engagement within SCSDA's institutional-development context.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
     <div class="shell section-heading">
       <div>
         <p class="eyebrow">Institutional Profile</p>
@@ -124,7 +189,7 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
       </p>
     </div>
     <div class="shell case-grid">
-      {caseStudies.slice(0, 2).map((item) => (
+      {caseStudies.slice(1, 3).map((item) => (
         <article class="case-card">
           <img src={item.image} alt={`${item.title} visual record`} />
           <div class="case-body">

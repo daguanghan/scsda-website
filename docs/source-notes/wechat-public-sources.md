@@ -18,6 +18,10 @@ The archive contains raw scrape JSON, Markdown copies, a source index, and downl
 
 ## Website Use
 
+- Home page: selected public material highlights for research-centre and
+  laboratory engagement, engineering monitoring, and the SCSDA interview record.
+- About page: platform-history image placement and the embedded SCSDA interview
+  video are used as public institutional records.
 - Research page: selected public research-centre records for MEMS sensing, BIM and digital twins, and microsystems/laboratory engagement.
 - Projects page: selected product and prototype material for integrated engineering monitoring, site fieldwork, PID-based VOCs sensing, and air-monitoring platforms.
 
