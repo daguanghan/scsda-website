@@ -8,7 +8,9 @@ const PAGE_PATHS = [
   "/research/",
   "/projects/",
   "/outputs/",
-  "/legacy/",
+  "/join/",
+  "/message/",
+  "/message/thanks/",
   "/contact/",
   "/en/",
   "/en/about/",
@@ -16,7 +18,9 @@ const PAGE_PATHS = [
   "/en/research/",
   "/en/projects/",
   "/en/outputs/",
-  "/en/legacy/",
+  "/en/join/",
+  "/en/message/",
+  "/en/message/thanks/",
   "/en/contact/"
 ];
 

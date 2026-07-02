@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-07-03
+
+- Removed the public Legacy/Archive page and navigation entry from the staging
+  website.
+- Added Join Us and Message pages for UK-facing opportunity enquiries,
+  research collaboration, and non-confidential public messages.
+- Added a static FormSubmit message form that forwards public website messages
+  to `daguang.han@gmail.com`, with a first-use Gmail confirmation requirement.
+- Removed the About page Platform History section and tightened the site UI
+  typography, content width, navigation density, form styling, and responsive
+  spacing.
+
 ## 2026-07-02
 
 - Reduced personal-profile emphasis on the About and Leadership pages and

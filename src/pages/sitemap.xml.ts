@@ -7,7 +7,8 @@ const paths = [
   "/research/",
   "/projects/",
   "/outputs/",
-  "/legacy/",
+  "/join/",
+  "/message/",
   "/contact/",
   "/en/",
   "/en/about/",
@@ -15,7 +16,8 @@ const paths = [
   "/en/research/",
   "/en/projects/",
   "/en/outputs/",
-  "/en/legacy/",
+  "/en/join/",
+  "/en/message/",
   "/en/contact/"
 ];
 

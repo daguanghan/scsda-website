@@ -4,6 +4,10 @@ English-first static website for Smart Cities and Sustainable Development Academ
 
 This repository presents SCSDA as a formal nonprofit applied research academy website. The public site focuses on smart cities, sustainable development, digital built environments, smart infrastructure, BIM, digital twins, sensing, AIoT and responsible public communication.
 
+The public message form uses FormSubmit to forward non-confidential website
+messages to `daguang.han@gmail.com`. First-time activation requires confirming
+the FormSubmit email sent to that Gmail account.
+
 ## Local Development
 
 ```bash
@@ -81,6 +85,7 @@ npm run preview
 - Do not publish sensitive, confidential, military, public-security or government-decision material.
 - Period-label metrics from the implementation report, for example `reported for the 2019-2023 platform-construction period`.
 - Do not publish phone numbers.
+- Do not invite confidential or sensitive submissions through the website form.
 - Use each content image intentionally and only once across public content.
 - Do not use reception, government-visit or signing-event photographs as public
   evidence visuals for the English site; prefer technical platform, system,

@@ -1,6 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { site } from "@data/site";
+
+interface Props {
+  pathPrefix?: string;
+}
+
+const { pathPrefix = "" } = Astro.props;
+const pageHref = (href: string) => `${pathPrefix}${href}`;
 ---
 
 <BaseLayout
@@ -19,6 +26,10 @@ import { site } from "@data/site";
         <p>
           <a class="button" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
         </p>
+        <div class="profile-links">
+          <a href={pageHref("/message/")}>Send a website message</a>
+          <a href={pageHref("/join/")}>Join Us / opportunities</a>
+        </div>
       </div>
       <div class="output-card">
         <h3>Institutional Contact Scope</h3>

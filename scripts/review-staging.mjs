@@ -17,8 +17,11 @@ const PAGE_CHECKS = [
     includes: [
       "A research platform for smart cities and sustainable development.",
       "Research, education, and responsible applied innovation.",
-      "Platform History",
       "Interview Record"
+    ],
+    excludes: [
+      "Platform History",
+      "Early platform construction and partner-facing engagement."
     ]
   },
   {
@@ -53,10 +56,18 @@ const PAGE_CHECKS = [
     ]
   },
   {
-    path: "/legacy/",
+    path: "/join/",
     includes: [
-      "Archive",
-      "Earlier Chinese website materials are preserved as institutional records."
+      "Join SCSDA's research and applied innovation network.",
+      "Send a concise expression of interest."
+    ]
+  },
+  {
+    path: "/message/",
+    includes: [
+      "Message SCSDA",
+      "formsubmit.co/daguang.han@gmail.com",
+      "I confirm this message is public-facing and non-confidential."
     ]
   },
   {
@@ -70,7 +81,8 @@ const PAGE_CHECKS = [
     path: "/en/",
     includes: [
       "Smart Cities and Sustainable Development Academy",
-      "/en/research/"
+      "/en/research/",
+      "/en/message/"
     ]
   },
   {
@@ -85,7 +97,9 @@ const PAGE_CHECKS = [
     ],
     excludes: [
       "https://ultraclaw.space/evidence/",
-      "https://ultraclaw.space/en/evidence/"
+      "https://ultraclaw.space/en/evidence/",
+      "https://ultraclaw.space/legacy/",
+      "https://ultraclaw.space/en/legacy/"
     ]
   }
 ];
@@ -116,7 +130,7 @@ const VIEWPORT_CHECKS = [
   { name: "desktop-home", path: "/", width: 1440, height: 1000 },
   { name: "mobile-home", path: "/", width: 390, height: 1000 },
   { name: "mobile-research", path: "/research/", width: 390, height: 1000 },
-  { name: "mobile-outputs", path: "/outputs/", width: 390, height: 1000 }
+  { name: "mobile-message", path: "/message/", width: 390, height: 1000 }
 ];
 
 function safeExec(command, args) {

@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+interface Props {
+  pathPrefix?: string;
+}
+
+const { pathPrefix = "" } = Astro.props;
+const pageHref = (href: string) => `${pathPrefix}${href}`;
+---
+
+<BaseLayout
+  title="Message Sent"
+  description="Thank you page for SCSDA website message submissions."
+>
+  <section class="section">
+    <div class="shell article narrow">
+      <p class="eyebrow">Message Sent</p>
+      <h2>Thank you for contacting SCSDA.</h2>
+      <p>
+        Your message has been submitted. If the enquiry is relevant to SCSDA's
+        research, collaboration, or opportunity areas, a follow-up may be sent
+        by email.
+      </p>
+      <div class="profile-links">
+        <a href={pageHref("/")}>Return Home</a>
+        <a href={pageHref("/join/")}>Join Us</a>
+        <a href={pageHref("/research/")}>Research</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

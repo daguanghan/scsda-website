@@ -1,0 +1,112 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { site } from "@data/site";
+
+interface Props {
+  pathPrefix?: string;
+}
+
+const { pathPrefix = "" } = Astro.props;
+const thanksUrl = new URL(`${pathPrefix}/message/thanks/`, site.reviewDomain).toString();
+---
+
+<BaseLayout
+  title="Message"
+  description="Send a public-facing, non-confidential message to SCSDA about research, collaboration, opportunities, or institutional enquiries."
+>
+  <section class="section">
+    <div class="shell split align-start">
+      <div class="article">
+        <p class="eyebrow">Message SCSDA</p>
+        <h2>Send a research or collaboration enquiry.</h2>
+        <p>
+          Use this form for public-facing, non-confidential messages related to
+          research themes, collaboration, visiting engagement, student
+          participation, projects, or institutional enquiries.
+        </p>
+        <p>
+          Messages are forwarded to <strong>{site.messageEmail}</strong>. Please
+          do not submit confidential, sensitive, personal-identification,
+          commercial-secret, restricted, or sensitive technical information.
+        </p>
+      </div>
+
+      <form
+        class="message-form"
+        action={`https://formsubmit.co/${site.messageEmail}`}
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="New SCSDA website message" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_next" value={thanksUrl} />
+        <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off" />
+
+        <div class="form-field">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="affiliation">Affiliation or organisation</label>
+          <input id="affiliation" name="affiliation" type="text" autocomplete="organization" />
+        </div>
+
+        <div class="form-field">
+          <label for="topic">Enquiry type <span aria-hidden="true">*</span></label>
+          <select id="topic" name="topic" required>
+            <option value="">Select one</option>
+            <option>Research collaboration</option>
+            <option>Join Us / opportunities</option>
+            <option>Visiting scholar or seminar</option>
+            <option>Student or early-career research</option>
+            <option>Industry or applied R&D</option>
+            <option>General institutional enquiry</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea
+            id="message"
+            name="message"
+            rows="7"
+            minlength="20"
+            required
+          ></textarea>
+          <p class="field-help">A concise summary is usually enough. Do not include sensitive material.</p>
+        </div>
+
+        <label class="consent-row">
+          <input name="non_confidential_confirmation" type="checkbox" required />
+          <span>
+            I confirm this message is public-facing and non-confidential.
+          </span>
+        </label>
+
+        <button class="button primary form-submit" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell claim-grid">
+      <article class="claim-card">
+        <h3>Research topics</h3>
+        <p>BIM, digital twins, sensing, smart infrastructure, and sustainable urban systems.</p>
+      </article>
+      <article class="claim-card">
+        <h3>Opportunity enquiries</h3>
+        <p>Expressions of interest for research engagement, visiting activity, and project participation.</p>
+      </article>
+      <article class="claim-card">
+        <h3>Non-confidential scope</h3>
+        <p>Use this public website channel only for open, non-sensitive communication.</p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

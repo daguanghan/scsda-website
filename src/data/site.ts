@@ -22,6 +22,7 @@ export const site = {
     "urban analytics"
   ],
   contactEmail: "info@scsda.cn",
+  messageEmail: "daguang.han@gmail.com",
   academicAffiliation:
     "Associate Professor, School of Civil Engineering, Southeast University",
   nav: [
@@ -31,8 +32,8 @@ export const site = {
     { href: "/research/", label: "Research" },
     { href: "/projects/", label: "Projects" },
     { href: "/outputs/", label: "Outputs" },
-    { href: "/legacy/", label: "Archive" },
-    { href: "/contact/", label: "Contact" }
+    { href: "/join/", label: "Join Us" },
+    { href: "/message/", label: "Message" }
   ],
   profiles: [
     {
@@ -91,5 +92,7 @@ export const footerLinks = [
   { href: "/about/", label: "About SCSDA" },
   { href: "/research/", label: "Research" },
   { href: "/projects/", label: "Projects" },
+  { href: "/join/", label: "Join Us" },
+  { href: "/message/", label: "Message" },
   { href: "/contact/", label: "Contact" }
 ];

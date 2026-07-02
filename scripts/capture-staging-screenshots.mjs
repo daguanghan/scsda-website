@@ -7,10 +7,12 @@ const OUT_DIR = "qa-screenshots/current-staging";
 const CAPTURES = [
   { name: "desktop-home", path: "/", width: 1440, height: 1100, fullPage: true },
   { name: "desktop-research", path: "/research/", width: 1440, height: 1100, fullPage: true },
+  { name: "desktop-join", path: "/join/", width: 1440, height: 1100, fullPage: true },
+  { name: "desktop-message", path: "/message/", width: 1440, height: 1100, fullPage: true },
   { name: "desktop-leadership", path: "/leadership/", width: 1440, height: 1100, fullPage: true },
   { name: "mobile-home", path: "/", width: 390, height: 1000, fullPage: true },
   { name: "mobile-research", path: "/research/", width: 390, height: 1000, fullPage: true },
-  { name: "mobile-outputs", path: "/outputs/", width: 390, height: 1000, fullPage: true }
+  { name: "mobile-message", path: "/message/", width: 390, height: 1000, fullPage: true }
 ];
 
 function nowIso() {

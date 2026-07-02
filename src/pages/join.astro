@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+interface Props {
+  pathPrefix?: string;
+}
+
+const { pathPrefix = "" } = Astro.props;
+const pageHref = (href: string) => `${pathPrefix}${href}`;
+---
+
+<BaseLayout
+  title="Join Us"
+  description="Opportunities and expressions of interest for researchers, students, visiting scholars, and partners interested in SCSDA's smart cities and sustainable development work."
+>
+  <section class="section">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Opportunities</p>
+        <h2>Join SCSDA's research and applied innovation network.</h2>
+      </div>
+      <p>
+        SCSDA welcomes carefully scoped expressions of interest from researchers,
+        visiting scholars, postgraduate students, early-career researchers, and
+        industry partners working in smart cities, digital built environments,
+        smart infrastructure, sensing, and sustainable urban systems.
+      </p>
+    </div>
+
+    <div class="shell theme-grid">
+      <article class="theme-card">
+        <span class="category">Research collaboration</span>
+        <h3>Academic and interdisciplinary research</h3>
+        <p>
+          Enquiries are welcome from researchers interested in BIM, digital
+          twins, reality capture, AI for the built environment, smart
+          infrastructure, urban analytics, and sustainability-oriented
+          engineering.
+        </p>
+      </article>
+
+      <article class="theme-card">
+        <span class="category">Visiting engagement</span>
+        <h3>Visiting scholars and expert exchange</h3>
+        <p>
+          The Academy is open to public-facing academic exchange, seminars,
+          workshops, and non-confidential collaboration discussions with
+          university and research partners.
+        </p>
+      </article>
+
+      <article class="theme-card">
+        <span class="category">Early-career pathway</span>
+        <h3>Postgraduate and early-career researchers</h3>
+        <p>
+          Students and early-career researchers may contact SCSDA about
+          research topics, project participation, training activities, and
+          applied research engagement.
+        </p>
+      </article>
+
+      <article class="theme-card">
+        <span class="category">Applied R&D</span>
+        <h3>Industry and project collaboration</h3>
+        <p>
+          SCSDA considers non-confidential applied research discussions with
+          partners working on engineering monitoring, sensing systems, digital
+          construction, and sustainable built-environment challenges.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell split">
+      <div class="article">
+        <p class="eyebrow">How to Contact</p>
+        <h2>Send a concise expression of interest.</h2>
+        <p>
+          Please include your area of interest, current affiliation, proposed
+          research or collaboration topic, and any public links that help SCSDA
+          understand the fit.
+        </p>
+        <p>
+          Formal roles, terms, location, eligibility, supervision arrangements,
+          and project scope are confirmed only through direct discussion.
+        </p>
+      </div>
+      <article class="output-card">
+        <h3>Recommended message topics</h3>
+        <ul class="clean-list">
+          <li>Research theme or project area.</li>
+          <li>Academic, professional, or institutional affiliation.</li>
+          <li>Proposed collaboration format and timeframe.</li>
+          <li>Public profile, publication, portfolio, or organization link.</li>
+        </ul>
+        <p>
+          <a class="button primary" href={pageHref("/message/")}>Send a Message</a>
+        </p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
