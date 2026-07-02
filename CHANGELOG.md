@@ -77,3 +77,6 @@
   link.
 - Clarified Dr Han's English-facing academic affiliation as Associate
   Professor, School of Civil Engineering, Southeast University.
+- Archived public WeChat source material locally and added selected
+  research-centre and product/prototype visuals to the Research and Projects
+  pages.

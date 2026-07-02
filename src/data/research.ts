@@ -51,6 +51,42 @@ export const researchCentres = [
   "Intelligent Rail Transit Systems and Equipment R&D Centre"
 ];
 
+export const publicResearchCentreExamples = [
+  {
+    title: "Smart MEMS Sensing Research Centre",
+    category: "Sensing and reliability",
+    image: "/images/wechat/research/mems-sensing-centre.jpg",
+    summary:
+      "Public SCSDA material presents MEMS sensing and environmental reliability as part of the Academy's applied sensing platform.",
+    highlights: [
+      "Links sensor development, reliability testing, and built-environment applications.",
+      "Supports research themes in smart infrastructure, AIoT, and monitoring systems."
+    ]
+  },
+  {
+    title: "BIM and Digital Twin Research Centre",
+    category: "Digital built environment",
+    image: "/images/wechat/research/bim-digital-twin-centre.jpg",
+    summary:
+      "Public research-centre material identifies BIM and digital twins as a dedicated SCSDA platform area.",
+    highlights: [
+      "Connects BIM, reality capture, point-cloud workflows, and digital construction.",
+      "Relevant to bridges, buildings, municipal assets, and construction quality assurance."
+    ]
+  },
+  {
+    title: "Microsystems and Laboratory Engagement",
+    category: "Micro-nano systems",
+    image: "/images/wechat/research/mic-lab-equipment.jpg",
+    summary:
+      "Public visual material records laboratory-facing engagement around microsystems, sensing, and component-oriented research.",
+    highlights: [
+      "Shows the Academy's connection between research-centre development and technical facilities.",
+      "Supports a cautious institutional record of applied sensing and microsystem work."
+    ]
+  }
+];
+
 export const leadershipResponsibilities = [
   {
     title: "Strategic Platform Development",
@@ -180,10 +216,24 @@ export const caseStudies = [
 export const engineeringMonitoringDemonstrators = [
   {
     title: "Integrated Engineering Safety and Health Monitoring",
-    category: "Smart infrastructure monitoring",
-    image: "/images/products/engineering-monitoring-system-overview.jpg",
+    category: "Monitoring architecture",
+    image: "/images/wechat/products/engineering-monitoring-architecture.png",
     summary:
-      "A public-facing product-brochure visual describing an integrated monitoring concept for construction and infrastructure safety across project lifecycles."
+      "A public-facing system concept linking field sensing, data acquisition, processing, dashboard views, and engineering monitoring workflows."
+  },
+  {
+    title: "Monitoring Platform Interface",
+    category: "Digital operations",
+    image: "/images/wechat/products/monitoring-platform-interface.png",
+    summary:
+      "A cloud-platform interface example showing map-based project context, project details, and monitoring information for construction-site management."
+  },
+  {
+    title: "Site Monitoring Fieldwork",
+    category: "Field validation",
+    image: "/images/wechat/products/site-monitoring-fieldwork.jpg",
+    summary:
+      "Public fieldwork visuals show monitoring-device installation, on-site measurement, and engineering-data collection in construction environments."
   },
   {
     title: "Fixed Inclinometer Monitoring",
@@ -205,6 +255,20 @@ export const engineeringMonitoringDemonstrators = [
     image: "/images/products/water-level-monitoring-system.jpg",
     summary:
       "A monitoring concept for water-level and field-condition measurement, relevant to engineering safety, infrastructure maintenance, and site monitoring."
+  },
+  {
+    title: "SCSDA-PID VOCs Sensor Series",
+    category: "Environmental sensing",
+    image: "/images/wechat/products/pid-vocs-industrial-context.jpg",
+    summary:
+      "Public product material describes a PID-based VOCs sensing direction for industrial safety, environmental monitoring, leak detection, and clean-room contexts."
+  },
+  {
+    title: "Smart Air-Monitoring Platform",
+    category: "Indoor environment sensing",
+    image: "/images/wechat/products/air-monitoring-platform.png",
+    summary:
+      "Public material describes an IoT-enabled air-quality monitoring concept for continuous sensing, dashboard communication, and data-supported indoor-environment management."
   }
 ];
 

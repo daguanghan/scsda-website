@@ -1,6 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { researchCentres, researchThemes } from "@data/research";
+import {
+  publicResearchCentreExamples,
+  researchCentres,
+  researchThemes
+} from "@data/research";
 ---
 
 <BaseLayout
@@ -61,6 +65,35 @@ import { researchCentres, researchThemes } from "@data/research";
   </section>
 
   <section class="section">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Public Research-Centre Records</p>
+        <h2>Selected centre examples from public SCSDA materials.</h2>
+      </div>
+      <p>
+        These public-facing examples show how the Academy communicated its
+        research-centre structure across sensing, BIM, digital twins, and
+        microsystems.
+      </p>
+    </div>
+    <div class="shell case-grid">
+      {publicResearchCentreExamples.map((item) => (
+        <article class="case-card">
+          <img src={item.image} alt={`${item.title} visual record`} />
+          <div class="case-body">
+            <span class="category">{item.category}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <ul class="clean-list">
+              {item.highlights.map((highlight) => <li>{highlight}</li>)}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section surface">
     <div class="shell section-heading">
       <div>
         <p class="eyebrow">Centres and Laboratories</p>
