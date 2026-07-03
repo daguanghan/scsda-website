@@ -1,10 +1,12 @@
 # SCSDA English Site QA Report
 
-Date: 2026-07-01
+Date: 2026-07-03
 
 Repository: `https://github.com/daguanghan/scsda-website`
 
-Review site: `https://ultraclaw.space/`
+Production site: `http://scsda.cn/`
+
+Previous review site: `https://ultraclaw.space/`
 
 Latest checked branch: `main`
 
@@ -22,9 +24,10 @@ This avoids stale fixed commit references after documentation-only updates.
 
 ## Summary
 
-The SCSDA English review site is built, deployed and available on GitHub Pages.
-It is ready for user review on `ultraclaw.space`. No `scsda.cn` DNS records have
-been changed.
+The SCSDA English site has been cut over to `scsda.cn` on GitHub Pages after
+explicit user approval. HTTP is serving the production site. GitHub Pages HTTPS
+certificate provisioning is still pending, so HTTPS enforcement is not yet
+enabled.
 
 ## Build And Deployment
 
@@ -33,8 +36,10 @@ been changed.
 | Local `npm run build` | Pass |
 | Generated pages | 19 HTML pages: 18 content pages plus `404.html`; `robots.txt` and `sitemap.xml` also generated |
 | GitHub Actions latest deployment | Success |
-| GitHub Pages custom domain | `ultraclaw.space` |
-| HTTPS | Enabled |
+| GitHub Pages custom domain | `scsda.cn` |
+| HTTP production access | `http://scsda.cn/` returns 200 from GitHub Pages |
+| `www` behavior | `http://www.scsda.cn/` redirects to `http://scsda.cn/` |
+| HTTPS | Pending GitHub Pages certificate issuance |
 | Production dependency audit | 0 vulnerabilities |
 
 ## Live Page QA
@@ -124,27 +129,27 @@ institutional evidence site:
 
 ## Current Formal Domain State
 
-Read-only DNS checks show:
+Authoritative DNS checks after the approved cutover show:
 
 ```text
-scsda.cn      -> hkdsn99.maohao.vip -> 154.12.23.232
-www.scsda.cn  -> hkdsn99.maohao.vip -> 154.12.23.232
+scsda.cn      A      185.199.108.153
+scsda.cn      A      185.199.109.153
+scsda.cn      A      185.199.110.153
+scsda.cn      A      185.199.111.153
+www.scsda.cn  CNAME  daguanghan.github.io
 ```
 
-The formal domain still points to the legacy host. This is expected because the
-user has not yet approved formal cutover.
+Immediate access checks:
+
+```text
+http://scsda.cn/       200
+http://www.scsda.cn/   301 -> http://scsda.cn/
+https://scsda.cn/      certificate pending
+https://www.scsda.cn/  certificate pending
+```
 
 ## Remaining Gate
 
-The only remaining gate is user approval after reviewing:
-
-```text
-https://ultraclaw.space/
-https://ultraclaw.space/en/
-```
-
-After approval, execute the cutover plan in `DNS.md` only after the user says:
-
-```text
-确认修改 scsda.cn DNS
-```
+The remaining operational gate is GitHub Pages certificate issuance for
+`scsda.cn`. After GitHub creates the certificate, enable HTTPS enforcement and
+rerun `npm run verify:production`.

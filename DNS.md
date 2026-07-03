@@ -20,18 +20,21 @@ CNAME  www    daguanghan.github.io
 
 Actual DNS must be verified in the domain registrar before any edit.
 
-## Future Domain: scsda.cn
+## Production Domain: scsda.cn
 
-Recommended final structure:
+Current structure:
 
 ```text
-https://scsda.cn/         formal domain entry point
-https://scsda.cn/en/      canonical English academic-facing site
-https://scsda.cn/zh/      concise Chinese institutional page
-https://scsda.cn/legacy/  preserved historical Chinese archive
+https://scsda.cn/         default English institutional site
+https://scsda.cn/en/      English mirror path
+https://scsda.cn/zh/      concise Chinese institutional page, if added later
 ```
 
-The final production move should not be done until the user approves the `ultraclaw.space` review deployment.
+The formal production move was approved by the user with:
+
+```text
+确认修改 scsda.cn DNS
+```
 
 ## Planned Institutional Email
 
@@ -124,4 +127,78 @@ Do not execute the cutover until the user explicitly confirms:
 
 ```text
 确认修改 scsda.cn DNS
+```
+
+## 2026-07-03 Actual GitHub Pages Cutover
+
+The user confirmed the DNS change with `确认修改 scsda.cn DNS`.
+
+GNAME record IDs before modification:
+
+```text
+170032397  @      CNAME  hkdsn99.maohao.vip
+170032404  www    CNAME  hkdsn99.maohao.vip
+```
+
+Records after modification:
+
+```text
+A      @      185.199.108.153    TTL 600
+A      @      185.199.109.153    TTL 600
+A      @      185.199.110.153    TTL 600
+A      @      185.199.111.153    TTL 600
+CNAME  www    daguanghan.github.io    TTL 600
+```
+
+Authoritative DNS verification immediately after the change:
+
+```text
+dig @a.share-dns.com +short scsda.cn A
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+
+dig @b.share-dns.net +short scsda.cn A
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+
+dig @a.share-dns.com +short www.scsda.cn CNAME
+daguanghan.github.io.
+
+dig @b.share-dns.net +short www.scsda.cn CNAME
+daguanghan.github.io.
+```
+
+Immediate web verification:
+
+```text
+http://scsda.cn/       200, served by GitHub Pages
+http://www.scsda.cn/   301 -> http://scsda.cn/
+https://scsda.cn/      certificate pending at GitHub Pages
+https://www.scsda.cn/  certificate pending at GitHub Pages
+```
+
+GitHub Pages repository setting:
+
+```text
+Custom domain: scsda.cn
+HTTPS enforced: false until GitHub issues the certificate
+```
+
+After GitHub creates the certificate, enable HTTPS enforcement:
+
+```bash
+gh api --method PUT repos/daguanghan/scsda-website/pages \
+  -f cname=scsda.cn \
+  -F https_enforced=true
+```
+
+Rollback:
+
+```text
+Set @ and www back to hkdsn99.maohao.vip at GNAME, or point the GitHub Pages
+custom domain back to the previous review domain while DNS propagates.
 ```

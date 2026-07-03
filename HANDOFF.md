@@ -1,10 +1,9 @@
 # SCSDA Website Handoff
 
-Date: 2026-07-01
+Date: 2026-07-03
 
 This handoff records the current operating state for the SCSDA English website,
-the staging deployment, the future `scsda.cn` cutover, and the routine update
-workflow.
+the `scsda.cn` production deployment, and the routine update workflow.
 
 ## Current Purpose
 
@@ -45,31 +44,31 @@ Preserved old-site source material:
 
 ## Current Deployment
 
-Staging domain:
+Production domain:
 
 ```text
-https://ultraclaw.space/
-https://www.ultraclaw.space/  -> redirects to https://ultraclaw.space/
+http://scsda.cn/
+http://www.scsda.cn/  -> redirects to http://scsda.cn/
 ```
 
-Important staging pages:
+Important production pages:
 
 ```text
-https://ultraclaw.space/
-https://ultraclaw.space/leadership/
-https://ultraclaw.space/research/
-https://ultraclaw.space/projects/
-https://ultraclaw.space/outputs/
-https://ultraclaw.space/legacy/
-https://ultraclaw.space/contact/
-https://ultraclaw.space/en/
+http://scsda.cn/
+http://scsda.cn/about/
+http://scsda.cn/leadership/
+http://scsda.cn/research/
+http://scsda.cn/projects/
+http://scsda.cn/outputs/
+http://scsda.cn/contact/
+http://scsda.cn/en/
 ```
 
 Discovery files:
 
 ```text
-https://ultraclaw.space/robots.txt
-https://ultraclaw.space/sitemap.xml
+http://scsda.cn/robots.txt
+http://scsda.cn/sitemap.xml
 ```
 
 Deployment platform:
@@ -85,32 +84,29 @@ Deployment workflow:
 main branch -> npm ci -> npm run build -> deploy dist to GitHub Pages
 ```
 
-Custom domain for the current staging deployment:
+Custom domain for the current production deployment:
 
 ```text
-public/CNAME = ultraclaw.space
+public/CNAME = scsda.cn
+```
+
+HTTPS status:
+
+```text
+GitHub Pages certificate is pending. Do not enable HTTPS enforcement until
+GitHub Pages reports that the certificate exists.
 ```
 
 ## Current Formal Domain State
 
-No `scsda.cn` DNS cutover has been made.
-
-Current read-only DNS state:
+The user approved the cutover with `确认修改 scsda.cn DNS`. Current DNS:
 
 ```text
-scsda.cn      -> hkdsn99.maohao.vip -> 154.12.23.232
-www.scsda.cn  -> hkdsn99.maohao.vip -> 154.12.23.232
-```
-
-This is expected until the user explicitly approves formal DNS cutover.
-
-## Future Production Target
-
-Preferred future public entry point:
-
-```text
-https://scsda.cn/
-https://www.scsda.cn/
+scsda.cn      A      185.199.108.153
+scsda.cn      A      185.199.109.153
+scsda.cn      A      185.199.110.153
+scsda.cn      A      185.199.111.153
+www.scsda.cn  CNAME  daguanghan.github.io
 ```
 
 Preferred English citation paths retained after cutover:
@@ -120,39 +116,11 @@ https://scsda.cn/en/
 https://www.scsda.cn/en/
 ```
 
-Do not make DNS changes unless the user explicitly says:
-
-```text
-确认修改 scsda.cn DNS
-```
-
-Before editing DNS, show the current records, planned records, and expected
-impact again.
-
-## Planned DNS Records After Approval
-
-Recommended GitHub Pages records:
-
-```text
-A      @      185.199.108.153
-A      @      185.199.109.153
-A      @      185.199.110.153
-A      @      185.199.111.153
-CNAME  www    daguanghan.github.io
-```
-
-Records expected to be replaced or removed:
-
-```text
-@      -> hkdsn99.maohao.vip
-www    -> hkdsn99.maohao.vip
-```
-
-Important cutover note:
+Important production note:
 
 - GitHub Pages generally uses one primary custom domain for a repository.
-- Moving the repository from `ultraclaw.space` to `scsda.cn` may remove the
-  staging domain from this repo.
+- Moving the repository from `ultraclaw.space` to `scsda.cn` removed the staging
+  domain from this repo.
 - If long-term staging is required, create a separate staging repo or deploy the
   same source to another platform later.
 
