@@ -175,25 +175,29 @@ daguanghan.github.io.
 Immediate web verification:
 
 ```text
-http://scsda.cn/       200, served by GitHub Pages
-http://www.scsda.cn/   301 -> http://scsda.cn/
-https://scsda.cn/      certificate pending at GitHub Pages
-https://www.scsda.cn/  certificate pending at GitHub Pages
+https://scsda.cn/       200, served by GitHub Pages
+https://www.scsda.cn/   301 -> https://scsda.cn/
+https://scsda.cn/en/    200, served by GitHub Pages
+https://www.scsda.cn/en/ 301 -> https://scsda.cn/en/
 ```
 
 GitHub Pages repository setting:
 
 ```text
 Custom domain: scsda.cn
-HTTPS enforced: false until GitHub issues the certificate
+HTTPS certificate: approved for scsda.cn and www.scsda.cn
+HTTPS enforced: true
 ```
 
-After GitHub creates the certificate, enable HTTPS enforcement:
+The initial HTTPS failure was caused by GitHub Pages still serving the default
+`*.github.io` certificate immediately after DNS cutover. The custom domain was
+removed and re-added in GitHub Pages to restart certificate provisioning, then
+HTTPS enforcement was enabled after GitHub reported the certificate as approved.
+
+Verification command:
 
 ```bash
-gh api --method PUT repos/daguanghan/scsda-website/pages \
-  -f cname=scsda.cn \
-  -F https_enforced=true
+npm run verify:production
 ```
 
 Rollback:

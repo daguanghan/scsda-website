@@ -2,12 +2,16 @@
 
 ## 2026-07-03
 
+- Reset and re-added the GitHub Pages custom domain to trigger certificate
+  provisioning, then enabled HTTPS enforcement for `scsda.cn`.
+- Verified `https://scsda.cn/`, `https://www.scsda.cn/`, `/en/`,
+  `/research/`, `robots.txt` and `sitemap.xml` with
+  `npm run verify:production`.
 - Cut over `scsda.cn` DNS in GNAME to GitHub Pages after explicit user
   confirmation. Authoritative DNS now returns the four GitHub Pages apex A
   records and `www` CNAME `daguanghan.github.io`.
 - Verified `http://scsda.cn/` serves the GitHub Pages site and
-  `http://www.scsda.cn/` redirects to the apex domain. GitHub Pages HTTPS
-  certificate issuance is still pending before HTTPS enforcement can be enabled.
+  `http://www.scsda.cn/` redirects to the apex domain.
 - Started the formal-domain cutover from `ultraclaw.space` to `scsda.cn`,
   keeping the root path as the default English site and `/en/` as the English
   mirror path.

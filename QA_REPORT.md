@@ -4,7 +4,7 @@ Date: 2026-07-03
 
 Repository: `https://github.com/daguanghan/scsda-website`
 
-Production site: `http://scsda.cn/`
+Production site: `https://scsda.cn/`
 
 Previous review site: `https://ultraclaw.space/`
 
@@ -14,20 +14,17 @@ Current review source version: `staging-ready-2026-07-01-v3`
 
 Current stable review tag: `staging-ready-2026-07-01-v3`
 
-For the current verified commit, run:
+For the current verified production domain, run:
 
 ```bash
-npm run audit:precutover
+npm run verify:production
 ```
-
-This avoids stale fixed commit references after documentation-only updates.
 
 ## Summary
 
 The SCSDA English site has been cut over to `scsda.cn` on GitHub Pages after
-explicit user approval. HTTP is serving the production site. GitHub Pages HTTPS
-certificate provisioning is still pending, so HTTPS enforcement is not yet
-enabled.
+explicit user approval. HTTPS is serving the production site and HTTPS
+enforcement is enabled in GitHub Pages.
 
 ## Build And Deployment
 
@@ -37,9 +34,9 @@ enabled.
 | Generated pages | 19 HTML pages: 18 content pages plus `404.html`; `robots.txt` and `sitemap.xml` also generated |
 | GitHub Actions latest deployment | Success |
 | GitHub Pages custom domain | `scsda.cn` |
-| HTTP production access | `http://scsda.cn/` returns 200 from GitHub Pages |
-| `www` behavior | `http://www.scsda.cn/` redirects to `http://scsda.cn/` |
-| HTTPS | Pending GitHub Pages certificate issuance |
+| Production access | `https://scsda.cn/` returns 200 from GitHub Pages |
+| `www` behavior | `https://www.scsda.cn/` redirects to `https://scsda.cn/` |
+| HTTPS | Certificate approved and HTTPS enforcement enabled |
 | Production dependency audit | 0 vulnerabilities |
 
 ## Live Page QA
@@ -142,14 +139,13 @@ www.scsda.cn  CNAME  daguanghan.github.io
 Immediate access checks:
 
 ```text
-http://scsda.cn/       200
-http://www.scsda.cn/   301 -> http://scsda.cn/
-https://scsda.cn/      certificate pending
-https://www.scsda.cn/  certificate pending
+https://scsda.cn/       200
+https://www.scsda.cn/   301 -> https://scsda.cn/
+https://scsda.cn/en/    200
+https://www.scsda.cn/en/ 301 -> https://scsda.cn/en/
 ```
 
-## Remaining Gate
+## Production Verification
 
-The remaining operational gate is GitHub Pages certificate issuance for
-`scsda.cn`. After GitHub creates the certificate, enable HTTPS enforcement and
-rerun `npm run verify:production`.
+`npm run verify:production` passes for DNS, HTTPS URLs, production content,
+`robots.txt`, and `sitemap.xml`.

@@ -47,28 +47,28 @@ Preserved old-site source material:
 Production domain:
 
 ```text
-http://scsda.cn/
-http://www.scsda.cn/  -> redirects to http://scsda.cn/
+https://scsda.cn/
+https://www.scsda.cn/  -> redirects to https://scsda.cn/
 ```
 
 Important production pages:
 
 ```text
-http://scsda.cn/
-http://scsda.cn/about/
-http://scsda.cn/leadership/
-http://scsda.cn/research/
-http://scsda.cn/projects/
-http://scsda.cn/outputs/
-http://scsda.cn/contact/
-http://scsda.cn/en/
+https://scsda.cn/
+https://scsda.cn/about/
+https://scsda.cn/leadership/
+https://scsda.cn/research/
+https://scsda.cn/projects/
+https://scsda.cn/outputs/
+https://scsda.cn/contact/
+https://scsda.cn/en/
 ```
 
 Discovery files:
 
 ```text
-http://scsda.cn/robots.txt
-http://scsda.cn/sitemap.xml
+https://scsda.cn/robots.txt
+https://scsda.cn/sitemap.xml
 ```
 
 Deployment platform:
@@ -93,8 +93,8 @@ public/CNAME = scsda.cn
 HTTPS status:
 
 ```text
-GitHub Pages certificate is pending. Do not enable HTTPS enforcement until
-GitHub Pages reports that the certificate exists.
+GitHub Pages certificate is approved for scsda.cn and www.scsda.cn.
+HTTPS enforcement is enabled.
 ```
 
 ## Current Formal Domain State
