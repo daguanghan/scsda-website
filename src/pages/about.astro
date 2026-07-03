@@ -9,31 +9,34 @@ import { researchCentres } from "@data/research";
   description="SCSDA is a nonprofit applied research academy focused on smart cities, sustainable development, digital built environments, sensing technologies, and smart infrastructure. The Academy presents public research themes, selected platform-construction records, and applied project summaries for international academic and industry audiences."
 >
   <section class="section">
-    <div class="shell article narrow">
-      <p class="eyebrow">Institutional Background</p>
-      <h2>A research platform for smart cities and sustainable development.</h2>
-      <p>
-        Smart Cities and Sustainable Development Academy, or SCSDA, was
-        established in Chongqing in 2019 as a nonprofit applied research
-        organization. Its work connects interdisciplinary research, engineering
-        validation, education-oriented knowledge exchange, and industry-facing
-        collaboration. The Academy is positioned around the built environment:
-        how cities, infrastructure, buildings, sensing systems, construction
-        data, and sustainable materials can be studied together through applied
-        research and public-facing project communication.
-      </p>
-      <p>
-        The Academy's public research areas include digital built environments,
-        BIM and digital twins, MEMS sensing and AIoT, smart infrastructure,
-        intelligent monitoring systems, sustainable materials, and urban
-        analytics. During its platform-construction period, SCSDA developed a
-        structure of research centres and laboratories, coordinated experts and
-        enterprise-facing collaboration, and produced selected public outputs
-        across research, application, training, and technology demonstration.
-        Together, these records show the Academy's scope, methods, and
-        institutional development for academic, industry, and institutional
-        audiences.
-      </p>
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Institutional Background</p>
+        <h2>A research platform for smart cities and sustainable development.</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          Smart Cities and Sustainable Development Academy, or SCSDA, was
+          established in Chongqing in 2019 as a nonprofit applied research
+          organization. Its work connects interdisciplinary research,
+          engineering validation, education-oriented knowledge exchange, and
+          industry-facing collaboration. The Academy is positioned around the
+          built environment: how cities, infrastructure, buildings, sensing
+          systems, construction data, and sustainable materials can be studied
+          together through applied research and public-facing project
+          communication.
+        </p>
+        <p>
+          The Academy's public research areas include digital built
+          environments, BIM and digital twins, MEMS sensing and AIoT, smart
+          infrastructure, intelligent monitoring systems, sustainable materials,
+          and urban analytics. During its platform-construction period, SCSDA
+          developed a structure of research centres and laboratories,
+          coordinated experts and enterprise-facing collaboration, and produced
+          selected public outputs across research, application, training, and
+          technology demonstration.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -117,7 +120,10 @@ import { researchCentres } from "@data/research";
     </div>
     <div class="shell centre-grid">
       {researchCentres.map((centre) => (
-        <article class="centre-card">{centre}</article>
+        <article class="centre-card">
+          <h3>{centre.title}</h3>
+          <p>{centre.summary}</p>
+        </article>
       ))}
     </div>
   </section>

@@ -59,9 +59,19 @@ export const platformMetrics = [
     detail: "A 2019-2023 construction-period platform indicator."
   },
   {
-    value: "14",
-    label: "applied R&D and translation projects",
-    detail: "Research, application, and transformation activity."
+    value: "RMB 18m",
+    label: "enterprise-commissioned R&D services",
+    detail: "Cumulative enterprise-commissioned R&D service projects reported by the Academy."
+  },
+  {
+    value: "RMB 20m",
+    label: "competitive research funding",
+    detail: "Competitive funding secured to support applied research and platform development."
+  },
+  {
+    value: "3",
+    label: "core-team controlled high-tech start-ups",
+    detail: "High-tech start-up ventures with controlling equity held by core team members."
   },
   {
     value: "49",

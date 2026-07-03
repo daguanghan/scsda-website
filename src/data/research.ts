@@ -37,18 +37,66 @@ export const researchThemes = [
 ];
 
 export const researchCentres = [
-  "Smart MEMS Sensing Research Centre",
-  "BIM and Digital Twin Research Centre",
-  "Construction Waste Resource Utilisation Research Centre",
-  "Silicon Photonics Sensing Civil Engineering Laboratory",
-  "Smart Infrastructure and Equipment Research Centre",
-  "Sustainable Green Urban Recycled Materials Research Centre",
-  "New Motor Drive Systems and Intelligent Equipment Research Centre",
-  "Microsystems Innovation Centre",
-  "Intelligent Testing and Monitoring Systems R&D Centre",
-  "Chongqing University Micro-Nano Devices and Systems Joint Laboratory",
-  "Sensor Environmental Reliability Laboratory",
-  "Intelligent Rail Transit Systems and Equipment R&D Centre"
+  {
+    title: "Smart MEMS Sensing Research Centre",
+    summary:
+      "Develops applied MEMS sensing directions, AIoT integration, market-oriented validation, and built-environment sensor translation."
+  },
+  {
+    title: "BIM and Digital Twin Research Centre",
+    summary:
+      "Connects BIM, digital twins, reality capture, and large-structure engineering assessment for bridges, roads, municipal assets, and warning-oriented infrastructure studies."
+  },
+  {
+    title: "Construction Waste Resource Utilisation Research Centre",
+    summary:
+      "Explores resource utilisation pathways for construction waste, recycled materials, and lower-impact built-environment applications."
+  },
+  {
+    title: "Silicon Photonics Sensing Civil Engineering Laboratory",
+    summary:
+      "Frames optical and photonics-enabled sensing as a civil-engineering measurement route for infrastructure monitoring and structural performance understanding."
+  },
+  {
+    title: "Smart Infrastructure and Equipment Research Centre",
+    summary:
+      "Integrates smart infrastructure, AIoT, data analytics, equipment systems, and applied technology translation for engineering and urban infrastructure contexts."
+  },
+  {
+    title: "Sustainable Green Urban Recycled Materials Research Centre",
+    summary:
+      "Studies sustainable construction materials, recycled urban resources, and practical material alternatives for greener built-environment development."
+  },
+  {
+    title: "New Motor Drive Systems and Intelligent Equipment Research Centre",
+    summary:
+      "Links advanced electric-drive systems, power-electronics applications, and intelligent equipment development with industry-facing research needs."
+  },
+  {
+    title: "Microsystems Innovation Centre",
+    summary:
+      "Supports MEMS and microsystem design, simulation, prototype development, testing, and transfer-oriented service pathways."
+  },
+  {
+    title: "Intelligent Testing and Monitoring Systems R&D Centre",
+    summary:
+      "Develops intelligent testing and monitoring approaches for tunnels, bridges, highways, construction sites, and infrastructure operation scenarios."
+  },
+  {
+    title: "Chongqing University Micro-Nano Devices and Systems Joint Laboratory",
+    summary:
+      "Connects micro-nano devices, MEMS sensors, actuators, micro-optical components, micro-energy, and integrated microsystem research."
+  },
+  {
+    title: "Sensor Environmental Reliability Laboratory",
+    summary:
+      "Focuses on performance testing, environmental reliability, calibration, and optimisation for sensor applications in engineering contexts."
+  },
+  {
+    title: "Intelligent Rail Transit Systems and Equipment R&D Centre",
+    summary:
+      "Combines rail transit, intelligent construction, facility management, advanced sensing, and equipment development for transport-infrastructure research."
+  }
 ];
 
 export const publicResearchCentreExamples = [
@@ -297,8 +345,9 @@ export const selectedOutputs = [
     items: [
       "49 intellectual-property outputs",
       "61 papers",
-      "11 provincial-level or above research proposals, including one China-Europe joint proposal",
-      "14 R&D, application, and transformation projects"
+      "RMB 18 million enterprise-commissioned R&D service projects",
+      "RMB 20 million competitive research and platform funding",
+      "3 high-tech start-up ventures with controlling equity held by core team members"
     ]
   }
 ];

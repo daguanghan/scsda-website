@@ -2,6 +2,18 @@
 
 ## 2026-07-03
 
+- Replaced the homepage `14 applied R&D and translation projects` metric with
+  current user-confirmed indicators: RMB 18 million enterprise-commissioned
+  R&D services, RMB 20 million competitive research funding, and three
+  core-team controlled high-tech start-up ventures.
+- Added one-sentence summaries for all 12 research centres and laboratories,
+  using the same structured data on the Home, About and Research pages.
+- Reworked the default page hero and first-section layout on institutional
+  pages so desktop content aligns to the same shell width as downstream
+  sections.
+- Standardised homepage highlight-card heights, metric-card layout and
+  research-centre card typography; replaced a Chinese-text Research page visual
+  with a cleaner reality-capture fieldwork image.
 - Upgraded the Home, About, Research, Projects, Outputs and Leadership pages
   toward a fuller institution-first English research-academy presentation.
 - Replaced the homepage public-material cards with consistent technical image

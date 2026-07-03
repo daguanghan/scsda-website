@@ -64,12 +64,12 @@ import {
       </div>
       <figure class="image-panel">
         <img
-          src="/images/construction-assembly-analysis.png"
-          alt="Digital construction and assembly analysis visual"
+          src="/images/reality-capture-site.jpg"
+          alt="Reality capture equipment used for digital construction and engineering assessment"
         />
         <figcaption class="image-caption">
-          Public project visual on construction assembly and engineering
-          analysis.
+          Reality-capture fieldwork visual representing scanning-based digital
+          construction and engineering assessment.
         </figcaption>
       </figure>
     </div>
@@ -123,7 +123,10 @@ import {
     </div>
     <div class="shell centre-grid">
       {researchCentres.map((centre) => (
-        <article class="centre-card">{centre}</article>
+        <article class="centre-card">
+          <h3>{centre.title}</h3>
+          <p>{centre.summary}</p>
+        </article>
       ))}
     </div>
   </section>

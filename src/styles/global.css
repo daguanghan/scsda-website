@@ -329,10 +329,20 @@ textarea:focus-visible {
   line-height: 1.65;
 }
 
+.section-copy {
+  display: grid;
+  gap: 1rem;
+}
+
 .page-hero {
   padding: 4.5rem 0 3rem;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
+}
+
+.page-hero-inner {
+  display: grid;
+  gap: 0;
 }
 
 .page-hero p:not(.eyebrow) {
@@ -350,11 +360,13 @@ textarea:focus-visible {
 }
 
 .metric-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .metric {
-  min-height: 188px;
+  min-height: 206px;
+  display: flex;
+  flex-direction: column;
   padding: 1.3rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -365,7 +377,7 @@ textarea:focus-visible {
   display: block;
   color: var(--teal-dark);
   font-family: var(--font-heading);
-  font-size: 2.85rem;
+  font-size: clamp(2.1rem, 3.2vw, 2.85rem);
   line-height: 1;
 }
 
@@ -516,6 +528,7 @@ textarea:focus-visible {
   display: grid;
   gap: 1.2rem;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
 }
 
 .product-grid {
@@ -530,6 +543,10 @@ textarea:focus-visible {
   overflow: hidden;
 }
 
+.highlight-grid .case-card {
+  grid-template-rows: 250px 1fr;
+}
+
 .case-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -538,7 +555,8 @@ textarea:focus-visible {
 }
 
 .highlight-grid .case-card img {
-  aspect-ratio: 16 / 8.8;
+  height: 100%;
+  aspect-ratio: auto;
 }
 
 .product-card img {
@@ -591,16 +609,33 @@ textarea:focus-visible {
 }
 
 .centre-card {
-  min-height: 92px;
+  min-height: 178px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.72rem;
   padding: 1.1rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
   color: var(--teal-dark);
-  font-weight: 700;
   line-height: 1.25;
+}
+
+.centre-card h3 {
+  margin: 0;
+  color: var(--teal-dark);
+  font-size: 1.02rem;
+  font-weight: 750;
+  line-height: 1.24;
+}
+
+.centre-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  font-weight: 500;
+  line-height: 1.55;
 }
 
 .message-form {
