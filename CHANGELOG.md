@@ -2,6 +2,9 @@
 
 ## 2026-07-03
 
+- Started the formal-domain cutover from `ultraclaw.space` to `scsda.cn`,
+  keeping the root path as the default English site and `/en/` as the English
+  mirror path.
 - Removed the visible forwarding/sensitive-information notice from the Message
   page, increased navigation and body text readability, reduced oversized page
   titles, and replaced the homepage hero with a sharper wide-screen image.
