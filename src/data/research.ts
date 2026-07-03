@@ -2,37 +2,37 @@ export const researchThemes = [
   {
     title: "BIM, Digital Twins and Reality Capture",
     summary:
-      "Building information modelling, bridge and building digital twins, point-cloud processing, laser scanning, and model-based engineering assurance.",
+      "Building information modelling, bridge and building digital twins, point-cloud processing, laser scanning, and model-based engineering assurance are presented as one connected digital built-environment theme.",
     scope:
-      "Applied to bridge engineering, building delivery, prefabrication, curtain-wall assessment, and digital construction workflows."
+      "Applied to bridge engineering, building delivery, prefabrication, curtain-wall assessment, construction-quality review, and digital construction workflows where model outputs and field data need to be interpreted together."
   },
   {
     title: "Smart Infrastructure and Structural Health Monitoring",
     summary:
-      "Data-driven monitoring, sensing, lifecycle performance evaluation, and infrastructure resilience for bridges, buildings, and complex structures.",
+      "Data-driven monitoring, sensing, lifecycle performance evaluation, and infrastructure resilience for bridges, buildings, and complex structures form the Academy's smart-infrastructure research direction.",
     scope:
-      "Connects field data, structural modelling, inspection technologies, and digital asset-management methods."
+      "Connects field data, structural modelling, inspection technologies, condition assessment, risk awareness, and digital asset-management methods for engineering systems."
   },
   {
     title: "MEMS Sensing and AIoT for Built Environments",
     summary:
-      "Micro-electromechanical sensing, sensing modules, AIoT integration, and field-oriented sensor validation for infrastructure and urban systems.",
+      "Micro-electromechanical sensing, sensing modules, AIoT integration, and field-oriented sensor validation are framed as technical foundations for infrastructure and urban-system monitoring.",
     scope:
-      "Links advanced sensing technologies with built-environment monitoring, reliability testing, and smart infrastructure applications."
+      "Links advanced sensing technologies with built-environment monitoring, environmental reliability testing, sensor deployment scenarios, and smart infrastructure applications."
   },
   {
     title: "Sustainable Construction and Circular Materials",
     summary:
-      "Sustainable urban systems, recycled construction materials, green construction methods, and applied research for lower-impact built environments.",
+      "Sustainable urban systems, recycled construction materials, green construction methods, and lower-impact built-environment research provide the sustainability frame for the Academy's platform.",
     scope:
-      "Supports resource-efficient construction, sustainable materials, and knowledge exchange with industry partners."
+      "Supports resource-efficient construction, sustainable materials, education engagement, and knowledge exchange with collaborators working on practical built-environment challenges."
   },
   {
     title: "AI and Data-driven Urban Systems",
     summary:
-      "Urban analytics, data platforms, model-based decision support for engineering workflows, and responsible AI for built assets.",
+      "Urban analytics, data platforms, model-based decision support for engineering workflows, and responsible AI for built assets extend the Academy's work from components and sites to urban systems.",
     scope:
-      "Uses public research summaries for responsible communication across urban analytics and digital infrastructure topics."
+      "Uses public research summaries to communicate data-driven methods, digital infrastructure concepts, and city-scale analytical questions in a responsible academic tone."
   }
 ];
 
@@ -57,10 +57,10 @@ export const publicResearchCentreExamples = [
     category: "Sensing and reliability",
     image: "/images/wechat/research/mems-sensing-centre.jpg",
     summary:
-      "Public SCSDA material presents MEMS sensing and environmental reliability as part of the Academy's applied sensing platform.",
+      "Public SCSDA material presents MEMS sensing and environmental reliability as part of the Academy's applied sensing platform for built-environment research.",
     highlights: [
       "Links sensor development, reliability testing, and built-environment applications.",
-      "Supports research themes in smart infrastructure, AIoT, and monitoring systems."
+      "Supports research themes in smart infrastructure, AIoT, monitoring systems, and field-oriented validation."
     ]
   },
   {
@@ -68,7 +68,7 @@ export const publicResearchCentreExamples = [
     category: "Digital built environment",
     image: "/images/wechat/research/bim-digital-twin-centre.jpg",
     summary:
-      "Public research-centre material identifies BIM and digital twins as a dedicated SCSDA platform area.",
+      "Public research-centre material identifies BIM and digital twins as a dedicated SCSDA platform area linking models, data, and engineering interpretation.",
     highlights: [
       "Connects BIM, reality capture, point-cloud workflows, and digital construction.",
       "Relevant to bridges, buildings, municipal assets, and construction quality assurance."
@@ -79,10 +79,10 @@ export const publicResearchCentreExamples = [
     category: "Micro-nano systems",
     image: "/images/wechat/research/mic-lab-equipment.jpg",
     summary:
-      "Public visual material records laboratory-facing engagement around microsystems, sensing, and component-oriented research.",
+      "Public visual material records laboratory-facing engagement around microsystems, sensing, and component-oriented research within the Academy's wider platform.",
     highlights: [
       "Shows the Academy's connection between research-centre development and technical facilities.",
-      "Supports a cautious institutional record of applied sensing and microsystem work."
+      "Supports a measured institutional record of applied sensing and microsystem work."
     ]
   }
 ];
@@ -144,7 +144,7 @@ export const caseStudies = [
     category: "Research platform",
     image: "/images/digital-projects.png",
     summary:
-      "A nonprofit applied research academy developed around smart cities, sustainable development, international collaboration, and industry-facing research.",
+      "A nonprofit applied research academy developed around smart cities, sustainable development, international collaboration, and industry-facing applied research.",
     highlights: [
       "Established in Chongqing in 2019.",
       "Developed 12 research centres and laboratories during the construction period.",
@@ -156,7 +156,7 @@ export const caseStudies = [
     category: "Digital built environment",
     image: "/images/bim-prefabrication.jpg",
     summary:
-      "A centre focused on BIM, digital twins, reality capture, and large-structure engineering applications.",
+      "A centre focused on BIM, digital twins, reality capture, and large-structure engineering applications, with public material connecting academic methods to engineering use cases.",
     highlights: [
       "Connected BIM, 3D laser scanning, point-cloud processing, and structural-performance evaluation.",
       "Supported enterprise-facing BIM implementation, training, and model-based quality assurance.",
@@ -168,7 +168,7 @@ export const caseStudies = [
     category: "Scanning and monitoring",
     image: "/images/air-corridor-bim.png",
     summary:
-      "Applied work using field scanning, digital measurement, and model comparison for construction quality and asset assessment.",
+      "Applied work using field scanning, digital measurement, and model comparison for construction quality and asset assessment in complex built-environment contexts.",
     highlights: [
       "Relevant to curtain-wall installation quality, bridge monitoring, and construction-site verification.",
       "Connects field equipment, point-cloud data, and engineering interpretation.",
@@ -180,7 +180,7 @@ export const caseStudies = [
     category: "Infrastructure intelligence",
     image: "/images/slope-scanning.jpg",
     summary:
-      "A research direction linking sensing, inspection, infrastructure monitoring, and lifecycle performance evaluation.",
+      "A research direction linking sensing, inspection, infrastructure monitoring, and lifecycle performance evaluation for built assets and engineering systems.",
     highlights: [
       "Uses public-facing summaries of scanning, monitoring, and structural-performance applications.",
       "Links smart infrastructure research with practical engineering validation.",
@@ -192,7 +192,7 @@ export const caseStudies = [
     category: "Sensing technologies",
     image: "/images/platform-bridge-bim.png",
     summary:
-      "A sensing-focused stream covering MEMS devices, sensing modules, AIoT integration, and reliability-oriented validation.",
+      "A sensing-focused stream covering MEMS devices, sensing modules, AIoT integration, and reliability-oriented validation for smart infrastructure applications.",
     highlights: [
       "Work included MEMS sensing technologies and sensing-module development.",
       "Connects smart infrastructure, structural health monitoring, and environmental reliability testing.",
@@ -204,7 +204,7 @@ export const caseStudies = [
     category: "Urban systems",
     image: "/images/smart-operation-dashboard.png",
     summary:
-      "Public-facing prototypes and digital operation concepts for smart built environments and energy-aware urban systems.",
+      "Public-facing prototypes and digital operation concepts for smart built environments, energy-aware urban systems, and data-supported management workflows.",
     highlights: [
       "Relevant to smart campuses, building systems, operations management, and energy-saving retrofit research.",
       "Shows the Academy's interest in data-driven, model-based built-environment workflows.",

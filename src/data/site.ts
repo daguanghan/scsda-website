@@ -74,17 +74,17 @@ export const institutionalPrinciples = [
   {
     title: "Applied Research",
     text:
-      "SCSDA connects engineering research with public-facing, non-confidential applications in smart cities, infrastructure, and digital built environments."
+      "SCSDA connects engineering research with public-facing, non-confidential applications in smart cities, infrastructure, and digital built environments. The focus is on turning research themes into demonstrators, summaries, training material, and engineering workflows that can be understood outside a single project team."
   },
   {
     title: "Interdisciplinary Platform",
     text:
-      "The Academy brings together BIM, digital twins, sensing technologies, AIoT, urban analytics, sustainable construction, and engineering education."
+      "The Academy brings together BIM, digital twins, sensing technologies, AIoT, urban analytics, sustainable construction, and engineering education. This breadth allows the institution to present built-environment problems through models, data, field measurement, materials, infrastructure systems, and urban context."
   },
   {
     title: "Public Engagement",
     text:
-      "The Academy presents public research summaries, education engagement, and non-confidential project material for academic and industry audiences."
+      "The Academy presents public research summaries, education engagement, and non-confidential project material for academic and industry audiences. Its public profile makes the research platform, selected outputs, and collaboration themes easier to review across institutional and international contexts."
   }
 ];
 

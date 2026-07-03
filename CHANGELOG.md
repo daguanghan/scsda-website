@@ -2,6 +2,17 @@
 
 ## 2026-07-03
 
+- Upgraded the Home, About, Research, Projects, Outputs and Leadership pages
+  toward a fuller institution-first English research-academy presentation.
+- Replaced the homepage public-material cards with consistent technical image
+  cards and removed the Chinese-text monitoring-system image from that section.
+- Added two new homepage technical images derived from preserved public WeChat
+  source material: sensor electronics and a MEMS sensor chip.
+- Added a UK research-institute benchmark note covering UCL CASA, Cambridge
+  CSIC, Connected Places Catapult, Newcastle Urban Observatory and Bristol
+  Cabot Institute.
+- Tightened site-wide typography, content width, section-heading alignment,
+  card height consistency and image aspect ratios for desktop and mobile.
 - Reset and re-added the GitHub Pages custom domain to trigger certificate
   provisioning, then enabled HTTPS enforcement for `scsda.cn`.
 - Verified `https://scsda.cn/`, `https://www.scsda.cn/`, `/en/`,
