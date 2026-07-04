@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-07-04
+
+- Removed chip-level and circuit-board-level images from the public asset set
+  and replaced the homepage highlight visuals with field monitoring,
+  terrestrial laser scanning, and laboratory sensing-equipment imagery.
+- Added a visual-asset guard to block future use of the removed component-level
+  image paths in public page content.
+- Added three public-facing infrastructure-resilience research directions to
+  the Home and Research pages: lifecycle health monitoring, reality-capture and
+  digital-twin assessment, and sensor-enabled construction monitoring.
+- Refined smart-infrastructure wording to connect SCSDA's public platform with
+  Dr Daguang Han's academic research agenda in BIM, reality capture, sensing,
+  infrastructure resilience, and engineering assessment.
+
 ## 2026-07-03
 
 - Replaced the homepage `14 applied R&D and translation projects` metric with
@@ -18,8 +32,8 @@
   toward a fuller institution-first English research-academy presentation.
 - Replaced the homepage public-material cards with consistent technical image
   cards and removed the Chinese-text monitoring-system image from that section.
-- Added two new homepage technical images derived from preserved public WeChat
-  source material: sensor electronics and a MEMS sensor chip.
+- Added homepage technical images derived from preserved public WeChat source
+  material; the earlier chip-level image was later removed from public use.
 - Added a UK research-institute benchmark note covering UCL CASA, Cambridge
   CSIC, Connected Places Catapult, Newcastle Urban Observatory and Bristol
   Cabot Institute.

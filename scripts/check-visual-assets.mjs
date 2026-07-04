@@ -12,7 +12,9 @@ const bannedVisuals = new Map([
   ["/images/academy-launch.jpg", "launch or signing event"],
   ["/images/research-space.jpg", "launch or signing event"],
   ["/images/research-exhibition.jpg", "reception or visitor tour"],
-  ["/images/lab-engagement.jpg", "reception or visitor tour"]
+  ["/images/lab-engagement.jpg", "reception or visitor tour"],
+  ["/images/home-mems-sensor-chip.jpg", "chip-level component image"],
+  ["/images/home-monitoring-electronics.jpg", "circuit-board component image"]
 ]);
 
 const duplicateIgnores = new Set(["/images/scsda-logo.jpg", "/favicon.svg"]);

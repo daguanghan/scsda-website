@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { institutionalPrinciples, platformMetrics, site } from "@data/site";
 import {
   caseStudies,
+  infrastructureResilienceFocus,
   researchCentres,
   researchThemes
 } from "@data/research";
@@ -54,31 +55,31 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
     <div class="shell highlight-grid">
       <article class="case-card">
         <img
-          src="/images/home-monitoring-electronics.jpg"
-          alt="Sensor electronics and monitoring hardware used to represent SCSDA technical platform development"
+          src="/images/home-field-monitoring-workflow.jpg"
+          alt="Field monitoring and sensing work used to represent SCSDA technical platform development"
           width="1600"
           height="900"
           loading="lazy"
         />
         <div class="case-body">
           <span class="category">Research platform</span>
-          <h3>Technical platform and monitoring systems</h3>
+          <h3>Field monitoring and sensor workflows</h3>
           <p>
-            SCSDA's public product and platform materials record a practical
-            applied-research direction: connecting sensing hardware, data
-            acquisition, engineering monitoring, and digital management
-            workflows. The emphasis is on research translation, prototype
-            communication, and engineering validation rather than on a single
-            isolated product.
+            SCSDA's public platform materials record an applied-research
+            direction that connects field sensing, data acquisition,
+            engineering monitoring, and digital management workflows. The
+            emphasis is on research translation, infrastructure condition
+            awareness, and practical validation rather than on sensitive
+            component-level technology.
           </p>
         </div>
       </article>
       <article class="case-card">
         <img
-          src="/images/digital-built-environment.jpg"
-          alt="Digital built-environment research and urban systems visual"
-          width="1000"
-          height="654"
+          src="/images/home-reality-capture-scanner.jpg"
+          alt="Terrestrial laser scanner used for digital construction and reality capture"
+          width="1600"
+          height="900"
           loading="lazy"
         />
         <div class="case-body">
@@ -96,21 +97,22 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
       </article>
       <article class="case-card">
         <img
-          src="/images/home-mems-sensor-chip.jpg"
-          alt="MEMS sensor chip visual for smart infrastructure sensing research"
+          src="/images/home-sensor-laboratory-equipment.jpg"
+          alt="Laboratory sensing equipment used to represent smart infrastructure research"
           width="1600"
           height="900"
           loading="lazy"
         />
         <div class="case-body">
-          <span class="category">Applied research</span>
-          <h3>Smart infrastructure and sensing</h3>
+          <span class="category">Infrastructure resilience</span>
+          <h3>Smart infrastructure and resilient built assets</h3>
           <p>
-            Sensing and AIoT themes are presented as part of a broader smart
-            infrastructure agenda: monitoring built assets, supporting
-            field-oriented validation, and translating sensor technologies into
-            public-facing engineering demonstrators. This helps describe SCSDA
-            as a platform that combines laboratory, field, and systems thinking.
+            Sensing and monitoring themes are presented as part of a broader
+            infrastructure-resilience agenda: understanding built assets,
+            supporting field-oriented validation, and translating measurement
+            workflows into public-facing engineering demonstrators. This helps
+            describe SCSDA as a platform that combines laboratory, field, and
+            systems thinking.
           </p>
         </div>
       </article>
@@ -196,6 +198,35 @@ const pageHref = (href: string) => `${pathPrefix}${href}`;
           <h3>{theme.title}</h3>
           <p>{theme.summary}</p>
           <p class="theme-note">{theme.scope}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Infrastructure Resilience Focus</p>
+        <h2>Built-asset monitoring, reality capture, and digital engineering assessment.</h2>
+      </div>
+      <p>
+        These platform directions align SCSDA's public research record with Dr
+        Daguang Han's academic work in digital construction, smart
+        infrastructure, infrastructure resilience, BIM, reality capture, and
+        sensor-enabled engineering assessment. They are presented as
+        non-confidential research directions suitable for international
+        academic and industry audiences.
+      </p>
+    </div>
+    <div class="shell claim-grid">
+      {infrastructureResilienceFocus.map((item) => (
+        <article class="claim-card">
+          <span class="category">{item.category}</span>
+          <h3>{item.title}</h3>
+          <p>{item.summary}</p>
+          <ul class="clean-list">
+            {item.methods.map((method) => <li>{method}</li>)}
+          </ul>
         </article>
       ))}
     </div>

@@ -36,6 +36,42 @@ export const researchThemes = [
   }
 ];
 
+export const infrastructureResilienceFocus = [
+  {
+    category: "Resilient built assets",
+    title: "Infrastructure resilience and lifecycle health monitoring",
+    summary:
+      "SCSDA presents infrastructure resilience as an applied research direction linking structural health monitoring, condition assessment, lifecycle performance evaluation, and maintenance-oriented engineering interpretation for bridges, buildings, and urban infrastructure.",
+    methods: [
+      "Field sensing and monitoring data",
+      "Condition indicators for built assets",
+      "Lifecycle assessment and maintenance support"
+    ]
+  },
+  {
+    category: "Digital construction",
+    title: "Reality capture and digital-twin assessment for large structures",
+    summary:
+      "A platform research line connects terrestrial laser scanning, point-cloud processing, BIM, digital twins, and model comparison for bridge engineering, curtain-wall systems, prefabricated construction, and complex steel structures.",
+    methods: [
+      "3D laser scanning and point-cloud workflows",
+      "BIM and digital-twin model comparison",
+      "Engineering assessment for complex structures"
+    ]
+  },
+  {
+    category: "Sensing and field validation",
+    title: "Sensor-enabled construction monitoring and field validation",
+    summary:
+      "The Academy's public monitoring demonstrators connect inclinometers, water-level sensing, high-formwork monitoring, site data acquisition, and dashboard communication with practical validation in construction and infrastructure contexts.",
+    methods: [
+      "Monitoring sensors and site data acquisition",
+      "Construction safety and risk-awareness workflows",
+      "Dashboard-based engineering communication"
+    ]
+  }
+];
+
 export const researchCentres = [
   {
     title: "Smart MEMS Sensing Research Centre",
@@ -228,7 +264,7 @@ export const caseStudies = [
     category: "Infrastructure intelligence",
     image: "/images/slope-scanning.jpg",
     summary:
-      "A research direction linking sensing, inspection, infrastructure monitoring, and lifecycle performance evaluation for built assets and engineering systems.",
+      "A research direction linking sensing, inspection, infrastructure monitoring, lifecycle performance evaluation, and resilience-oriented asset understanding for built assets and engineering systems.",
     highlights: [
       "Uses public-facing summaries of scanning, monitoring, and structural-performance applications.",
       "Links smart infrastructure research with practical engineering validation.",
