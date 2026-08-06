@@ -59,14 +59,14 @@ export const platformMetrics = [
     detail: "A 2019-2023 construction-period platform indicator."
   },
   {
-    value: "RMB 18m",
-    label: "enterprise-commissioned R&D services",
-    detail: "Cumulative enterprise-commissioned R&D service projects reported by the Academy."
+    value: "100+",
+    label: "engineering-project validations",
+    detail: "Research outputs validated across engineering projects with enterprises, universities and research institutes, per the government-accepted construction-period report."
   },
   {
-    value: "RMB 20m",
-    label: "competitive research funding",
-    detail: "Competitive funding secured to support applied research and platform development."
+    value: "5-year",
+    label: "government support framework",
+    detail: "Platform construction was supported by a competitively awarded municipal S&T Bureau grant (2019) and Liangjiang New Area matching funds, within a five-year government support framework."
   },
   {
     value: "3",

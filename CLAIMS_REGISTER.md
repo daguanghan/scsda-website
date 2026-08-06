@@ -53,3 +53,14 @@ This register maps public website wording to the current source boundary. It is 
 - Chinese or historical material: `scsda.cn/zh/` or `scsda.cn/legacy/`
 - Dr Han's full personal CV and academic profile: `daguanghan.com`
 - Temporary staging and review: `ultraclaw.space` until formal DNS cutover is approved
+
+## 2026-08-05 Update Batch (numbers canon alignment)
+
+| Change | Old | New | Evidence |
+|---|---|---|---|
+| `src/data/site.ts` metric tile | "RMB 18m enterprise-commissioned R&D services" | "100+ engineering-project validations" | Government-accepted construction-period report (实施报告 2023-04-18, verbatim "100 余个工程项目验证"); monetary figure removed per owner decision 2026-08-05 (amounts live only in application materials; the RMB 18m figure is retired — confirmed cumulative contracts ≈RMB 10m, see `1-vault-obsi/4. impact证据链/11_SCSDA数字统一口径与成果启用.md`) |
+| `src/data/site.ts` metric tile | "RMB 20m competitive research funding" | "5-year government support framework" | Agreement KC-2018-061-TZ §3.6 (five-year framework; municipal S&T grant 2019 + Liangjiang matching funds per §3.6.1 and acceptance-report disbursement table); monetary figure removed per owner decision 2026-08-05 |
+| `src/data/research.ts` Research Outputs items | Two RMB figures | Qualitative funding/contract lines | Same as above |
+| `src/pages/leadership.astro` | "founder and founding executive lead" | "Founding Dean … named as its designated head in the Liangjiang New Area government approval of March 2019" | Approval document Yu-Liangjiang-Guan [2019] No.20 (`portfolio/grants/[04d]`), agreement KC-2018-061-TZ §5.2, acceptance report 2023 |
+
+Rule reaffirmed: no monetary amounts anywhere on the site; the HAN-LI Chair (KU Leuven, c.2017-2020, concluded) is not presented on the site (owner decision 2026-08-05).

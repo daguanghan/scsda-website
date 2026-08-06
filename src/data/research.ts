@@ -381,8 +381,8 @@ export const selectedOutputs = [
     items: [
       "49 intellectual-property outputs",
       "61 papers",
-      "RMB 18 million enterprise-commissioned R&D service projects",
-      "RMB 20 million competitive research and platform funding",
+      "Enterprise-commissioned R&D and technical-service contracts delivered across the construction period",
+      "A competitively awarded municipal S&T Bureau platform grant (2019) with Liangjiang New Area matching funds, within a five-year government support framework",
       "3 high-tech start-up ventures with controlling equity held by core team members"
     ]
   }
