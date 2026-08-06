@@ -32,6 +32,7 @@ export const site = {
     { href: "/research/", label: "Research" },
     { href: "/projects/", label: "Projects" },
     { href: "/outputs/", label: "Outputs" },
+    { href: "/press/", label: "In the Media" },
     { href: "/join/", label: "Join Us" },
     { href: "/message/", label: "Message" }
   ],

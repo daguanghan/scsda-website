@@ -64,3 +64,24 @@ This register maps public website wording to the current source boundary. It is 
 | `src/pages/leadership.astro` | "founder and founding executive lead" | "Founding Dean … named as its designated head in the Liangjiang New Area government approval of March 2019" | Approval document Yu-Liangjiang-Guan [2019] No.20 (`portfolio/grants/[04d]`), agreement KC-2018-061-TZ §5.2, acceptance report 2023 |
 
 Rule reaffirmed: no monetary amounts anywhere on the site; the HAN-LI Chair (KU Leuven, c.2017-2020, concluded) is not presented on the site (owner decision 2026-08-05).
+
+## 2026-08-05 Addition: /press/ (In the Media)
+
+New page listing third-party coverage only. Sources and evidence base:
+`1-vault-obsi/4. impact证据链/10_SCSDA跨国合作新闻报道佐证包.md` (full-text snapshots in `快照-SCSDA新闻/`).
+
+| Entry | Publisher | Link status (checked Aug 2026) |
+|---|---|---|
+| Chongqing sets sights firmly on future | China Daily, 19 Jan 2021 | live |
+| More than ten leading universities partner with Liangjiang New Area | Xinhua via Jiemian, 22 Aug 2019 | live |
+| Chongqing and KU Leuven sign cooperation agreement | Chongqing Daily via CRI Online, 14 Dec 2017 | restricted outside mainland China (flagged on page) |
+| Research outputs supporting the city's digital upgrade | Liangjiang New Area Administrative Committee, 4 Mar 2021 | restricted outside mainland China (flagged on page) |
+| Innovation alliance launched | Hualong Net, 19 Jul 2019 | live |
+| International research platforms move west | Shangyou News, 20 Sep 2019 | live |
+| Postgraduate exchange at KU Leuven | Chongqing Jiaotong University, 17 Jan 2019 | live |
+
+Editorial decisions:
+- The China Daily pull quote is the talent-attraction sentence, quoted verbatim with publisher and date. The article's separate "co-director ... University of Leuven" phrasing is NOT used on the site: that chair ran c.2017-2020 and has concluded, and presenting it here would read as a current role (owner decision 2026-08-05).
+- Aggregator re-posts and recruitment platforms are excluded; only original publishers or their direct syndication partners are listed.
+- Restricted links are labelled on the page, with archived copies offered on request.
+- Route is `/press/` so it does not collide with the `/media/` static asset directory (interview video).

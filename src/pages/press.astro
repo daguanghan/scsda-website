@@ -1,0 +1,113 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  mediaIntro,
+  featuredQuote,
+  mediaCoverage,
+  mediaNote
+} from "@data/media";
+---
+
+<BaseLayout
+  title="In the Media"
+  description="Third-party media and government-portal coverage of SCSDA's establishment and its China-Europe research cooperation, 2017-2021."
+>
+  <section class="section">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">{mediaIntro.eyebrow}</p>
+        <h2>{mediaIntro.heading}</h2>
+      </div>
+      <p>{mediaIntro.text}</p>
+    </div>
+    <div class="shell article narrow">
+      <blockquote class="media-quote">
+        <p>&ldquo;{featuredQuote.text}&rdquo;</p>
+        <cite>
+          <a href={featuredQuote.href} rel="noopener noreferrer" target="_blank">
+            {featuredQuote.source}
+          </a>, {featuredQuote.date}
+        </cite>
+      </blockquote>
+      <p class="media-quote-note">{featuredQuote.note}</p>
+    </div>
+  </section>
+
+  <section class="section surface">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Selected Coverage</p>
+        <h2>Reports from news agencies, provincial media and public bodies.</h2>
+      </div>
+      <p>
+        Entries are listed in order of publisher reach and are limited to
+        third-party sources. Where a report describes the Academy under its
+        earlier project name, the institution is the same: the registered name
+        &ldquo;Chongqing Leuven Smart City and Sustainable Development
+        Academy&rdquo; came into use with the district approval of March 2019.
+      </p>
+    </div>
+    <div class="shell output-grid">
+      {mediaCoverage.map((item) => (
+        <article class="output-card">
+          <h3>{item.publisher}</h3>
+          <ul class="clean-list">
+            <li><strong>{item.title}</strong></li>
+            <li>{item.date}</li>
+            <li>{item.note}</li>
+            <li>
+              <a href={item.href} rel="noopener noreferrer" target="_blank">
+                Original report
+              </a>
+              {item.access === "restricted" && (
+                <span> &mdash; access may be restricted outside mainland China</span>
+              )}
+            </li>
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell article narrow">
+      <p class="eyebrow">Verification</p>
+      <h2>How to read this record.</h2>
+      <p>{mediaNote}</p>
+      <p>
+        The Academy is a nonprofit applied research organisation established in
+        Chongqing in 2019 with support from Liangjiang New Area and the
+        municipal science and technology authority, drawing on research links
+        with KU Leuven and other European institutions. Coverage is presented
+        here as a public record of that cooperation, not as an endorsement by
+        any of the organisations named.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .media-quote {
+    margin: 0 0 1.25rem;
+    padding: 1.5rem 1.75rem;
+    border-left: 3px solid var(--accent, #2f6f5e);
+    background: var(--surface-2, #edf3f1);
+  }
+
+  .media-quote p {
+    margin: 0 0 0.75rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .media-quote cite {
+    font-style: normal;
+    font-size: 0.95rem;
+    opacity: 0.85;
+  }
+
+  .media-quote-note {
+    font-size: 0.95rem;
+    opacity: 0.85;
+  }
+</style>
