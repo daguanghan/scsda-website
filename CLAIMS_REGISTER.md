@@ -103,3 +103,21 @@ Editorial decisions:
 - **No partner academics or their universities are named.** An agreement with an individual researcher is not an institution-level partnership and naming could imply an endorsement that was never given.
 - No monetary amounts (standing site rule since 2026-08-06).
 - Figures are labelled as construction-period performance, explicitly not a claim about current staffing.
+
+## 2026-08-10 Addition: image upgrade + advisory-structure section
+
+**New images** (all from the Academy's own WeChat-published materials or its introduction deck; resized/optimised, no partner logos, no team face-grids, no monetary or spec-sheet content):
+
+| File | Source | Used on |
+|---|---|---|
+| centres-development-wall.jpg | Academy WeChat library (044) | operating-model |
+| mems-sensing-centre.jpg | Academy WeChat library (042) | operating-model |
+| field-engineering-work.jpg | Academy WeChat library (063) | projects |
+| recycled-materials-pilot.jpg | Academy introduction deck [04e] image111 | projects |
+| mems-sensor-board.jpg | Academy WeChat library (046) | outputs |
+| sensor-calibration-equipment.jpg | Academy WeChat library (045) | (reserve) |
+| research-exhibition.jpg / lab-engagement.jpg / academy-launch.jpg | already in repo, previously unused | outputs / leadership / press |
+
+**Advisory-structure section on /operating-model/**: committee of 30+ experts, international and Chinese co-chairs, five expert groups (digital transformation; applied AI; intelligent sensing; intelligent construction and operations; green and low-carbon). Source: the Academy's own published committee article (WeChat, 2023). **Names of chairs and members deliberately not republished on this site**; the structure is described, the roster stays on the Academy's own channel.
+
+Editorial exclusions this round: 2019 signing photo (only 555px available — below quality bar); partner-logo imagery (implies institution-level endorsement); personnel ID portraits.
