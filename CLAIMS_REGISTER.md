@@ -85,3 +85,21 @@ Editorial decisions:
 - Aggregator re-posts and recruitment platforms are excluded; only original publishers or their direct syndication partners are listed.
 - Restricted links are labelled on the page, with archived copies offered on request.
 - Route is `/press/` so it does not collide with the `/media/` static asset directory (interview video).
+
+## 2026-08-10 Addition: /operating-model/
+
+New page describing how the academy is organised. Basis: `1-vault-obsi/1.1 MASTER-Info./个人资产特征_可迁移能力体系_canonical.md` §2 特征一 (platform design) and the sync specification `HDG 网站/00-workspace-admin/网站与LinkedIn同步规格_资产定位_2026-08-10.md` §3.1.
+
+| Claim on page | Basis | Grade |
+|---|---|---|
+| Groups join with their own teams under a shared framework (directions, targets, funding, facilities) | Owner-confirmed operating mechanism; corroborated by academy introduction deck [04e] | 🟨 |
+| Projects won by participating groups contract in the academy's name | Same | 🟨 |
+| Academy directly employs a core operations team (finance, delivery, management, market, commercialisation) | Same | 🟨 |
+| Mature results spin out with the academy holding equity and continuing support | Same; three registered ventures per acceptance report | 🟨 / 🟩 for the three ventures |
+| Overseas centres run the same model with the academy paying the partner side | Owner-confirmed | 🟨 |
+| 12 joint bilateral centres incl. 4 overseas; 45 researchers (MSc+) recruited cumulatively; 46 postgraduate/doctoral participants; 17 flexibly engaged experts | Government-accepted construction-period report, 2019-2023 | 🟩 |
+
+Editorial decisions:
+- **No partner academics or their universities are named.** An agreement with an individual researcher is not an institution-level partnership and naming could imply an endorsement that was never given.
+- No monetary amounts (standing site rule since 2026-08-06).
+- Figures are labelled as construction-period performance, explicitly not a claim about current staffing.

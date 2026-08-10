@@ -29,6 +29,7 @@ export const site = {
     { href: "/", label: "Home" },
     { href: "/about/", label: "About" },
     { href: "/leadership/", label: "Leadership" },
+    { href: "/operating-model/", label: "Operating Model" },
     { href: "/research/", label: "Research" },
     { href: "/projects/", label: "Projects" },
     { href: "/outputs/", label: "Outputs" },
