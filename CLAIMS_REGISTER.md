@@ -121,3 +121,7 @@ Editorial decisions:
 **Advisory-structure section on /operating-model/**: committee of 30+ experts, international and Chinese co-chairs, five expert groups (digital transformation; applied AI; intelligent sensing; intelligent construction and operations; green and low-carbon). Source: the Academy's own published committee article (WeChat, 2023). **Names of chairs and members deliberately not republished on this site**; the structure is described, the roster stays on the Academy's own channel.
 
 Editorial exclusions this round: 2019 signing photo (only 555px available — below quality bar); partner-logo imagery (implies institution-level endorsement); personnel ID portraits.
+
+## 2026-08-11 Image substitution (owner request)
+
+Removed from the site and deleted from the repo: `lab-engagement.jpg` (leadership) and `research-exhibition.jpg` (outputs) — both showed clearly identifiable faces of visitors/partners. Replacements: `sensor-calibration-equipment.jpg` (WeChat library 045, equipment only) on leadership with caption reworked to "Leadership close to the laboratory"; `green-materials-centre.jpg` (WeChat library 051, centre nameplates, no people) on outputs with the card retitled to sustainable-materials research, linking to the recycled-materials IP record.
