@@ -125,3 +125,7 @@ Editorial exclusions this round: 2019 signing photo (only 555px available — be
 ## 2026-08-11 Image substitution (owner request)
 
 Removed from the site and deleted from the repo: `lab-engagement.jpg` (leadership) and `research-exhibition.jpg` (outputs) — both showed clearly identifiable faces of visitors/partners. Replacements: `sensor-calibration-equipment.jpg` (WeChat library 045, equipment only) on leadership with caption reworked to "Leadership close to the laboratory"; `green-materials-centre.jpg` (WeChat library 051, centre nameplates, no people) on outputs with the card retitled to sustainable-materials research, linking to the recycled-materials IP record.
+
+## 2026-08-12 Addition: working principle on /research/
+
+New section "Standardise the data, not the algorithm" on the research page (both language routes). Basis: the Academy's own digital-research emphasis on information structures, data quality and interoperability, and the founding dean's standards roles (ISO/TC 59/SC 13 JWG 14 committee member; deputy chair, standards digitalisation committee, CECS — both 🟩, held since 2023). The reasoning stated — algorithms are replaced continuously while standardised data is the shared input for later generations — is a position, not a factual claim about any project, and carries no client, monetary or technical-content exposure.
