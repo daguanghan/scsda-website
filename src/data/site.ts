@@ -1,7 +1,7 @@
 export const site = {
-  name: "Smart Cities and Sustainable Development Academy",
+  name: "Smart City and Sustainable Development Academy",
   shortName: "SCSDA",
-  chineseName: "Chongqing Smart Cities and Sustainable Development Academy",
+  chineseName: "Chongqing Smart City and Sustainable Development Academy",
   tagline:
     "Research, education, and applied innovation in smart cities and sustainable development.",
   description:
