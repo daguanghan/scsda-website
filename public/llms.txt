@@ -1,0 +1,34 @@
+# Smart City and Sustainable Development Academy (SCSDA)
+
+> Bilingual site of the Smart City and Sustainable Development Academy (SCSDA), a non-profit research and development institute in Chongqing, China, established with KU Leuven support. Work covers smart city systems, sustainable construction, digital delivery and applied research translation with industry.
+
+The site is published in Chinese at the root and in English under /en/.
+
+## Identifiers and profiles
+
+- [Founding Dean](https://daguanghan.com/)
+
+## Site sections
+
+- [Smart City and Sustainable Development Academy](https://scsda.cn/): Research, education, and applied innovation in smart cities and sustainable development.
+- [About SCSDA](https://scsda.cn/about/): SCSDA is a nonprofit applied research academy focused on smart cities, sustainable development, digital built environments, sensing technologies, and smart infr…
+- [Leadership](https://scsda.cn/leadership/): SCSDA
+- [Operating Model](https://scsda.cn/operating-model/): How SCSDA is organised: research groups join with their own teams under a shared framework, projects sign through the academy, and a small in-house team runs de…
+- [Research](https://scsda.cn/research/): SCSDA research themes include BIM, digital twins, reality capture, smart infrastructure, MEMS sensing, AIoT, sustainable construction, and data-driven urban sys…
+- [Selected Projects](https://scsda.cn/projects/): Selected public-facing SCSDA project summaries in BIM, digital twins, reality capture, MEMS sensing, smart infrastructure, and sustainable urban systems.
+- [Outputs](https://scsda.cn/outputs/): Selected SCSDA outputs, applied research directions, and platform-building indicators from the 2019-2023 construction period.
+- [In the Media](https://scsda.cn/press/): Third-party media and government-portal coverage of SCSDA
+- [Join Us](https://scsda.cn/join/): Opportunities and expressions of interest for researchers, students, visiting scholars, and partners interested in SCSDA
+- [Message](https://scsda.cn/message/): Send a public-facing, non-confidential message to SCSDA about research, collaboration, opportunities, or institutional enquiries.
+- [Contact](https://scsda.cn/contact/): Institutional contact details for SCSDA-related research and collaboration enquiries.
+- [Smart City and Sustainable Development Academy](https://scsda.cn/en/): Research, education, and applied innovation in smart cities and sustainable development.
+- [About SCSDA](https://scsda.cn/en/about/): SCSDA is a nonprofit applied research academy focused on smart cities, sustainable development, digital built environments, sensing technologies, and smart infr…
+- [Leadership](https://scsda.cn/en/leadership/): SCSDA
+- [Operating Model](https://scsda.cn/en/operating-model/): How SCSDA is organised: research groups join with their own teams under a shared framework, projects sign through the academy, and a small in-house team runs de…
+- [Research](https://scsda.cn/en/research/): SCSDA research themes include BIM, digital twins, reality capture, smart infrastructure, MEMS sensing, AIoT, sustainable construction, and data-driven urban sys…
+- [Selected Projects](https://scsda.cn/en/projects/): Selected public-facing SCSDA project summaries in BIM, digital twins, reality capture, MEMS sensing, smart infrastructure, and sustainable urban systems.
+- [Outputs](https://scsda.cn/en/outputs/): Selected SCSDA outputs, applied research directions, and platform-building indicators from the 2019-2023 construction period.
+- [In the Media](https://scsda.cn/en/press/): Third-party media and government-portal coverage of SCSDA
+- [Join Us](https://scsda.cn/en/join/): Opportunities and expressions of interest for researchers, students, visiting scholars, and partners interested in SCSDA
+- [Message](https://scsda.cn/en/message/): Send a public-facing, non-confidential message to SCSDA about research, collaboration, opportunities, or institutional enquiries.
+- [Contact](https://scsda.cn/en/contact/): Institutional contact details for SCSDA-related research and collaboration enquiries.
