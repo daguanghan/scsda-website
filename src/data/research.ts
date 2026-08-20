@@ -23,9 +23,9 @@ export const researchThemes = [
   {
     title: "Sustainable Construction and Circular Materials",
     summary:
-      "Sustainable urban systems, recycled construction materials, green construction methods, and lower-impact built-environment research provide the sustainability frame for the Academy's platform.",
+      "Treats demolition and excavation waste as a material with properties rather than a disposal problem. Two dedicated research centres were established on this question in March 2020, both co-founded with a European research institute working on zero-waste construction, making circular materials one of the platform's load-bearing directions rather than a sustainability heading.",
     scope:
-      "Supports resource-efficient construction, sustainable materials, education engagement, and knowledge exchange with collaborators working on practical built-environment challenges."
+      "Covers characterisation of recycled aggregate, what it can legitimately be specified for, field validation on structures that stay in service, and joint supervision of master's and doctoral candidates under signed tripartite agreements."
   },
   {
     title: "AI and Data-driven Urban Systems",
@@ -86,12 +86,12 @@ export const researchCentres = [
   {
     title: "Construction Waste Resource Utilisation Research Centre",
     summary:
-      "Explores resource utilisation pathways for construction waste, recycled materials, and lower-impact built-environment applications."
+      "Established March 2020 with a European research institute working on zero-waste construction. Explores resource-utilisation pathways for construction waste and recycled materials, and carries four signed tripartite agreements for joint master's and doctoral supervision alongside its technical programme."
   },
   {
-    title: "Silicon Photonics Sensing Civil Engineering Laboratory",
+    title: "Optical Sensing for Civil Engineering Laboratory (with Ghent University)",
     summary:
-      "Frames optical and photonics-enabled sensing as a civil-engineering measurement route for infrastructure monitoring and structural performance understanding."
+      "Frames optical fibre and laser-based sensing as a civil-engineering measurement route for infrastructure monitoring and structural performance understanding."
   },
   {
     title: "Smart Infrastructure and Equipment Research Centre",
@@ -101,7 +101,7 @@ export const researchCentres = [
   {
     title: "Sustainable Green Urban Recycled Materials Research Centre",
     summary:
-      "Studies sustainable construction materials, recycled urban resources, and practical material alternatives for greener built-environment development."
+      "Established March 2020 alongside its sister centre and with the same European partner institute. Studies sustainable construction materials, recycled urban resources, and material alternatives that can be specified in practice rather than only demonstrated."
   },
   {
     title: "New Motor Drive Systems and Intelligent Equipment Research Centre",

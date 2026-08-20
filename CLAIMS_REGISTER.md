@@ -19,7 +19,7 @@ This register maps public website wording to the current source boundary. It is 
 | Competitive research funding | RMB 20 million competitive research and platform funding | User-confirmed public metric; add source document when available | Use competitive funding wording; avoid political or official-authority framing |
 | Core-team high-tech start-ups | 3 high-tech start-up ventures with controlling equity held by core team members | User-confirmed public metric; add registration evidence when available | Use platform-development context; avoid implying SCSDA owns each company unless documentary evidence is added |
 | 13 incubation projects | 13 incubation projects reported in the implementation report | Supported by implementation report | Use as construction-period ecosystem record, not current business claims |
-| Flexible expert count | international expert engagement | Source has summary inconsistency between 16 and 17 people | Do not publish a numeric expert-count claim until source reconciliation |
+| Flexible expert count | visiting professorship network of 17 senior experts engaged under institutional agreements | **Reconciled 2026-08-20**: acceptance report lines 63/65/173/178 give 17 flexibly engaged experts, of whom 16 hold professorial rank — the two figures are a total and a subset, not a contradiction. Canon: `4. impact证据链/11_SCSDA数字统一口径与成果启用.md` | Publishable. Wording must use *visiting professorship network under institutional agreements*; do NOT use talent/recruitment-programme framing |
 | Public platform support | externally supported platform-construction project | Supported by implementation report | Avoid political or official-authority wording |
 | Enterprise-facing applied research | enterprise-facing applied research | Supported by implementation report project list | Do not publish confidential project details |
 | Research directions | BIM, digital twins, smart infrastructure, MEMS sensing, AIoT, sustainable construction, and urban systems | Supported by preserved website and implementation report | Safe when written as research themes |
@@ -129,3 +129,34 @@ Removed from the site and deleted from the repo: `lab-engagement.jpg` (leadershi
 ## 2026-08-12 Addition: working principle on /research/
 
 New section "Standardise the data, not the algorithm" on the research page (both language routes). Basis: the Academy's own digital-research emphasis on information structures, data quality and interoperability, and the founding dean's standards roles (ISO/TC 59/SC 13 JWG 14 committee member; deputy chair, standards digitalisation committee, CECS — both 🟩, held since 2023). The reasoning stated — algorithms are replaced continuously while standardised data is the shared input for later generations — is a position, not a factual claim about any project, and carries no client, monetary or technical-content exposure.
+
+
+## 2026-08-20 Public-face calibration (T3) — subtraction and addition
+
+Basis: MASTER `§GEORISK 四bis` (three-tier exposure model) and `§GEORISK 六` (public-network layer, strictest tier), owner ruling 2026-08-20. The public face is now held to a **stricter** standard than targeted application materials, because it is permanently indexable and read without context by any party.
+
+### Wording removed (subtraction)
+
+| Was | Now | Why |
+|---|---|---|
+| `Overseas centres run the same model` | `Centres with European partners run the same model` | `offshore` / `overseas` / `abroad` are prohibited English on the public face — they read as an offshoring posture rather than a research network |
+| `four of them overseas` | dropped; replaced by `each formed under a dated signed agreement with its co-founding partner` | Same prohibition. The count itself (4 of 12) remains canon-correct and stays available for targeted materials |
+| `partner institutions abroad` | `European partner institutions` | Same prohibition |
+| `Silicon Photonics Sensing Civil Engineering Laboratory` | `Optical Sensing for Civil Engineering Laboratory (with Ghent University)` | `§GEORISK 六` mandates the optical-sensing naming; the silicon-photonics rendering pulls a civil-engineering laboratory into a semiconductor frame it does not belong in, and doing so also exposes the European partner |
+| `seventeen flexibly engaged senior experts` | `a visiting professorship network of seventeen senior experts engaged under institutional agreements` | `§GEORISK 二`: talent/recruitment-programme verbs are a targeted term in Western security narratives. The underlying arrangement is visiting professorships under institutional agreements, which is both safer and more accurate |
+
+### Wording added (addition)
+
+| Claim | Public wording | Source status | Notes |
+|---|---|---|---|
+| European agreement network | four European universities across three countries, instruments signed between December 2019 and December 2021 | Supported by the government-accepted implementation report (centre agreement ledger, each row carrying an agreement date and a formation decision) | 🔴 State as **4 universities / 3 countries**. Never merge with any wider network count — the agreement layer and the network layer are different objects. Partner names are **not** listed on this site, consistent with the standing non-naming rule; they appear on daguanghan.com, which speaks in a personal voice |
+| Agreements not contacts | governed by signed agreements rather than informal contacts | Same source | This is the differentiator worth stating. It is what allows a partner to commit staff, and it is why the arrangement survived personnel changes on both sides |
+| Two-way substance | joint publications, four signed tripartite agreements for joint master's and doctoral supervision, and a shared submission to a European national research council | Implementation report: tripartite agreements recorded against the construction-waste centre; joint submission recorded in the joint-application schedule (2021-05-19) | 🚫 Do not write *supervisor of record*. 🚫 Do not name the funding body's project title — it sits in a restricted technical area |
+| Circular-economy centres | two centres established March 2020 with a European research institute working on zero-waste construction | Implementation report centre ledger (both formed 2020-03-13) | 🚫 The partner institute is **not named** on either site (owner decision D1: the chair carrying his surname is concluded and stays off both websites). Elevated this round from a sustainability heading to a load-bearing research direction |
+| ICIC governance role | Vice-President of the International Innovation Cooperation Center (ICIC), chaired by Professor Michael Kraft of KU Leuven | Owner-confirmed; organisation records | 🚫 No clickable link (the domain has lapsed, and an earlier unrelated occupant of the same domain is in the Wayback record). 🚫 No board roster. 🚫 No site marketing figures |
+
+### Deliberately retained
+
+- **China Daily verbatim quotations** keep the word *overseas* where the newspaper used it. A quotation that is edited is no longer a quotation, and third-party corroboration is worth more than internal consistency on one word.
+- **MEMS sensing** stays as a sensing method in civil-monitoring context. What is excluded is the semiconductor frame around it: device counts, fabrication, and any technology-import narrative.
+- **Microsystems / micro-nano centre names** stay. They are the registered names of civil-facing research centres, and renaming them would misdescribe the record.
