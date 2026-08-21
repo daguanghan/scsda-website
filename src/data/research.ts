@@ -185,7 +185,7 @@ export const leadershipResponsibilities = [
   {
     title: "Enterprise and Industry Engagement",
     text:
-      "Building non-confidential applied research collaborations, project proposals, implementation guides, and engineering validation work."
+      "Building applied research collaborations, project proposals, implementation guides, and engineering validation work."
   },
   {
     title: "International Academic Links",
@@ -218,7 +218,7 @@ export const leadershipNetwork = [
   {
     title: "Project Leads and Collaboration Partners",
     text:
-      "Project leaders, enterprise partners, and research collaborators contributed to non-confidential applied R&D, training, demonstrators, and engineering validation work."
+      "Project leaders, enterprise partners, and research collaborators contributed to applied R&D, training, demonstrators, and engineering validation work."
   }
 ];
 

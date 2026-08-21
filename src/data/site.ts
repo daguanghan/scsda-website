@@ -86,7 +86,7 @@ export const institutionalPrinciples = [
   {
     title: "Applied Research",
     text:
-      "SCSDA connects engineering research with public-facing, non-confidential applications in smart cities, infrastructure, and digital built environments. The focus is on turning research themes into demonstrators, summaries, training material, and engineering workflows that can be understood outside a single project team."
+      "SCSDA connects engineering research with practical application in smart cities, infrastructure, and digital built environments. The focus is on turning research themes into demonstrators, summaries, training material, and engineering workflows that can be understood outside a single project team."
   },
   {
     title: "Interdisciplinary Platform",
@@ -96,7 +96,7 @@ export const institutionalPrinciples = [
   {
     title: "Public Engagement",
     text:
-      "The Academy presents public research summaries, education engagement, and non-confidential project material for academic and industry audiences. Its public profile makes the research platform, selected outputs, and collaboration themes easier to review across institutional and international contexts."
+      "The Academy publishes its research, its teaching engagement, and what its projects produced. Its public profile makes the research platform, selected outputs, and collaboration themes easier to review across institutional and international contexts."
   }
 ];
 
