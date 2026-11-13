@@ -58,7 +58,7 @@ export const platformMetrics = [
   {
     value: "12",
     label: "research centres and laboratories",
-    detail: "A 2019-2023 construction-period platform indicator."
+    detail: "Jointly established with academic and enterprise partners, four of them with European partner universities."
   },
   {
     value: "100+",

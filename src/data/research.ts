@@ -180,7 +180,7 @@ export const leadershipResponsibilities = [
   {
     title: "Research-Centre Formation",
     text:
-      "Coordinating the formation of research centres and laboratories with academic and enterprise partners during the platform-construction period."
+      "Coordinating the formation and running of research centres and laboratories with academic and enterprise partners."
   },
   {
     title: "Enterprise and Industry Engagement",
@@ -195,30 +195,30 @@ export const leadershipResponsibilities = [
   {
     title: "Externally Supported Project Delivery",
     text:
-      "Leading the organisation, coordination, and reporting of the Academy's platform-construction work during 2019-2023."
+      "Leading the organisation, coordination, and reporting of the Academy's externally supported work, from the 2019-2023 platform-construction programme to current projects."
   }
 ];
 
 export const leadershipNetwork = [
   {
-    title: "Founder and Founding Executive Lead",
+    title: "Dean and Chair of the Governing Committee",
     text:
-      "Dr Daguang Han initiated and led the Academy's early platform construction, including institutional planning, research-centre formation, partner engagement, and applied project delivery."
+      "Dr Daguang Han founded the Academy in 2019 and leads it as Dean. He chairs the Governing Committee, signs the Academy's contracts as its legal representative, and is responsible for institutional planning, research-centre formation, partner engagement, and applied project delivery."
   },
   {
     title: "Expert Committee",
     text:
-      "The historical SCSDA structure included an expert committee with professors, advisors, and specially appointed experts connected to the Academy's research directions."
+      "The Academy's expert committee brings together professors, advisers, and specially appointed experts connected to its research directions."
   },
   {
     title: "Research-Centre Leadership",
     text:
-      "Centre-level academic and technical leads supported research streams such as BIM and digital twins, MEMS sensing, smart infrastructure, sustainable materials, and monitoring systems."
+      "Centre-level academic and technical leads run research streams such as BIM and digital twins, MEMS sensing, smart infrastructure, sustainable materials, and monitoring systems."
   },
   {
     title: "Project Leads and Collaboration Partners",
     text:
-      "Project leaders, enterprise partners, and research collaborators contributed to applied R&D, training, demonstrators, and engineering validation work."
+      "Project leaders, enterprise partners, and research collaborators contribute to applied R&D, training, demonstrators, and engineering validation work."
   }
 ];
 

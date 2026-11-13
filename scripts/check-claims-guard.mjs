@@ -37,7 +37,7 @@ const REQUIRED_BUILT_PHRASES = [
   "non-confidential",
   "nonprofit applied research academy",
   "Research, education, and applied innovation",
-  "Founding leadership and platform development"
+  "Founding Dean and Chair of the Governing Committee"
 ];
 
 const BUILT_FORBIDDEN_EXCEPTIONS = [
