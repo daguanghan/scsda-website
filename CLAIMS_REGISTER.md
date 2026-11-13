@@ -177,3 +177,15 @@ Basis: owner ruling 2026-11-12 (he is the Academy's Dean, Chair of the Governing
 
 Still not on the site: monetary amounts, the HAN-LI Chair, contract counts.
 
+## 2026-11-13 (evening) Operating model page and leadership reference link
+
+Basis: owner decision 2026-11-13 evening, relayed by the control session (0.0): follow the recommended alignment with the ICE Fellowship papers (Attribute 3).
+
+| Change | Old | New | Evidence |
+|---|---|---|---|
+| `/operating-model/` opening | "SCSDA was not built by hiring a large staff. It was built as an arrangement that research groups had a reason to join, and the arrangement did the work." | "SCSDA combines two things: a core team of 14 recruited by the Dean, and a framework that research groups have a reason to join with their own teams." | ICE Attributes v5.4, Attribute 3 (core staff of 14; delegated authority for recruitment, contracting and budget), owner-confirmed |
+| `/operating-model/` element 1 | "No one transfers employment to the academy." | "Members of partner groups keep their employment with their home institution." | Same fact, stated about partner groups only |
+| `/operating-model/` element 3 | "A small in-house team runs operations" | "A core team of 14 runs operations"; "The Dean recruits, and the academy directly employs, a core team of 14 …"; "The Dean holds delegated authority for recruitment, contracting and budget." | Same |
+| `/operating-model/` closing section | "The arrangement is the capability."; "A research platform that depends on direct authority can only grow as fast as it can hire." | "A core team and a framework."; "The core team keeps contracting, finance and delivery in one place, and the framework lets capable groups join with the people they already lead." | The claim that the academy did not rely on authority or hiring is withdrawn; the fact that partner groups join with their own teams stays |
+| `/leadership/` External References | Southeast University profile (civil.seu.edu.cn/hdg_en) | Dr Daguang Han's website (www.daguanghan.com) | Temporary: the university page is out of date. Switch back once the School has updated it |
+

@@ -39,8 +39,8 @@ export const site = {
   ],
   profiles: [
     {
-      label: "Southeast University profile",
-      href: "https://civil.seu.edu.cn/hdg_en/list.htm"
+      label: "Dr Daguang Han's website",
+      href: "https://www.daguanghan.com"
     },
     {
       label: "ORCID",
