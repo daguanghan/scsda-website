@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { caseStudies, engineeringMonitoringDemonstrators } from "@data/research";
+import { caseStudies, engineeringMonitoringDemonstrators, researchTopics } from "@data/research";
 ---
 
 <BaseLayout
@@ -29,6 +29,30 @@ import { caseStudies, engineeringMonitoringDemonstrators } from "@data/research"
           <p>{item.summary}</p>
           <ul class="clean-list">
             {item.highlights.map((highlight) => <li>{highlight}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section tint">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Research and Project Topics</p>
+        <h2>What the Academy's projects are about.</h2>
+      </div>
+      <p>
+        The topics of the Academy's commissioned research, consultancy and
+        technical-service work. Client names and commercial terms stay with
+        the clients.
+      </p>
+    </div>
+    <div class="shell claim-grid">
+      {researchTopics.map((group) => (
+        <article class="claim-card">
+          <span class="category">{group.area}</span>
+          <ul class="clean-list">
+            {group.items.map((item) => <li>{item}</li>)}
           </ul>
         </article>
       ))}

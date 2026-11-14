@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { site } from "@data/site";
-import { leadershipNetwork, leadershipResponsibilities } from "@data/research";
+import { leadershipNetwork, leadershipResponsibilities, organisation } from "@data/research";
 ---
 
 <BaseLayout
@@ -86,14 +86,69 @@ import { leadershipNetwork, leadershipResponsibilities } from "@data/research";
   <section class="section surface">
     <div class="shell section-heading">
       <div>
-        <p class="eyebrow">Leadership Structure</p>
-        <h2>Dean, expert committee, research centres, and project collaboration.</h2>
+        <p class="eyebrow">Organisation Structure</p>
+        <h2>Governing Committee, Dean, deputy deans, research units and functional centres.</h2>
       </div>
       <p>
-        The Academy runs through its Dean and Governing Committee, an expert
-        committee, centre-level leads, and project collaboration with academic
-        and enterprise partners. The structure gives the platform recognisable
-        roles, themes, centres, and public outputs.
+        The Governing Committee is the Academy's governing board and is
+        chaired by the Dean. Two committees advise it. Three deputy deans
+        report to the Dean, and the work is carried out in nine research units
+        and six functional centres.
+      </p>
+    </div>
+    <div class="shell org-chart" role="group" aria-label="Organisation structure of the Academy">
+      <div class="org-row org-row-three">
+        <div class="org-box org-advisory">
+          <h3>{organisation.advisory[0].title}</h3>
+          <p>{organisation.advisory[0].text}</p>
+        </div>
+        <div class="org-box">
+          <h3>{organisation.governing.title}</h3>
+          <p>{organisation.governing.text}</p>
+        </div>
+        <div class="org-box org-advisory">
+          <h3>{organisation.advisory[1].title}</h3>
+          <p>{organisation.advisory[1].text}</p>
+        </div>
+      </div>
+      <div class="org-link" aria-hidden="true"></div>
+      <div class="org-row org-row-dean">
+        <div class="org-box org-lead">
+          <h3>{organisation.dean.title}</h3>
+          <p>{organisation.dean.text}</p>
+        </div>
+        <div class="org-box org-advisory">
+          <h3>{organisation.honorary.title}</h3>
+          <p>{organisation.honorary.text}</p>
+        </div>
+      </div>
+      <div class="org-link" aria-hidden="true"></div>
+      <div class="org-row org-row-three">
+        {organisation.deputies.map((item) => (
+          <div class="org-box">
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="org-link" aria-hidden="true"></div>
+      <div class="org-row org-row-three">
+        {organisation.units.map((unit) => (
+          <div class="org-box org-unit">
+            <h3>{unit.title}</h3>
+            <p class="org-lead-line">{unit.lead}</p>
+            <ul class="clean-list">
+              {unit.items.map((item) => <li>{item}</li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <p class="org-note">
+        Solid outline: line responsibility. Dashed outline: advisory. Research
+        units are shown as organised today. The April 2023 acceptance report
+        counted twelve research centres and laboratories established with
+        partners, four of them with European partner universities; they are
+        listed on the <a href="/research/">Research</a> page.
       </p>
     </div>
     <div class="shell theme-grid">

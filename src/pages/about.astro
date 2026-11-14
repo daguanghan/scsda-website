@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { institutionalPrinciples, platformMetrics } from "@data/site";
-import { researchCentres } from "@data/research";
+import { academyTimeline, researchCentres } from "@data/research";
 ---
 
 <BaseLayout
@@ -38,6 +38,28 @@ import { researchCentres } from "@data/research";
         </p>
       </div>
     </div>
+  </section>
+
+  <section class="section">
+    <div class="shell section-heading">
+      <div>
+        <p class="eyebrow">Timeline</p>
+        <h2>From approval in 2019 to today.</h2>
+      </div>
+      <p>
+        The main dates in the Academy's development, as recorded in the
+        government approval, the signed centre agreements and the April 2023
+        acceptance report.
+      </p>
+    </div>
+    <ol class="shell timeline">
+      {academyTimeline.map((item) => (
+        <li>
+          <span class="timeline-date">{item.date}</span>
+          <p>{item.text}</p>
+        </li>
+      ))}
+    </ol>
   </section>
 
   <section class="section surface">
@@ -119,6 +141,7 @@ import { researchCentres } from "@data/research";
       {researchCentres.map((centre) => (
         <article class="centre-card">
           <h3>{centre.title}</h3>
+          {centre.partner && <span class="centre-mark">{centre.partner}</span>}
           <p>{centre.summary}</p>
         </article>
       ))}

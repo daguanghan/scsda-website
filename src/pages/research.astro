@@ -165,16 +165,18 @@ import {
         <h2>Interdisciplinary structure across sensing, infrastructure, and sustainable urban systems.</h2>
       </div>
       <p>
-        The Academy's 2019-2023 platform-construction structure covered the
-        following research centres and laboratories. The list is retained as an
-        institutional map of the platform and as context for the research
-        themes described above.
+        The April 2023 acceptance report on the 2019-2023 build programme
+        recorded twelve research centres and laboratories, each established
+        with an academic or enterprise partner under a dated, signed
+        agreement. Four were established with European partner universities
+        and are marked below.
       </p>
     </div>
     <div class="shell centre-grid">
       {researchCentres.map((centre) => (
         <article class="centre-card">
           <h3>{centre.title}</h3>
+          {centre.partner && <span class="centre-mark">{centre.partner}</span>}
           <p>{centre.summary}</p>
         </article>
       ))}

@@ -75,6 +75,7 @@ export const infrastructureResilienceFocus = [
 export const researchCentres = [
   {
     title: "Smart MEMS Sensing Research Centre",
+    partner: "Established with a European partner university",
     summary:
       "Develops applied MEMS sensing directions, AIoT integration, market-oriented validation, and built-environment sensor translation."
   },
@@ -90,11 +91,13 @@ export const researchCentres = [
   },
   {
     title: "Optical Sensing for Civil Engineering Laboratory (with Ghent University)",
+    partner: "Established with a European partner university",
     summary:
       "Frames optical fibre and laser-based sensing as a civil-engineering measurement route for infrastructure monitoring and structural performance understanding."
   },
   {
     title: "Smart Infrastructure and Equipment Research Centre",
+    partner: "Established with a European partner university",
     summary:
       "Integrates smart infrastructure, AIoT, data analytics, equipment systems, and applied technology translation for engineering and urban infrastructure contexts."
   },
@@ -105,6 +108,7 @@ export const researchCentres = [
   },
   {
     title: "New Motor Drive Systems and Intelligent Equipment Research Centre",
+    partner: "Established with a European partner university",
     summary:
       "Links advanced electric-drive systems, power-electronics applications, and intelligent equipment development with industry-facing research needs."
   },
@@ -206,9 +210,9 @@ export const leadershipNetwork = [
       "Dr Daguang Han founded the Academy in 2019 and leads it as Dean. He chairs the Governing Committee, signs the Academy's contracts as its legal representative, and is responsible for institutional planning, research-centre formation, partner engagement, and applied project delivery."
   },
   {
-    title: "Expert Committee",
+    title: "Expert Committee and Strategic Advisory Committee",
     text:
-      "The Academy's expert committee brings together professors, advisers, and specially appointed experts connected to its research directions."
+      "The Expert Committee has seven members and the Strategic Advisory Committee four. They bring together professors, advisers, and specially appointed experts connected to the Academy's research directions."
   },
   {
     title: "Research-Centre Leadership",
@@ -408,5 +412,151 @@ export const constructionPeriodIndicators = [
     value: "13",
     label: "incubation projects",
     detail: "3 registered and 10 in-incubation projects."
+  }
+];
+
+// Organisation structure as organised today. Kept in step with the Dean's
+// professional-review papers; see CLAIMS_REGISTER.md (2026-11-14).
+export const organisation = {
+  governing: {
+    title: "Governing Committee",
+    text: "The Academy's governing board. Chaired by Dr Daguang Han. Meets annually."
+  },
+  advisory: [
+    { title: "Expert Committee", text: "Seven members." },
+    { title: "Strategic Advisory Committee", text: "Four members." }
+  ],
+  dean: {
+    title: "Dean",
+    text:
+      "Dr Daguang Han, Founding Dean, now in his second term. As legal representative he signs the Academy's contracts, and he holds delegated authority for recruitment, contracting and budget."
+  },
+  honorary: {
+    title: "Honorary Dean",
+    text: "A professor at a European partner university."
+  },
+  deputies: [
+    { title: "Deputy Dean", text: "International research and industry partnership" },
+    { title: "Deputy Dean", text: "Operations, education and commercialisation" },
+    { title: "Deputy Dean", text: "Research" }
+  ],
+  units: [
+    {
+      title: "Research units",
+      lead: "Nine research and development centres",
+      items: [
+        "Intelligent MEMS sensing",
+        "Optical sensing",
+        "Civil engineering laboratory",
+        "BIM and digital twins",
+        "Smart infrastructure and equipment",
+        "Microsystems",
+        "Recycled materials",
+        "Construction-waste reuse",
+        "Electric drive systems and intelligent equipment"
+      ]
+    },
+    {
+      title: "Functional centres",
+      lead: "Six centres, with a core team of 14",
+      items: [
+        "General management",
+        "Finance",
+        "Education and training",
+        "Intellectual property",
+        "Technical services",
+        "Technology development"
+      ]
+    },
+    {
+      title: "Spin-out companies",
+      lead: "Three incorporated, five in preparation",
+      items: [
+        "Formed under the Academy's incubation policy, revised in 2023",
+        "Thirteen incubation projects recorded in the April 2023 acceptance report"
+      ]
+    }
+  ]
+};
+
+// Topics only: no client names, contract values or contract counts.
+export const researchTopics = [
+  {
+    area: "Bridges and structures",
+    items: [
+      "Self-powered wireless sensing for cable-supported bridges",
+      "Laser scanning and BIM for monitoring long-span bridges during construction",
+      "Digital twins of bridges that are updated from field measurement"
+    ]
+  },
+  {
+    area: "Buildings and facilities",
+    items: [
+      "Curtain-wall installation quality assessment by laser scanning and laser Doppler vibrometry",
+      "BIM implementation guidance and information standards for building owners",
+      "Programme-management platforms and BIM asset-information models for hospital projects"
+    ]
+  },
+  {
+    area: "Sensing and monitoring",
+    items: [
+      "MEMS strain, temperature, humidity and vibration terminals for structural monitoring",
+      "Optical sensing for civil engineering",
+      "Site monitoring systems for construction safety"
+    ]
+  },
+  {
+    area: "Circular materials",
+    items: [
+      "Recycled aggregate from construction and demolition waste",
+      "Recycled-materials pilots on roads that stay in service"
+    ]
+  },
+  {
+    area: "Energy networks",
+    items: [
+      "Storm resilience of in-service transmission tower and line systems: the Dean's university research group leads this work, supported by the Academy's laboratories and field team"
+    ]
+  }
+];
+
+export const academyTimeline = [
+  {
+    date: "March 2019",
+    text:
+      "The Liangjiang New Area government approves the Academy and names Dr Daguang Han as its designated head."
+  },
+  {
+    date: "April 2019",
+    text: "Dr Han founds the Academy and becomes its Dean."
+  },
+  {
+    date: "2019",
+    text:
+      "A competitively awarded municipal science and technology platform grant, with district matching funds, starts the 2019 to 2023 build programme."
+  },
+  {
+    date: "December 2019 to December 2021",
+    text:
+      "Centre-level agreements are signed with four European universities in three countries."
+  },
+  {
+    date: "March 2020",
+    text:
+      "Two research centres on construction-waste reuse and recycled materials are established with a European research institute."
+  },
+  {
+    date: "2023",
+    text: "The Governing Committee adopts a revised incubation policy."
+  },
+  {
+    date: "April 2023",
+    text:
+      "The government acceptance report on the build programme records twelve research centres and laboratories against a target of nine, thirteen incubation projects, 49 intellectual-property outputs and 61 papers."
+  },
+  {
+    date: "Today",
+    text:
+      "Dr Han is in his second term as Dean. The Academy has passed the government's annual review every year since it was founded."
   }
 ];
