@@ -202,4 +202,10 @@ Basis: owner request 2026-11-14, relayed by the control session (0.0): what a re
 | `/about/` timeline | March 2019 approval; April 2019 founding; 2019 grant; December 2019 to December 2021 agreements; March 2020 two centres; 2023 incubation policy; April 2023 acceptance; today | ICE CV v6.7 and Attributes v5.5; centre agreement ledger for the agreement dates | No amounts. 🚫 The October 2020 appointment as an investment group's European representative office is **not** on the site (control session ruling 2026-11-14 under `§GEORISK`, public face held to the stricter standard); leaving it out does not contradict the papers |
 | `/operating-model/` advisory structure | "an Expert Committee of seven members and a Strategic Advisory Committee of four"; card "The two committees" | ICE Organogram 2 (v5) | Replaces "an expert advisory committee of more than thirty professors and senior practitioners" and the card "Five expert groups" (2026-08-10 addition, from the Academy's 2023 committee article). If the owner confirms the larger roster is a separate expert pool, it can be added back under its own name |
 
-Still not on the site: monetary amounts, contract counts, client names, the HAN-LI Chair, names of partner academics.
+Still not on the site: monetary amounts, contract counts, client names, the HAN-LI Chair, names of partner academics (one exception below).
+
+### 2026-11-14 evening: Honorary Dean named
+
+| Change | Public wording | Source | Notes |
+|---|---|---|---|
+| `/leadership/` Honorary Dean box | "Prof. Michael Kraft (KU Leuven)." replaces "A professor at a European partner university." | ICE Organogram 2 (v5): "Honorary Dean, Prof Michael Kraft (KU Leuven)" | Owner ruling 2026-11-14 (given directly in the websites session): the Honorary Dean may be named, so that a reader of the ICE papers who is pointed to him finds the same person on this site. This is the **only** exception to the 2026-08-20 non-naming rule: he is named as an office-holder of the Academy, not as a partner academic. Expert Committee and Strategic Advisory Committee members stay unnamed. He is still not named alongside ICIC |

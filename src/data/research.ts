@@ -433,7 +433,7 @@ export const organisation = {
   },
   honorary: {
     title: "Honorary Dean",
-    text: "A professor at a European partner university."
+    text: "Prof. Michael Kraft (KU Leuven)."
   },
   deputies: [
     { title: "Deputy Dean", text: "International research and industry partnership" },
