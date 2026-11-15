@@ -9,3 +9,7 @@ qa-screenshots/
 .firecrawl/
 docs/extracted/
 docs/source-materials/wechat-cache/
+
+# working notes are kept locally
+/*.md
+docs/
